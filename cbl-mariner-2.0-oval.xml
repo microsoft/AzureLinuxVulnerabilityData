@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>12</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2022-12-10T13:01:39.806618161Z</oval:timestamp>
-    <oval:content_version>1670677299</oval:content_version>
+    <oval:timestamp>2022-12-11T13:01:25.245385793Z</oval:timestamp>
+    <oval:content_version>1670763685</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11577" version="0">
@@ -39,324 +39,344 @@
         <criterion comment="Package kernel is installed with version 5.15.80.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11574000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11544" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11544" version="1">
       <metadata>
         <title>CVE-2022-41911 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41911" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41911" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11544</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11544-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41911 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11544000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41911" test_ref="oval:com.microsoft.cbl-mariner:tst:11544000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11543" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11543" version="1">
       <metadata>
         <title>CVE-2022-41909 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41909" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41909" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11543</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11543-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41909 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11543000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41909" test_ref="oval:com.microsoft.cbl-mariner:tst:11543000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11542" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11542" version="1">
       <metadata>
         <title>CVE-2022-41908 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41908" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41908" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11542</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11542-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41908 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11542000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41908" test_ref="oval:com.microsoft.cbl-mariner:tst:11542000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11541" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11541" version="1">
       <metadata>
         <title>CVE-2022-41907 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41907" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41907" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11541</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11541-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41907 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11541000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41907" test_ref="oval:com.microsoft.cbl-mariner:tst:11541000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11540" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11540" version="1">
       <metadata>
         <title>CVE-2022-41901 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41901" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41901" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11540</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11540-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41901 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11540000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41901" test_ref="oval:com.microsoft.cbl-mariner:tst:11540000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11539" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11539" version="1">
       <metadata>
         <title>CVE-2022-41900 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41900" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41900" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11539</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11539-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2022-41900 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11539000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41900" test_ref="oval:com.microsoft.cbl-mariner:tst:11539000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11538" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11538" version="1">
       <metadata>
         <title>CVE-2022-41899 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41899" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41899" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11538</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11538-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41899 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11538000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41899" test_ref="oval:com.microsoft.cbl-mariner:tst:11538000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11537" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11537" version="1">
       <metadata>
         <title>CVE-2022-41898 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41898" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41898" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11537</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11537-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41898 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11537000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41898" test_ref="oval:com.microsoft.cbl-mariner:tst:11537000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11535" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11535" version="1">
       <metadata>
         <title>CVE-2022-41897 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41897" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41897" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11535</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11535-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41897 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11535000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41897" test_ref="oval:com.microsoft.cbl-mariner:tst:11535000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11534" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11534" version="1">
       <metadata>
         <title>CVE-2022-41896 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41896" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41896" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11534</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11534-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41896 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11534000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41896" test_ref="oval:com.microsoft.cbl-mariner:tst:11534000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11533" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11533" version="1">
       <metadata>
         <title>CVE-2022-41895 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41895" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41895" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11533</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11533-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41895 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11533000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41895" test_ref="oval:com.microsoft.cbl-mariner:tst:11533000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11532" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11532" version="1">
       <metadata>
         <title>CVE-2022-41894 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41894" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41894" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11532</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11532-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41894 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11532000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41894" test_ref="oval:com.microsoft.cbl-mariner:tst:11532000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11531" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11531" version="1">
       <metadata>
         <title>CVE-2022-41893 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41893" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41893" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11531</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11531-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41893 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11531000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41893" test_ref="oval:com.microsoft.cbl-mariner:tst:11531000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11530" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11530" version="1">
       <metadata>
         <title>CVE-2022-41891 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41891" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41891" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11530</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11530-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41891 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11530000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41891" test_ref="oval:com.microsoft.cbl-mariner:tst:11530000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11529" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11529" version="1">
       <metadata>
         <title>CVE-2022-41890 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41890" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41890" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11529</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11529-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41890 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11529000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41890" test_ref="oval:com.microsoft.cbl-mariner:tst:11529000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11528" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11528" version="1">
       <metadata>
         <title>CVE-2022-41889 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41889" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41889" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11528</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11528-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41889 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11528000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41889" test_ref="oval:com.microsoft.cbl-mariner:tst:11528000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11527" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11527" version="1">
       <metadata>
         <title>CVE-2022-41888 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41888" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41888" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11527</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11527-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41888 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11527000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41888" test_ref="oval:com.microsoft.cbl-mariner:tst:11527000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11526" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11526" version="1">
       <metadata>
         <title>CVE-2022-41886 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41886" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41886" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11526</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11526-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41886 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11526000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41886" test_ref="oval:com.microsoft.cbl-mariner:tst:11526000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11525" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11525" version="1">
       <metadata>
         <title>CVE-2022-41884 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41884" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41884" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11525</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11525-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2022-41884 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11525000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41884" test_ref="oval:com.microsoft.cbl-mariner:tst:11525000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11524" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11524" version="1">
       <metadata>
         <title>CVE-2022-41880 affecting package tensorflow 2.8.3-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41880" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41880" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>11524</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-12-09T20:03:11Z</advisory_date>
+        <advisory_id>11524-1</advisory_id>
         <severity>Critical</severity>
         <description>CVE-2022-41880 affecting package tensorflow 2.8.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package tensorflow is installed with version 2.8.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11524000"/>
+        <criterion comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41880" test_ref="oval:com.microsoft.cbl-mariner:tst:11524000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11523" version="0">
@@ -24974,83 +24994,83 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11574001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11574002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11544000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41911" id="oval:com.microsoft.cbl-mariner:tst:11544000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11544001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11544002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11543000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41909" id="oval:com.microsoft.cbl-mariner:tst:11543000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11543001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11543002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11542000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41908" id="oval:com.microsoft.cbl-mariner:tst:11542000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11542001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11542002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11541000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41907" id="oval:com.microsoft.cbl-mariner:tst:11541000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11541001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11541002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11540000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41901" id="oval:com.microsoft.cbl-mariner:tst:11540000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11540001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11540002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11539000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41900" id="oval:com.microsoft.cbl-mariner:tst:11539000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11539001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11539002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11538000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41899" id="oval:com.microsoft.cbl-mariner:tst:11538000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11538001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11538002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11537000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41898" id="oval:com.microsoft.cbl-mariner:tst:11537000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11537001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11537002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11535000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41897" id="oval:com.microsoft.cbl-mariner:tst:11535000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11535001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11535002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11534000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41896" id="oval:com.microsoft.cbl-mariner:tst:11534000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11534001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11534002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11533000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41895" id="oval:com.microsoft.cbl-mariner:tst:11533000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11533001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11533002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11532000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41894" id="oval:com.microsoft.cbl-mariner:tst:11532000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11532001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11532002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11531000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41893" id="oval:com.microsoft.cbl-mariner:tst:11531000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11531001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11531002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11530000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41891" id="oval:com.microsoft.cbl-mariner:tst:11530000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11530001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11530002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11529000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41890" id="oval:com.microsoft.cbl-mariner:tst:11529000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11529001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11529002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11528000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41889" id="oval:com.microsoft.cbl-mariner:tst:11528000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11528001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11528002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11527000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41888" id="oval:com.microsoft.cbl-mariner:tst:11527000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11527001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11527002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11526000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41886" id="oval:com.microsoft.cbl-mariner:tst:11526000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11526001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11526002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11525000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41884" id="oval:com.microsoft.cbl-mariner:tst:11525000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11525001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11525002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is installed with version 2.8.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11524000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package tensorflow is earlier than 2.11.0-1, affected by CVE-2022-41880" id="oval:com.microsoft.cbl-mariner:tst:11524000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11524001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11524002"/>
     </linux-def:rpminfo_test>
@@ -30926,64 +30946,64 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11574001" version="0">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11544001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11544001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11543001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11543001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11542001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11542001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11541001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11541001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11540001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11540001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11539001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11539001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11538001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11538001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11537001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11537001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11535001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11535001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11534001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11534001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11533001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11533001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11532001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11532001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11531001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11531001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11530001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11530001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11529001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11529001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11528001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11528001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11527001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11527001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11526001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11526001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11525001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11525001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11524001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11524001" version="1">
       <linux-def:name>tensorflow</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11523001" version="0">
@@ -35392,65 +35412,65 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11574002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.80.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11544002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11544002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11543002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11543002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11542002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11542002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11541002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11541002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11540002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11540002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11539002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11539002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11538002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11538002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11537002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11537002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11535002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11535002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11534002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11534002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11533002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11533002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11532002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11532002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11531002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11531002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11530002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11530002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11529002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11529002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11528002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11528002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11527002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11527002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11526002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11526002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11525002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11525002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11524002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.8.3-1.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11524002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.11.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11523002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:250.3-10.cm2</linux-def:evr>
