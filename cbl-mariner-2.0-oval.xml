@@ -1,12 +1,28 @@
 <oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:linux-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 https://oval.mitre.org/language/version5.11/ovaldefinition/complete/oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 https://oval.mitre.org/language/version5.11/ovaldefinition/complete/oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux https://oval.mitre.org/language/version5.11/ovaldefinition/complete/linux-definitions-schema.xsd ">
   <generator>
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
-    <oval:product_version>12</oval:product_version>
+    <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2022-12-28T13:01:17.263612259Z</oval:timestamp>
-    <oval:content_version>1672232477</oval:content_version>
+    <oval:timestamp>2022-12-29T13:01:28.513874571Z</oval:timestamp>
+    <oval:content_version>1672318888</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12079" version="0">
+      <metadata>
+        <title>CVE-2022-3775 affecting package grub2 2.06-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-3775" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3775" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>12079</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-3775 affecting package grub2 2.06-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package grub2 is installed with version 2.06-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12079000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11860" version="0">
       <metadata>
         <title>CVE-2022-4603 affecting package ppp 2.4.7-36</title>
@@ -161,7 +177,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11615</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3115 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3115 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11615000"/>
@@ -193,7 +209,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11613</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3113 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3113 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11613000"/>
@@ -209,7 +225,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11612</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3112 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3112 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11612000"/>
@@ -225,7 +241,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11611</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3111 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3111 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11611000"/>
@@ -241,7 +257,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11610</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3110 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3110 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11610000"/>
@@ -257,7 +273,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11609</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3108 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3108 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11609000"/>
@@ -273,7 +289,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11608</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3107 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3107 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11608000"/>
@@ -289,7 +305,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11607</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3106 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3106 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11607000"/>
@@ -305,7 +321,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11606</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3105 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3105 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11606000"/>
@@ -321,7 +337,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11605</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3104 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3104 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11605000"/>
@@ -386,7 +402,7 @@
         <patchable>false</patchable>
         <advisory_id>11585</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-23471 affecting package moby-containerd 1.6.6-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-23471 affecting package moby-containerd 1.6.6-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package moby-containerd is installed with version 1.6.6-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11585000"/>
@@ -856,7 +872,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11521</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2989 affecting package podman 4.1.1-5. No patch is available currently.</description>
+        <description>CVE-2022-2989 affecting package podman 4.1.1-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package podman is installed with version 4.1.1-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11521000"/>
@@ -921,7 +937,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11514</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2990 affecting package buildah 1.18.0-8. No patch is available currently.</description>
+        <description>CVE-2022-2990 affecting package buildah 1.18.0-8. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package buildah is installed with version 1.18.0-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11514000"/>
@@ -1200,7 +1216,7 @@
         <patchable>false</patchable>
         <advisory_id>11457</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41916 affecting package heimdal 7.7.0-8. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-41916 affecting package heimdal 7.7.0-8. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package heimdal is installed with version 7.7.0-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11457000"/>
@@ -1332,7 +1348,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11424</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3953 affecting package exiv2 0.27.5-1. No patch is available currently.</description>
+        <description>CVE-2022-3953 affecting package exiv2 0.27.5-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package exiv2 is installed with version 0.27.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11424000"/>
@@ -1365,7 +1381,7 @@
         <patchable>false</patchable>
         <advisory_id>11398</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-40617 affecting package strongswan 5.9.5-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-40617 affecting package strongswan 5.9.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package strongswan is installed with version 5.9.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11398000"/>
@@ -1678,7 +1694,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11357</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-39348 affecting package python-twisted 22.10.0-1. No patch is available currently.</description>
+        <description>CVE-2022-39348 affecting package python-twisted 22.10.0-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-twisted is installed with version 22.10.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11357000"/>
@@ -1725,11 +1741,11 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3474" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3474" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_date>2022-11-16T02:27:00Z</advisory_date>
         <advisory_id>11350-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3474 affecting package bazel 5.3.0-1. A patched version of the package is available.</description>
+        <description>CVE-2022-3474 affecting package bazel 5.3.0-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package bazel is earlier than 4.2.3-1, affected by CVE-2022-3474" test_ref="oval:com.microsoft.cbl-mariner:tst:11350000"/>
@@ -1745,7 +1761,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11341</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-3719 affecting package exiv2 0.27.5-1. No patch is available currently.</description>
+        <description>CVE-2022-3719 affecting package exiv2 0.27.5-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package exiv2 is installed with version 0.27.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11341000"/>
@@ -1761,7 +1777,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11340</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3718 affecting package exiv2 0.27.5-1. No patch is available currently.</description>
+        <description>CVE-2022-3718 affecting package exiv2 0.27.5-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package exiv2 is installed with version 0.27.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11340000"/>
@@ -1777,7 +1793,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11339</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-3717 affecting package exiv2 0.27.5-1. No patch is available currently.</description>
+        <description>CVE-2022-3717 affecting package exiv2 0.27.5-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package exiv2 is installed with version 0.27.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11339000"/>
@@ -1844,7 +1860,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11319</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-3638 affecting package nginx 1.22.1-1. No patch is available currently.</description>
+        <description>CVE-2022-3638 affecting package nginx 1.22.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nginx is installed with version 1.22.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11319000"/>
@@ -1910,7 +1926,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11288</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3627 affecting package libtiff 4.4.0-5. No patch is available currently.</description>
+        <description>CVE-2022-3627 affecting package libtiff 4.4.0-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is installed with version 4.4.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11288000"/>
@@ -1926,7 +1942,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11287</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3626 affecting package libtiff 4.4.0-5. No patch is available currently.</description>
+        <description>CVE-2022-3626 affecting package libtiff 4.4.0-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is installed with version 4.4.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11287000"/>
@@ -1959,7 +1975,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11285</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3598 affecting package libtiff 4.4.0-5. No patch is available currently.</description>
+        <description>CVE-2022-3598 affecting package libtiff 4.4.0-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is installed with version 4.4.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11285000"/>
@@ -2698,7 +2714,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11115</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-42717 affecting package packer 1.8.1-3. No patch is available currently.</description>
+        <description>CVE-2022-42717 affecting package packer 1.8.1-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package packer is installed with version 1.8.1-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11115000"/>
@@ -2864,7 +2880,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11070</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-31629 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2022-31629 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11070000"/>
@@ -2880,7 +2896,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11069</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-31628 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2022-31628 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11069000"/>
@@ -2913,7 +2929,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11058</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38128 affecting package binutils 2.37-4. No patch is available currently.</description>
+        <description>CVE-2022-38128 affecting package binutils 2.37-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package binutils is installed with version 2.37-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11058000"/>
@@ -2929,7 +2945,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11057</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38127 affecting package binutils 2.37-4. No patch is available currently.</description>
+        <description>CVE-2022-38127 affecting package binutils 2.37-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package binutils is installed with version 2.37-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11057000"/>
@@ -2945,7 +2961,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11056</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38126 affecting package binutils 2.37-4. No patch is available currently.</description>
+        <description>CVE-2022-38126 affecting package binutils 2.37-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package binutils is installed with version 2.37-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11056000"/>
@@ -3063,7 +3079,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>11032</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-39227 affecting package python-jwt 2.4.0-1. No patch is available currently.</description>
+        <description>CVE-2022-39227 affecting package python-jwt 2.4.0-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-jwt is installed with version 2.4.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11032000"/>
@@ -3298,7 +3314,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10975</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2962 affecting package qemu 6.2.0-8. No patch is available currently.</description>
+        <description>CVE-2022-2962 affecting package qemu 6.2.0-8. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu is installed with version 6.2.0-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10975000"/>
@@ -4650,7 +4666,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10675</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3998 affecting package glibc 2.35-2. No patch is available currently.</description>
+        <description>CVE-2021-3998 affecting package glibc 2.35-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package glibc is installed with version 2.35-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10675000"/>
@@ -4714,7 +4730,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10660</advisory_id>
         <severity>High</severity>
-        <description>CVE-2017-9118 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2017-9118 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10660000"/>
@@ -4812,7 +4828,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10638</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-3997 affecting package systemd 250.3-6. No patch is available currently.</description>
+        <description>CVE-2021-3997 affecting package systemd 250.3-6. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package systemd is installed with version 250.3-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10638000"/>
@@ -4876,11 +4892,11 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-28861" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-28861" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_date>2022-09-16T06:05:37Z</advisory_date>
         <advisory_id>10618-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-28861 affecting package python3 3.9.14-1. A patched version of the package is available.</description>
+        <description>CVE-2021-28861 affecting package python3 3.9.14-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is earlier than 3.9.13-5, affected by CVE-2021-28861" test_ref="oval:com.microsoft.cbl-mariner:tst:10618000"/>
@@ -4998,7 +5014,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10593</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2869 affecting package libtiff 4.4.0-3. No patch is available currently.</description>
+        <description>CVE-2022-2869 affecting package libtiff 4.4.0-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is installed with version 4.4.0-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10593000"/>
@@ -5082,7 +5098,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10568</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2868 affecting package libtiff 4.4.0-3. No patch is available currently.</description>
+        <description>CVE-2022-2868 affecting package libtiff 4.4.0-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is installed with version 4.4.0-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10568000"/>
@@ -5098,7 +5114,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10567</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2867 affecting package libtiff 4.4.0-3. No patch is available currently.</description>
+        <description>CVE-2022-2867 affecting package libtiff 4.4.0-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is installed with version 4.4.0-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10567000"/>
@@ -5216,7 +5232,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10545</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-33646 affecting package libtar 1.2.20-10. No patch is available currently.</description>
+        <description>CVE-2021-33646 affecting package libtar 1.2.20-10. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtar is installed with version 1.2.20-10 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10545000"/>
@@ -5249,7 +5265,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10543</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-33644 affecting package libtar 1.2.20-10. No patch is available currently.</description>
+        <description>CVE-2021-33644 affecting package libtar 1.2.20-10. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtar is installed with version 1.2.20-10 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10543000"/>
@@ -5707,7 +5723,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10442</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2016-3709 affecting package libxml2 2.10.3-1. No patch is available currently.</description>
+        <description>CVE-2016-3709 affecting package libxml2 2.10.3-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libxml2 is installed with version 2.10.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10442000"/>
@@ -5774,7 +5790,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10413</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2017-1000232 affecting package ldns 1.7.0-32. No patch is available currently.</description>
+        <description>CVE-2017-1000232 affecting package ldns 1.7.0-32. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ldns is installed with version 1.7.0-32 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10413000"/>
@@ -5790,7 +5806,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10412</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2017-1000231 affecting package ldns 1.7.0-32. No patch is available currently.</description>
+        <description>CVE-2017-1000231 affecting package ldns 1.7.0-32. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ldns is installed with version 1.7.0-32 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10412000"/>
@@ -5874,7 +5890,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10388</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-46828 affecting package libtirpc 1.3.3-1. No patch is available currently.</description>
+        <description>CVE-2021-46828 affecting package libtirpc 1.3.3-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtirpc is installed with version 1.3.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10388000"/>
@@ -6180,7 +6196,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10315</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-31144 affecting package redis 6.2.7-1. No patch is available currently.</description>
+        <description>CVE-2022-31144 affecting package redis 6.2.7-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package redis is installed with version 6.2.7-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10315000"/>
@@ -6263,7 +6279,7 @@
         <advisory_date>2022-08-31T06:17:55Z</advisory_date>
         <advisory_id>10150</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-32213 affecting package nodejs 16.16.0-2. No patch is available currently.</description>
+        <description>CVE-2022-32213 affecting package nodejs 16.16.0-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nodejs is installed with version 16.16.0-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10150000"/>
@@ -6276,11 +6292,11 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-32212" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-32212" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_date>2022-08-31T06:17:55Z</advisory_date>
         <advisory_id>10149-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-32212 affecting package nodejs 16.16.0-2. A patched version of the package is available.</description>
+        <description>CVE-2022-32212 affecting package nodejs 16.16.0-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nodejs is earlier than 16.16.0-1, affected by CVE-2022-32212" test_ref="oval:com.microsoft.cbl-mariner:tst:10149000"/>
@@ -6296,7 +6312,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10143</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2017-9120 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2017-9120 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10143000"/>
@@ -6312,7 +6328,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10142</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2017-8923 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2017-8923 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10142000"/>
@@ -6430,7 +6446,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10109</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-2097 affecting package openssl 1.1.1k-20. No patch is available currently.</description>
+        <description>CVE-2022-2097 affecting package openssl 1.1.1k-20. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is installed with version 1.1.1k-20 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10109000"/>
@@ -6820,7 +6836,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10009</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-2058 affecting package libtiff 4.4.0-1. No patch is available currently.</description>
+        <description>CVE-2022-2058 affecting package libtiff 4.4.0-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is installed with version 4.4.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10009000"/>
@@ -6836,7 +6852,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>10008</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-2057 affecting package libtiff 4.4.0-1. No patch is available currently.</description>
+        <description>CVE-2022-2057 affecting package libtiff 4.4.0-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is installed with version 4.4.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10008000"/>
@@ -7188,7 +7204,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9944</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-31626 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2022-31626 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9944000"/>
@@ -7204,7 +7220,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9943</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-31625 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2022-31625 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9943000"/>
@@ -7322,7 +7338,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9920</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-20503 affecting package usrsctp 0.9.5.0-1. No patch is available currently.</description>
+        <description>CVE-2019-20503 affecting package usrsctp 0.9.5.0-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package usrsctp is installed with version 0.9.5.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9920000"/>
@@ -7338,7 +7354,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9919</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2007-6109 affecting package emacs 28.1-2. No patch is available currently.</description>
+        <description>CVE-2007-6109 affecting package emacs 28.1-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package emacs is installed with version 28.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9919000"/>
@@ -8034,7 +8050,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9774</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2007-1397 affecting package fish 3.1.2-4. No patch is available currently.</description>
+        <description>CVE-2007-1397 affecting package fish 3.1.2-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package fish is installed with version 3.1.2-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9774000"/>
@@ -8709,7 +8725,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9617</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-29824 affecting package libxslt 1.1.34-7. No patch is available currently.</description>
+        <description>CVE-2022-29824 affecting package libxslt 1.1.34-7. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libxslt is installed with version 1.1.34-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9617000"/>
@@ -8844,7 +8860,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9583</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-28506 affecting package giflib 5.2.1-5. No patch is available currently.</description>
+        <description>CVE-2022-28506 affecting package giflib 5.2.1-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package giflib is installed with version 5.2.1-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9583000"/>
@@ -9149,7 +9165,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9497</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-29458 affecting package ncurses 6.3-1. No patch is available currently.</description>
+        <description>CVE-2022-29458 affecting package ncurses 6.3-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ncurses is installed with version 6.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9497000"/>
@@ -10503,7 +10519,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>9070</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-20001 affecting package fish 3.1.2-4. No patch is available currently.</description>
+        <description>CVE-2022-20001 affecting package fish 3.1.2-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package fish is installed with version 3.1.2-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9070000"/>
@@ -11204,7 +11220,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>8899</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-0711 affecting package haproxy 2.4.13-1. No patch is available currently.</description>
+        <description>CVE-2022-0711 affecting package haproxy 2.4.13-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package haproxy is installed with version 2.4.13-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:8899000"/>
@@ -11304,7 +11320,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>8846</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2021-21708 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2021-21708 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:8846000"/>
@@ -15222,7 +15238,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7356</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2021-26937 affecting package screen 4.8.0-4. No patch is available currently.</description>
+        <description>CVE-2021-26937 affecting package screen 4.8.0-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package screen is installed with version 4.8.0-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7356000"/>
@@ -15382,7 +15398,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7346</advisory_id>
         <severity>High</severity>
-        <description>CVE-2018-1057 affecting package samba 4.12.5-4. No patch is available currently.</description>
+        <description>CVE-2018-1057 affecting package samba 4.12.5-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package samba is installed with version 4.12.5-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7346000"/>
@@ -15398,7 +15414,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7345</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2018-1050 affecting package samba 4.12.5-4. No patch is available currently.</description>
+        <description>CVE-2018-1050 affecting package samba 4.12.5-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package samba is installed with version 4.12.5-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7345000"/>
@@ -15529,7 +15545,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7328</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-21707 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2021-21707 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7328000"/>
@@ -15545,7 +15561,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7327</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-21705 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2021-21705 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7327000"/>
@@ -15561,7 +15577,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7326</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-21704 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2021-21704 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7326000"/>
@@ -15577,7 +15593,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7325</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-21703 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2021-21703 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7325000"/>
@@ -15593,7 +15609,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7324</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-21702 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2021-21702 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7324000"/>
@@ -15609,7 +15625,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7323</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-7071 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2020-7071 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7323000"/>
@@ -15625,7 +15641,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7322</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2007-3205 affecting package php 7.4.14-3. No patch is available currently.</description>
+        <description>CVE-2007-3205 affecting package php 7.4.14-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is installed with version 7.4.14-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7322000"/>
@@ -15839,7 +15855,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7284</advisory_id>
         <severity>High</severity>
-        <description>CVE-2020-27827 affecting package lldpd 1.0.4-3. No patch is available currently.</description>
+        <description>CVE-2020-27827 affecting package lldpd 1.0.4-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package lldpd is installed with version 1.0.4-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7284000"/>
@@ -16165,7 +16181,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7257</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2017-1000232 affecting package ldns 1.7.0-31. No patch is available currently.</description>
+        <description>CVE-2017-1000232 affecting package ldns 1.7.0-31. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ldns is installed with version 1.7.0-31 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7257000"/>
@@ -16181,7 +16197,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7256</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2017-1000231 affecting package ldns 1.7.0-31. No patch is available currently.</description>
+        <description>CVE-2017-1000231 affecting package ldns 1.7.0-31. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ldns is installed with version 1.7.0-31 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7256000"/>
@@ -16230,7 +16246,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7244</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-16707 affecting package hunspell 1.7.0-7. No patch is available currently.</description>
+        <description>CVE-2019-16707 affecting package hunspell 1.7.0-7. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package hunspell is installed with version 1.7.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7244000"/>
@@ -17038,7 +17054,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>7169</advisory_id>
         <severity>High</severity>
-        <description>CVE-2019-25051 affecting package aspell 0.60.8-5. No patch is available currently.</description>
+        <description>CVE-2019-25051 affecting package aspell 0.60.8-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package aspell is installed with version 0.60.8-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7169000"/>
@@ -17474,11 +17490,11 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-34141" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-34141" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_date>2022-04-09T06:51:48Z</advisory_date>
         <advisory_id>7074-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-34141 affecting package numpy 1.16.6-3. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2021-34141 affecting package numpy 1.16.6-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package numpy is earlier than 1.22.0-1, affected by CVE-2021-34141" test_ref="oval:com.microsoft.cbl-mariner:tst:7074000"/>
@@ -21018,7 +21034,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>6679</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-14274 affecting package mcpp 2.7.2-28. No patch is available currently.</description>
+        <description>CVE-2019-14274 affecting package mcpp 2.7.2-28. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mcpp is installed with version 2.7.2-28 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6679000"/>
@@ -21338,7 +21354,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>6640</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2013-7381 affecting package libnotify 0.7.9-4. No patch is available currently.</description>
+        <description>CVE-2013-7381 affecting package libnotify 0.7.9-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libnotify is installed with version 0.7.9-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6640000"/>
@@ -23326,7 +23342,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>6512</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2007-4998 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-2007-4998 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6512000"/>
@@ -23342,7 +23358,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>6511</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-1999-0656 affecting package kernel 5.15.82.1-1. No patch is available currently.</description>
+        <description>CVE-1999-0656 affecting package kernel 5.15.82.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.82.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6511000"/>
@@ -24562,7 +24578,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>6421</advisory_id>
         <severity>High</severity>
-        <description>CVE-1999-0150 affecting package finger 0.17-4. No patch is available currently.</description>
+        <description>CVE-1999-0150 affecting package finger 0.17-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package finger is installed with version 0.17-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6421000"/>
@@ -25435,6 +25451,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package grub2 is installed with version 2.06-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12079000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12079001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12079002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package ppp is installed with version 2.4.7-36 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11860000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11860001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11860002"/>
@@ -31497,6 +31517,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12079001" version="0">
+      <linux-def:name>grub2</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:11860001" version="0">
       <linux-def:name>ppp</linux-def:name>
     </linux-def:rpminfo_object>
@@ -36044,6 +36067,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12079002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.06-7.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11860002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.4.7-36.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
