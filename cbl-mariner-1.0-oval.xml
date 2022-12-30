@@ -3,10 +3,26 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2022-12-29T13:01:27.539954014Z</oval:timestamp>
-    <oval:content_version>1672318887</oval:content_version>
+    <oval:timestamp>2022-12-30T13:01:23.287720335Z</oval:timestamp>
+    <oval:content_version>1672405283</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12085" version="2000000000">
+      <metadata>
+        <title>CVE-2022-4515 affecting package ctags 5.8-6</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-4515" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4515" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>12085</advisory_id>
+        <severity>Critical</severity>
+        <description>CVE-2022-4515 affecting package ctags 5.8-6. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package ctags is installed with version 5.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12085000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12080" version="2000000000">
       <metadata>
         <title>CVE-2022-3775 affecting package grub2 2.06~rc1-8</title>
@@ -31867,6 +31883,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package ctags is installed with version 5.8-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12085000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12085001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12085002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package grub2 is installed with version 2.06~rc1-8 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12080000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12080001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12080002"/>
@@ -39405,6 +39425,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12085001" version="0">
+      <linux-def:name>ctags</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12080001" version="0">
       <linux-def:name>grub2</linux-def:name>
     </linux-def:rpminfo_object>
@@ -45059,6 +45082,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12085002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.8-6.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12080002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.06~rc1-8.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
