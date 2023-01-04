@@ -3,10 +3,26 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-01-03T13:01:32.196972211Z</oval:timestamp>
-    <oval:content_version>1672750892</oval:content_version>
+    <oval:timestamp>2023-01-04T13:01:35.679708227Z</oval:timestamp>
+    <oval:content_version>1672837295</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12104" version="0">
+      <metadata>
+        <title>CVE-2022-47629 affecting package libksba 1.6.0-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-47629" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-47629" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>12104</advisory_id>
+        <severity>Critical</severity>
+        <description>CVE-2022-47629 affecting package libksba 1.6.0-1. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libksba is installed with version 1.6.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12104000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12098" version="0">
       <metadata>
         <title>CVE-2022-40898 affecting package python-wheel 0.33.6-7</title>
@@ -112,7 +128,7 @@
         <reference ref_id="CVE-2022-4515" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4515" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>12083</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2022-4515 affecting package ctags 5.9.20220619.0-7. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -25563,6 +25579,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package libksba is installed with version 1.6.0-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12104000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12104001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12104002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package python-wheel is installed with version 0.33.6-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12098000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12098001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12098002"/>
@@ -31657,6 +31677,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12104001" version="0">
+      <linux-def:name>libksba</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12098001" version="0">
       <linux-def:name>python-wheel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -36228,6 +36251,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12104002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.6.0-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12098002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.33.6-7.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
