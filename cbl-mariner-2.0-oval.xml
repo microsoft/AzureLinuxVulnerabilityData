@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-01-10T13:04:10.797485922Z</oval:timestamp>
-    <oval:content_version>1673355850</oval:content_version>
+    <oval:timestamp>2023-01-11T13:03:54.639239154Z</oval:timestamp>
+    <oval:content_version>1673442234</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12660" version="0">
@@ -782,10 +782,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12612</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package qt5-qtbase 5.12.11-4. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package qt5-qtbase 5.12.11-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qt5-qtbase is installed with version 5.12.11-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12612000"/>
@@ -798,10 +798,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-40674" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-40674" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12611</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-40674 affecting package python3 3.9.14-5. No patch is available currently.</description>
+        <description>CVE-2022-40674 affecting package python3 3.9.14-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is installed with version 3.9.14-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12611000"/>
@@ -990,10 +990,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12599</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package nss 3.75-2. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package nss 3.75-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nss is installed with version 3.75-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12599000"/>
@@ -1054,10 +1054,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12595</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package nmap 7.92-1. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package nmap 7.92-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nmap is installed with version 7.92-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12595000"/>
@@ -1550,10 +1550,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12564</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package mariadb-connector-c 3.1.10-5. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package mariadb-connector-c 3.1.10-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mariadb-connector-c is installed with version 3.1.10-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12564000"/>
@@ -1582,10 +1582,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12562</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package mariadb 10.6.9-2. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package mariadb 10.6.9-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mariadb is installed with version 10.6.9-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12562000"/>
@@ -2702,10 +2702,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12492</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package grpc 1.42.0-3. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package grpc 1.42.0-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package grpc is installed with version 1.42.0-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12492000"/>
@@ -2713,7 +2713,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12491" version="0">
       <metadata>
-        <title>CVE-2015-5741 affecting package golang 1.17.13-2</title>
+        <title>CVE-2015-5741 affecting package golang 1.18.8-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2721,15 +2721,15 @@
         <patchable>false</patchable>
         <advisory_id>12491</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2015-5741 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2015-5741 affecting package golang 1.18.8-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12491000"/>
+        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12491000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12490" version="0">
       <metadata>
-        <title>CVE-2019-14809 affecting package golang 1.17.13-2</title>
+        <title>CVE-2019-14809 affecting package golang 1.18.8-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2737,10 +2737,10 @@
         <patchable>false</patchable>
         <advisory_id>12490</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2019-14809 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2019-14809 affecting package golang 1.18.8-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12490000"/>
+        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12490000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12489" version="0">
@@ -2750,10 +2750,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-46848" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-46848" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12489</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2021-46848 affecting package gnutls 3.7.7-1. No patch is available currently.</description>
+        <description>CVE-2021-46848 affecting package gnutls 3.7.7-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gnutls is installed with version 3.7.7-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12489000"/>
@@ -2782,10 +2782,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12487</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package gdb 11.2-1. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package gdb 11.2-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gdb is installed with version 11.2-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12487000"/>
@@ -2798,10 +2798,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12486</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package gcc 11.2.0-4. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package gcc 11.2.0-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gcc is installed with version 11.2.0-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12486000"/>
@@ -2878,10 +2878,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12481</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package crash 8.0.1-1. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package crash 8.0.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package crash is installed with version 8.0.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12481000"/>
@@ -2942,10 +2942,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-36227" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-36227" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12477</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-36227 affecting package cmake 3.21.4-2. No patch is available currently.</description>
+        <description>CVE-2022-36227 affecting package cmake 3.21.4-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cmake is installed with version 3.21.4-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12477000"/>
@@ -3006,10 +3006,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12473</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package cmake 3.21.4-2. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package cmake 3.21.4-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cmake is installed with version 3.21.4-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12473000"/>
@@ -3054,10 +3054,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-42915" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-42915" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12470</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-42915 affecting package cmake 3.21.4-2. No patch is available currently.</description>
+        <description>CVE-2022-42915 affecting package cmake 3.21.4-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cmake is installed with version 3.21.4-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12470000"/>
@@ -3102,10 +3102,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-32221" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-32221" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12467</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-32221 affecting package cmake 3.21.4-2. No patch is available currently.</description>
+        <description>CVE-2022-32221 affecting package cmake 3.21.4-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cmake is installed with version 3.21.4-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12467000"/>
@@ -3182,10 +3182,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-37434" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-37434" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12462</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-37434 affecting package boost 1.76.0-2. No patch is available currently.</description>
+        <description>CVE-2022-37434 affecting package boost 1.76.0-2. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package boost is installed with version 1.76.0-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12462000"/>
@@ -3239,20 +3239,21 @@
         <criterion comment="Package application-gateway-kubernetes-ingress is installed with version 1.4.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12459000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12458" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12458" version="1">
       <metadata>
         <title>CVE-2017-18342 affecting package PyYAML 3.13-8</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2017-18342" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2017-18342" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>12458</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2022-04-26T20:16:59Z</advisory_date>
+        <advisory_id>12458-1</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2017-18342 affecting package PyYAML 3.13-8. No patch is available currently.</description>
+        <description>CVE-2017-18342 affecting package PyYAML 3.13-8. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package PyYAML is installed with version 3.13-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12458000"/>
+        <criterion comment="Package PyYAML is earlier than 3.13-8, affected by CVE-2017-18342" test_ref="oval:com.microsoft.cbl-mariner:tst:12458000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12457" version="0">
@@ -6142,7 +6143,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11130" version="0">
       <metadata>
-        <title>CVE-2022-41715 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-41715 affecting package golang 1.18.8-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -6150,15 +6151,15 @@
         <patchable>false</patchable>
         <advisory_id>11130</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41715 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-41715 affecting package golang 1.18.8-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11130000"/>
+        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11130000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11129" version="0">
       <metadata>
-        <title>CVE-2022-2880 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-2880 affecting package golang 1.18.8-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -6166,15 +6167,15 @@
         <patchable>false</patchable>
         <advisory_id>11129</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2880 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-2880 affecting package golang 1.18.8-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11129000"/>
+        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11129000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11128" version="0">
       <metadata>
-        <title>CVE-2022-2879 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-2879 affecting package golang 1.18.8-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -6182,10 +6183,10 @@
         <patchable>false</patchable>
         <advisory_id>11128</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2879 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-2879 affecting package golang 1.18.8-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11128000"/>
+        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11128000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11118" version="1">
@@ -7457,7 +7458,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10855" version="0">
       <metadata>
-        <title>CVE-2022-27664 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-27664 affecting package golang 1.18.8-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7465,10 +7466,10 @@
         <patchable>false</patchable>
         <advisory_id>10855</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-27664 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-27664 affecting package golang 1.18.8-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10855000"/>
+        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10855000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10854" version="1">
@@ -27751,7 +27752,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6449" version="0">
       <metadata>
-        <title>CVE-2020-29511 affecting package golang 1.17.13-2</title>
+        <title>CVE-2020-29511 affecting package golang 1.18.8-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -27759,15 +27760,15 @@
         <patchable>false</patchable>
         <advisory_id>6449</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-29511 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2020-29511 affecting package golang 1.18.8-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6449000"/>
+        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6449000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6448" version="0">
       <metadata>
-        <title>CVE-2020-29509 affecting package golang 1.17.13-2</title>
+        <title>CVE-2020-29509 affecting package golang 1.18.8-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -27775,10 +27776,10 @@
         <patchable>false</patchable>
         <advisory_id>6448</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-29509 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2020-29509 affecting package golang 1.18.8-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6448000"/>
+        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6448000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6447" version="1">
@@ -29680,11 +29681,11 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12492001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12492002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12491000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12491000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12491001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12491002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12490000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12490000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12490001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12490002"/>
     </linux-def:rpminfo_test>
@@ -29812,7 +29813,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12459001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12459002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package PyYAML is installed with version 3.13-8 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12458000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package PyYAML is earlier than 3.13-8, affected by CVE-2017-18342" id="oval:com.microsoft.cbl-mariner:tst:12458000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12458001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12458002"/>
     </linux-def:rpminfo_test>
@@ -30512,15 +30513,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11131001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11131002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11130000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11130000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11130001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11130002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11129000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11129000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11129001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11129002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11128000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11128000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11128001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11128002"/>
     </linux-def:rpminfo_test>
@@ -30828,7 +30829,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10856001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10856002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10855000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10855000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10855001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10855002"/>
     </linux-def:rpminfo_test>
@@ -35652,11 +35653,11 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:6450001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:6450002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:6449000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:6449000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:6449001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:6449002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:6448000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:6448000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:6448001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:6448002"/>
     </linux-def:rpminfo_test>
@@ -36556,7 +36557,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12459001" version="0">
       <linux-def:name>application-gateway-kubernetes-ingress</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12458001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12458001" version="1">
       <linux-def:name>PyYAML</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12457001" version="0">
@@ -41668,10 +41669,10 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.42.0-3.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12491002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12490002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12489002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.7.7-1.cm2</linux-def:evr>
@@ -41766,8 +41767,8 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12459002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.4.0-5.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12458002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.13-8.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12458002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.13-8.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12457002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.13-8.cm2</linux-def:evr>
@@ -42292,13 +42293,13 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.80.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11130002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11129002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11128002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11118002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.74.1-3.cm2</linux-def:evr>
@@ -42529,7 +42530,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:3.9.4-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10855002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10854002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.0.12-1.cm2</linux-def:evr>
@@ -46147,10 +46148,10 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:1.17.8-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:6449002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:6448002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:6447002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.6.14-5.cm2</linux-def:evr>
