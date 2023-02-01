@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-01-31T13:01:51.623354355Z</oval:timestamp>
-    <oval:content_version>1675170111</oval:content_version>
+    <oval:timestamp>2023-02-01T13:02:04.695887225Z</oval:timestamp>
+    <oval:content_version>1675256524</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13151" version="0">
@@ -80,7 +80,7 @@
         <reference ref_id="CVE-2023-24056" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24056" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13124</advisory_id>
-        <severity>High</severity>
+        <severity>Critical</severity>
         <description>CVE-2023-24056 affecting package pkgconf 1.8.0-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
