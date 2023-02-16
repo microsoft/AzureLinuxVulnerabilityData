@@ -3,10 +3,170 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-02-15T13:01:53.772613781Z</oval:timestamp>
-    <oval:content_version>1676466113</oval:content_version>
+    <oval:timestamp>2023-02-16T13:02:17.318920118Z</oval:timestamp>
+    <oval:content_version>1676552537</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13385" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0800 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0800" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0800" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13385</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0800 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13385000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13384" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0803 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0803" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0803" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13384</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0803 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13384000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13383" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0795 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0795" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0795" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13383</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0795 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13383000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13382" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0799 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0799" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0799" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13382</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0799 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13382000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13381" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0801 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0801" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0801" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13381</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0801 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13381000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13380" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0796 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0796" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0796" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13380</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0796 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13380000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13379" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0798 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0798" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0798" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13379</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0798 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13379000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13378" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0802 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0802" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0802" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13378</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0802 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13378000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13377" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0804 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0804" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0804" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13377</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0804 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13377000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13376" version="2000000000">
+      <metadata>
+        <title>CVE-2023-0797 affecting package libtiff 4.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0797" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0797" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13376</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0797 affecting package libtiff 4.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libtiff is installed with version 4.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13376000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13363" version="2000000000">
       <metadata>
         <title>CVE-2023-0615 affecting package kernel 5.10.167.1-1</title>
@@ -33874,6 +34034,46 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13385000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13385001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13385002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13384000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13384001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13384002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13383000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13383001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13383002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13382000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13382001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13382002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13381000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13381001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13381002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13380000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13380001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13380002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13379000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13379001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13379002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13378000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13378001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13378002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13377000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13377001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13377002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13376000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13376001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13376002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.10.167.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13363000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13363001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13363002"/>
@@ -41896,6 +42096,36 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13385001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13384001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13383001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13382001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13381001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13380001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13379001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13378001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13377001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13376001" version="0">
+      <linux-def:name>libtiff</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13363001" version="0">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -47913,6 +48143,36 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13385002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13384002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13383002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13382002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13381002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13380002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13379002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13378002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13377002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13376002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13363002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.10.167.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
