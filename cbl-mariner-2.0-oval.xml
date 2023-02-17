@@ -3,10 +3,26 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-02-16T13:02:18.312734072Z</oval:timestamp>
-    <oval:content_version>1676552538</oval:content_version>
+    <oval:timestamp>2023-02-17T13:02:35.285788609Z</oval:timestamp>
+    <oval:content_version>1676638955</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13558" version="0">
+      <metadata>
+        <title>CVE-2023-25165 affecting package helm 3.10.3-2</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-25165" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25165" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13558</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-25165 affecting package helm 3.10.3-2. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package helm is installed with version 3.10.3-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13558000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13395" version="0">
       <metadata>
         <title>CVE-2023-0802 affecting package libtiff 4.4.0-7</title>
@@ -242,7 +258,7 @@
         <reference ref_id="CVE-2022-46663" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-46663" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13350</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-46663 affecting package less 590-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -274,7 +290,7 @@
         <reference ref_id="CVE-2023-0687" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0687" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13348</advisory_id>
-        <severity>Low</severity>
+        <severity>Critical</severity>
         <description>CVE-2023-0687 affecting package glibc 2.35-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -757,7 +773,7 @@
         <reference ref_id="CVE-2022-44617" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44617" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13230</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-44617 affecting package libXpm 3.5.13-5. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -4575,7 +4591,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11222" version="0">
       <metadata>
-        <title>CVE-2022-3165 affecting package qemu 6.2.0-13</title>
+        <title>CVE-2022-3165 affecting package qemu 6.2.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -4583,10 +4599,10 @@
         <patchable>false</patchable>
         <advisory_id>11222</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3165 affecting package qemu 6.2.0-13. No patch is available currently.</description>
+        <description>CVE-2022-3165 affecting package qemu 6.2.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package qemu is installed with version 6.2.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11222000"/>
+        <criterion comment="Package qemu is installed with version 6.2.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11222000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11219" version="1">
@@ -6756,7 +6772,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10763" version="1">
       <metadata>
-        <title>CVE-2022-0358 affecting package qemu 6.2.0-13</title>
+        <title>CVE-2022-0358 affecting package qemu 6.2.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -6765,7 +6781,7 @@
         <advisory_date>2022-07-22T17:03:06Z</advisory_date>
         <advisory_id>10763-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-0358 affecting package qemu 6.2.0-13. A patched version of the package is available.</description>
+        <description>CVE-2022-0358 affecting package qemu 6.2.0-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu is earlier than 6.2.0-5, affected by CVE-2022-0358" test_ref="oval:com.microsoft.cbl-mariner:tst:10763000"/>
@@ -10616,7 +10632,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9744" version="0">
       <metadata>
-        <title>CVE-2021-3611 affecting package qemu 6.2.0-13</title>
+        <title>CVE-2021-3611 affecting package qemu 6.2.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -10624,10 +10640,10 @@
         <patchable>false</patchable>
         <advisory_id>9744</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-3611 affecting package qemu 6.2.0-13. No patch is available currently.</description>
+        <description>CVE-2021-3611 affecting package qemu 6.2.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package qemu is installed with version 6.2.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9744000"/>
+        <criterion comment="Package qemu is installed with version 6.2.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9744000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9737" version="1">
@@ -10802,7 +10818,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9701" version="0">
       <metadata>
-        <title>CVE-2021-3750 affecting package qemu 6.2.0-13</title>
+        <title>CVE-2021-3750 affecting package qemu 6.2.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -10810,10 +10826,10 @@
         <patchable>false</patchable>
         <advisory_id>9701</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3750 affecting package qemu 6.2.0-13. No patch is available currently.</description>
+        <description>CVE-2021-3750 affecting package qemu 6.2.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package qemu is installed with version 6.2.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9701000"/>
+        <criterion comment="Package qemu is installed with version 6.2.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9701000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9698" version="1">
@@ -27980,6 +27996,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package helm is installed with version 3.10.3-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13558000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13558001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13558002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package libtiff is installed with version 4.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13395000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13395001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13395002"/>
@@ -29084,7 +29104,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11223001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11223002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package qemu is installed with version 6.2.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11222000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package qemu is installed with version 6.2.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11222000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11222001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11222002"/>
     </linux-def:rpminfo_test>
@@ -30524,7 +30544,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:9747001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:9747002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package qemu is installed with version 6.2.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:9744000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package qemu is installed with version 6.2.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:9744000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:9744001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:9744002"/>
     </linux-def:rpminfo_test>
@@ -30568,7 +30588,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:9702001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:9702002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package qemu is installed with version 6.2.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:9701000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package qemu is installed with version 6.2.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:9701000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:9701001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:9701002"/>
     </linux-def:rpminfo_test>
@@ -34646,6 +34666,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13558001" version="0">
+      <linux-def:name>helm</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13395001" version="0">
       <linux-def:name>libtiff</linux-def:name>
     </linux-def:rpminfo_object>
@@ -39646,6 +39669,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13558002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.10.3-2.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13395002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.4.0-7.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -40475,7 +40501,7 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.12.11-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11222002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.2.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.2.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11219002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.0.31-1.cm2</linux-def:evr>
@@ -41555,7 +41581,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.37.1-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:9744002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.2.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.2.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:9737002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.2.4925-1.cm2</linux-def:evr>
@@ -41588,7 +41614,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:1.0.41-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:9701002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.2.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.2.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:9698002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.1.2-2.cm2</linux-def:evr>
