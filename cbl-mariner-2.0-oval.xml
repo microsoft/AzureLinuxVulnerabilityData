@@ -3,10 +3,26 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-02-18T13:02:07.896550729Z</oval:timestamp>
-    <oval:content_version>1676725327</oval:content_version>
+    <oval:timestamp>2023-02-19T13:01:48.590404371Z</oval:timestamp>
+    <oval:content_version>1676811708</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13564" version="0">
+      <metadata>
+        <title>CVE-2023-0286 affecting package openssl 1.1.1k-21</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0286" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0286" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13564</advisory_id>
+        <severity>Critical</severity>
+        <description>CVE-2023-0286 affecting package openssl 1.1.1k-21. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package openssl is installed with version 1.1.1k-21 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13564000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13562" version="0">
       <metadata>
         <title>CVE-2023-22795 affecting package ruby 3.1.3-1</title>
@@ -206,10 +222,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0615" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0615" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13364</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0615 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-0615 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13364000"/>
@@ -241,7 +257,7 @@
         <patchable>true</patchable>
         <advisory_date>2023-02-14T20:36:09Z</advisory_date>
         <advisory_id>13352-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2023-0215 affecting package openssl 1.1.1k-21. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -258,7 +274,7 @@
         <patchable>true</patchable>
         <advisory_date>2023-02-14T20:36:09Z</advisory_date>
         <advisory_id>13351-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-4450 affecting package openssl 1.1.1k-21. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -513,10 +529,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-25012" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25012" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13291</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-25012 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-25012 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13291000"/>
@@ -1064,10 +1080,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0469" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0469" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13171</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0469 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-0469 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13171000"/>
@@ -1874,10 +1890,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4543" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4543" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>12989</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-4543 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-4543 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12989000"/>
@@ -2686,10 +2702,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3114" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3114" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11614</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3114 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3114 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11614000"/>
@@ -3549,10 +3565,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45888" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45888" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11487</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-45888 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45888 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11487000"/>
@@ -3565,10 +3581,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45887" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45887" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11486</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-45887 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45887 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11486000"/>
@@ -3597,10 +3613,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45885" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45885" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11484</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45885 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45885 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11484000"/>
@@ -4012,10 +4028,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-44034" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44034" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11382</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44034 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-44034 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11382000"/>
@@ -4028,10 +4044,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-44033" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44033" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11381</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44033 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-44033 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11381000"/>
@@ -4044,10 +4060,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-44032" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44032" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11380</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44032 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-44032 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11380000"/>
@@ -5385,10 +5401,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41848" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41848" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11079</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-41848 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41848 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11079000"/>
@@ -6139,10 +6155,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-38457" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-38457" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10902</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38457 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-38457 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10902000"/>
@@ -6155,10 +6171,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-38096" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-38096" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10901</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38096 affecting package kernel 5.15.92.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-38096 affecting package kernel 5.15.92.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10901000"/>
@@ -28012,6 +28028,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package openssl is installed with version 1.1.1k-21 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13564000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13564001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13564002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package ruby is installed with version 3.1.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13562000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13562001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13562002"/>
@@ -34686,6 +34706,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13564001" version="0">
+      <linux-def:name>openssl</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13562001" version="0">
       <linux-def:name>ruby</linux-def:name>
     </linux-def:rpminfo_object>
@@ -39692,6 +39715,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13564002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.1.1k-21.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13562002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.1.3-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
