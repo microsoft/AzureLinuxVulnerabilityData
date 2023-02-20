@@ -3,24 +3,217 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-02-19T13:01:48.590404371Z</oval:timestamp>
-    <oval:content_version>1676811708</oval:content_version>
+    <oval:timestamp>2023-02-20T13:02:05.792379698Z</oval:timestamp>
+    <oval:content_version>1676898125</oval:content_version>
   </generator>
   <definitions>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13564" version="0">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13592" version="0">
+      <metadata>
+        <title>CVE-2013-4342 affecting package xinetd 2.3.15-13</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2013-4342" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2013-4342" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13592</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2013-4342 affecting package xinetd 2.3.15-13. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package xinetd is installed with version 2.3.15-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13592000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13589" version="0">
+      <metadata>
+        <title>CVE-2023-23934 affecting package python-werkzeug 2.0.3-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-23934" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23934" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13589</advisory_id>
+        <severity>Low</severity>
+        <description>CVE-2023-23934 affecting package python-werkzeug 2.0.3-1. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package python-werkzeug is installed with version 2.0.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13589000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13588" version="0">
+      <metadata>
+        <title>CVE-2023-25577 affecting package python-werkzeug 2.0.3-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-25577" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25577" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13588</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-25577 affecting package python-werkzeug 2.0.3-1. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package python-werkzeug is installed with version 2.0.3-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13588000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13587" version="0">
+      <metadata>
+        <title>CVE-2023-0568 affecting package php 8.1.12-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0568" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0568" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13587</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-0568 affecting package php 8.1.12-1. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package php is installed with version 8.1.12-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13587000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13586" version="0">
+      <metadata>
+        <title>CVE-2023-0475 affecting package packer 1.8.1-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0475" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0475" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13586</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0475 affecting package packer 1.8.1-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package packer is installed with version 1.8.1-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13586000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13585" version="0">
+      <metadata>
+        <title>CVE-2023-24807 affecting package nodejs 16.18.1-2</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-24807" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24807" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13585</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-24807 affecting package nodejs 16.18.1-2. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package nodejs is installed with version 16.18.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13585000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13584" version="0">
+      <metadata>
+        <title>CVE-2023-25153 affecting package moby-engine 20.10.14-5</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-25153" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25153" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13584</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-25153 affecting package moby-engine 20.10.14-5. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package moby-engine is installed with version 20.10.14-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13584000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13572" version="0">
+      <metadata>
+        <title>CVE-2023-0475 affecting package k3s 1.25.0-5</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0475" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0475" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13572</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0475 affecting package k3s 1.25.0-5. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package k3s is installed with version 1.25.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13571" version="0">
+      <metadata>
+        <title>CVE-2023-25153 affecting package k3s 1.25.0-5</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-25153" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25153" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13571</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-25153 affecting package k3s 1.25.0-5. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package k3s is installed with version 1.25.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13570" version="0">
+      <metadata>
+        <title>CVE-2023-25173 affecting package k3s 1.25.0-5</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-25173" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25173" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13570</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-25173 affecting package k3s 1.25.0-5. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package k3s is installed with version 1.25.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13569" version="0">
+      <metadata>
+        <title>CVE-2023-25725 affecting package haproxy 2.4.13-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-25725" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25725" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13569</advisory_id>
+        <severity>Critical</severity>
+        <description>CVE-2023-25725 affecting package haproxy 2.4.13-1. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package haproxy is installed with version 2.4.13-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13569000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13568" version="0">
+      <metadata>
+        <title>CVE-2023-0361 affecting package gnutls 3.7.7-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0361" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0361" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13568</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0361 affecting package gnutls 3.7.7-1. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package gnutls is installed with version 3.7.7-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13568000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13564" version="1">
       <metadata>
         <title>CVE-2023-0286 affecting package openssl 1.1.1k-21</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0286" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0286" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>13564</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2023-02-14T20:36:09Z</advisory_date>
+        <advisory_id>13564-1</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2023-0286 affecting package openssl 1.1.1k-21. No patch is available currently.</description>
+        <description>CVE-2023-0286 affecting package openssl 1.1.1k-21. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openssl is installed with version 1.1.1k-21 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13564000"/>
+        <criterion comment="Package openssl is earlier than 1.1.1k-21, affected by CVE-2023-0286" test_ref="oval:com.microsoft.cbl-mariner:tst:13564000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13562" version="0">
@@ -547,7 +740,7 @@
         <reference ref_id="CVE-2022-43552" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-43552" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13289</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-43552 affecting package rust 1.62.1-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -563,7 +756,7 @@
         <reference ref_id="CVE-2022-43552" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-43552" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13287</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-43552 affecting package mysql 8.0.32-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -596,7 +789,7 @@
         <reference ref_id="CVE-2022-43552" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-43552" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13280</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2022-43552 affecting package cmake 3.21.4-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -738,10 +931,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4139" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4139" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13247</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-4139 affecting package kernel 5.15.92.1-1. No patch is available currently.</description>
+        <description>CVE-2022-4139 affecting package kernel 5.15.92.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13247000"/>
@@ -836,11 +1029,11 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-27666" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-27666" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_date>2023-02-14T20:21:22Z</advisory_date>
         <advisory_id>13228-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-27666 affecting package hyperv-daemons 5.15.92.1-1. A patched version of the package is available.</description>
+        <description>CVE-2022-27666 affecting package hyperv-daemons 5.15.92.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package hyperv-daemons is earlier than 5.15.92.1-1, affected by CVE-2022-27666" test_ref="oval:com.microsoft.cbl-mariner:tst:13228000"/>
@@ -2451,10 +2644,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-47940" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-47940" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12095</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-47940 affecting package kernel 5.15.92.1-1. No patch is available currently.</description>
+        <description>CVE-2022-47940 affecting package kernel 5.15.92.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.92.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12095000"/>
@@ -4342,11 +4535,11 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3647" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3647" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_date>2022-11-03T20:37:44Z</advisory_date>
         <advisory_id>11325-1</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-3647 affecting package redis 6.2.7-1. A patched version of the package is available.</description>
+        <description>CVE-2022-3647 affecting package redis 6.2.7-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package redis is earlier than 6.2.7-2, affected by CVE-2022-3647" test_ref="oval:com.microsoft.cbl-mariner:tst:11325000"/>
@@ -28028,7 +28221,55 @@
     </definition>
   </definitions>
   <tests>
-    <linux-def:rpminfo_test check="at least one" comment="Package openssl is installed with version 1.1.1k-21 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13564000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package xinetd is installed with version 2.3.15-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13592000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13592001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13592002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package python-werkzeug is installed with version 2.0.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13589000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13589001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13589002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package python-werkzeug is installed with version 2.0.3-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13588000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13588001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13588002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package php is installed with version 8.1.12-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13587000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13587001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13587002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package packer is installed with version 1.8.1-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13586000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13586001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13586002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package nodejs is installed with version 16.18.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13585000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13585001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13585002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package moby-engine is installed with version 20.10.14-5 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13584000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13584001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13584002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-5 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13572001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13572002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-5 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13571001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13571002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-5 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13570001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13570002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package haproxy is installed with version 2.4.13-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13569000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13569001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13569002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package gnutls is installed with version 3.7.7-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13568000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13568001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13568002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package openssl is earlier than 1.1.1k-21, affected by CVE-2023-0286" id="oval:com.microsoft.cbl-mariner:tst:13564000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13564001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13564002"/>
     </linux-def:rpminfo_test>
@@ -34706,7 +34947,43 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13564001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13592001" version="0">
+      <linux-def:name>xinetd</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13589001" version="0">
+      <linux-def:name>python-werkzeug</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13588001" version="0">
+      <linux-def:name>python-werkzeug</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13587001" version="0">
+      <linux-def:name>php</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13586001" version="0">
+      <linux-def:name>packer</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13585001" version="0">
+      <linux-def:name>nodejs</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13584001" version="0">
+      <linux-def:name>moby-engine</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13572001" version="0">
+      <linux-def:name>k3s</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13571001" version="0">
+      <linux-def:name>k3s</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13570001" version="0">
+      <linux-def:name>k3s</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13569001" version="0">
+      <linux-def:name>haproxy</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13568001" version="0">
+      <linux-def:name>gnutls</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13564001" version="1">
       <linux-def:name>openssl</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13562001" version="0">
@@ -39715,8 +39992,44 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13564002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.1.1k-21.cm2</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13592002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.3.15-13.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13589002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.0.3-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13588002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.0.3-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13587002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:8.1.12-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13586002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.1-7.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13585002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:16.18.1-2.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13584002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:20.10.14-5.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13572002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-5.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13571002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-5.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13570002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-5.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13569002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.4.13-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13568002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.7.7-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13564002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.1.1k-21.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13562002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.1.3-1.cm2</linux-def:evr>
