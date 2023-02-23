@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-02-22T13:01:44.362506858Z</oval:timestamp>
-    <oval:content_version>1677070904</oval:content_version>
+    <oval:timestamp>2023-02-23T13:05:15.218128334Z</oval:timestamp>
+    <oval:content_version>1677157515</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13608" version="2000000000">
@@ -1168,20 +1168,21 @@
         <criterion comment="Package rust is installed with version 1.59.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13147000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13146" version="2000000000">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13146" version="2000000001">
       <metadata>
         <title>CVE-2022-35977 affecting package redis 6.2.7-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-35977" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-35977" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>13146</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2023-02-22T02:03:27Z</advisory_date>
+        <advisory_id>13146-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-35977 affecting package redis 6.2.7-2. No patch is available currently.</description>
+        <description>CVE-2022-35977 affecting package redis 6.2.7-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package redis is installed with version 6.2.7-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13146000"/>
+        <criterion comment="Package redis is earlier than 6.2.7-3, affected by CVE-2022-35977" test_ref="oval:com.microsoft.cbl-mariner:tst:13146000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13145" version="2000000000">
@@ -1506,20 +1507,21 @@
         <criterion comment="Package tpm2-tss is earlier than 2.4.6-2, affected by CVE-2023-22745" test_ref="oval:com.microsoft.cbl-mariner:tst:13043000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13042" version="2000000000">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13042" version="2000000001">
       <metadata>
         <title>CVE-2023-22458 affecting package redis 6.2.7-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-22458" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22458" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>13042</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2023-02-22T02:03:27Z</advisory_date>
+        <advisory_id>13042-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-22458 affecting package redis 6.2.7-2. No patch is available currently.</description>
+        <description>CVE-2023-22458 affecting package redis 6.2.7-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package redis is installed with version 6.2.7-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13042000"/>
+        <criterion comment="Package redis is earlier than 6.2.7-3, affected by CVE-2023-22458" test_ref="oval:com.microsoft.cbl-mariner:tst:13042000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13041" version="2000000000">
@@ -3773,7 +3775,7 @@
         <patchable>Not Applicable</patchable>
         <advisory_date>2022-11-24T00:45:57Z</advisory_date>
         <advisory_id>11270-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2022-3594 affecting package kernel 5.10.149.1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
@@ -34483,7 +34485,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13147001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13147002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package redis is installed with version 6.2.7-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13146000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package redis is earlier than 6.2.7-3, affected by CVE-2022-35977" id="oval:com.microsoft.cbl-mariner:tst:13146000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13146001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13146002"/>
     </linux-def:rpminfo_test>
@@ -34567,7 +34569,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13043001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13043002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package redis is installed with version 6.2.7-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13042000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package redis is earlier than 6.2.7-3, affected by CVE-2023-22458" id="oval:com.microsoft.cbl-mariner:tst:13042000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13042001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13042002"/>
     </linux-def:rpminfo_test>
@@ -42513,7 +42515,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13147001" version="0">
       <linux-def:name>rust</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13146001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13146001" version="1">
       <linux-def:name>redis</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13145001" version="0">
@@ -42576,7 +42578,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13043001" version="1">
       <linux-def:name>tpm2-tss</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13042001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13042001" version="1">
       <linux-def:name>redis</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13041001" version="0">
@@ -48590,8 +48592,8 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13147002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.59.0-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13146002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.2.7-2.cm1</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13146002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:6.2.7-3.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13145002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.14.0-1.cm1</linux-def:evr>
@@ -48653,8 +48655,8 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13043002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.4.6-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13042002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.2.7-2.cm1</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13042002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:6.2.7-3.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13041002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.10.167.1-1.cm1</linux-def:evr>
