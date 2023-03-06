@@ -3,10 +3,90 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-03-05T13:01:51.511280022Z</oval:timestamp>
-    <oval:content_version>1678021311</oval:content_version>
+    <oval:timestamp>2023-03-06T13:01:45.661627396Z</oval:timestamp>
+    <oval:content_version>1678107705</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13784" version="0">
+      <metadata>
+        <title>CVE-2023-27320 affecting package sudo 1.9.12p2-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-27320" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-27320" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13784</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-27320 affecting package sudo 1.9.12p2-1. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package sudo is installed with version 1.9.12p2-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13784000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13783" version="0">
+      <metadata>
+        <title>CVE-2022-3162 affecting package rook 1.6.2-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-3162" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3162" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13783</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-3162 affecting package rook 1.6.2-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package rook is installed with version 1.6.2-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13783000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13782" version="0">
+      <metadata>
+        <title>CVE-2022-3162 affecting package kube-vip-cloud-provider 0.0.2-5</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-3162" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3162" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13782</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-3162 affecting package kube-vip-cloud-provider 0.0.2-5. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kube-vip-cloud-provider is installed with version 0.0.2-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13782000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13781" version="0">
+      <metadata>
+        <title>CVE-2022-3162 affecting package keda 2.4.0-7</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-3162" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3162" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13781</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-3162 affecting package keda 2.4.0-7. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package keda is installed with version 2.4.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13781000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13780" version="0">
+      <metadata>
+        <title>CVE-2022-3162 affecting package cert-manager 1.7.3-6</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-3162" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3162" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>13780</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-3162 affecting package cert-manager 1.7.3-6. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package cert-manager is installed with version 1.7.3-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13780000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13777" version="0">
       <metadata>
         <title>CVE-2022-41862 affecting package postgresql 14.5-1</title>
@@ -329,7 +409,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13732" version="0">
       <metadata>
-        <title>CVE-2022-41725 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-41725 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -337,15 +417,15 @@
         <patchable>false</patchable>
         <advisory_id>13732</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-41725 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-41725 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13732000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13732000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13731" version="0">
       <metadata>
-        <title>CVE-2022-41724 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-41724 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -353,15 +433,15 @@
         <patchable>false</patchable>
         <advisory_id>13731</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-41724 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-41724 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13731000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13731000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13730" version="0">
       <metadata>
-        <title>CVE-2022-41722 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-41722 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -369,10 +449,10 @@
         <patchable>false</patchable>
         <advisory_id>13730</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41722 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-41722 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13730000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13730000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13729" version="0">
@@ -674,7 +754,7 @@
         <reference ref_id="CVE-2023-23915" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23915" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13660</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2023-23915 affecting package rust 1.62.1-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -690,7 +770,7 @@
         <reference ref_id="CVE-2023-23914" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23914" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13659</advisory_id>
-        <severity>High</severity>
+        <severity>Critical</severity>
         <description>CVE-2023-23914 affecting package rust 1.62.1-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -706,7 +786,7 @@
         <reference ref_id="CVE-2023-23916" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23916" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13658</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2023-23916 affecting package rust 1.62.1-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -722,7 +802,7 @@
         <reference ref_id="CVE-2023-23916" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23916" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13657</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2023-23916 affecting package mysql 8.0.32-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -738,7 +818,7 @@
         <reference ref_id="CVE-2023-23914" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23914" source="CVE"/>
         <patchable>Not Applicable</patchable>
         <advisory_id>13656</advisory_id>
-        <severity>High</severity>
+        <severity>Critical</severity>
         <description>CVE-2023-23914 affecting package mysql 8.0.32-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
@@ -754,7 +834,7 @@
         <reference ref_id="CVE-2023-23915" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23915" source="CVE"/>
         <patchable>Not Applicable</patchable>
         <advisory_id>13655</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2023-23915 affecting package mysql 8.0.32-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
@@ -818,7 +898,7 @@
         <reference ref_id="CVE-2023-23916" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23916" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13651</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2023-23916 affecting package cmake 3.21.4-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -834,7 +914,7 @@
         <reference ref_id="CVE-2023-23914" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23914" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13650</advisory_id>
-        <severity>High</severity>
+        <severity>Critical</severity>
         <description>CVE-2023-23914 affecting package cmake 3.21.4-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -850,7 +930,7 @@
         <reference ref_id="CVE-2023-23915" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23915" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13649</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2023-23915 affecting package cmake 3.21.4-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -1035,7 +1115,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13572" version="0">
       <metadata>
-        <title>CVE-2023-0475 affecting package k3s 1.25.0-5</title>
+        <title>CVE-2023-0475 affecting package k3s 1.23.8-6</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1043,15 +1123,15 @@
         <patchable>false</patchable>
         <advisory_id>13572</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0475 affecting package k3s 1.25.0-5. No patch is available currently.</description>
+        <description>CVE-2023-0475 affecting package k3s 1.23.8-6. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.25.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
+        <criterion comment="Package k3s is installed with version 1.23.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13571" version="0">
       <metadata>
-        <title>CVE-2023-25153 affecting package k3s 1.25.0-5</title>
+        <title>CVE-2023-25153 affecting package k3s 1.23.8-6</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1059,15 +1139,15 @@
         <patchable>false</patchable>
         <advisory_id>13571</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-25153 affecting package k3s 1.25.0-5. No patch is available currently.</description>
+        <description>CVE-2023-25153 affecting package k3s 1.23.8-6. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.25.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
+        <criterion comment="Package k3s is installed with version 1.23.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13570" version="0">
       <metadata>
-        <title>CVE-2023-25173 affecting package k3s 1.25.0-5</title>
+        <title>CVE-2023-25173 affecting package k3s 1.23.8-6</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1075,10 +1155,10 @@
         <patchable>false</patchable>
         <advisory_id>13570</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-25173 affecting package k3s 1.25.0-5. No patch is available currently.</description>
+        <description>CVE-2023-25173 affecting package k3s 1.23.8-6. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.25.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
+        <criterion comment="Package k3s is installed with version 1.23.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13569" version="1">
@@ -6267,7 +6347,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11130" version="0">
       <metadata>
-        <title>CVE-2022-41715 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-41715 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -6275,15 +6355,15 @@
         <patchable>false</patchable>
         <advisory_id>11130</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41715 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-41715 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11130000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11130000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11129" version="0">
       <metadata>
-        <title>CVE-2022-2880 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-2880 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -6291,15 +6371,15 @@
         <patchable>false</patchable>
         <advisory_id>11129</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2880 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-2880 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11129000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11129000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11128" version="0">
       <metadata>
-        <title>CVE-2022-2879 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-2879 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -6307,10 +6387,10 @@
         <patchable>false</patchable>
         <advisory_id>11128</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2879 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-2879 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11128000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11128000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11118" version="1">
@@ -7585,7 +7665,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10855" version="0">
       <metadata>
-        <title>CVE-2022-27664 affecting package golang 1.17.13-2</title>
+        <title>CVE-2022-27664 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7593,10 +7673,10 @@
         <patchable>false</patchable>
         <advisory_id>10855</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-27664 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2022-27664 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10855000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10855000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10854" version="1">
@@ -27896,7 +27976,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6449" version="0">
       <metadata>
-        <title>CVE-2020-29511 affecting package golang 1.17.13-2</title>
+        <title>CVE-2020-29511 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -27904,15 +27984,15 @@
         <patchable>false</patchable>
         <advisory_id>6449</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-29511 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2020-29511 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6449000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6449000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6448" version="0">
       <metadata>
-        <title>CVE-2020-29509 affecting package golang 1.17.13-2</title>
+        <title>CVE-2020-29509 affecting package golang 1.19.5-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -27920,10 +28000,10 @@
         <patchable>false</patchable>
         <advisory_id>6448</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-29509 affecting package golang 1.17.13-2. No patch is available currently.</description>
+        <description>CVE-2020-29509 affecting package golang 1.19.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6448000"/>
+        <criterion comment="Package golang is installed with version 1.19.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6448000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6447" version="1">
@@ -29149,6 +29229,26 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package sudo is installed with version 1.9.12p2-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13784000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13784001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13784002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package rook is installed with version 1.6.2-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13783000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13783001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13783002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kube-vip-cloud-provider is installed with version 0.0.2-5 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13782000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13782001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13782002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package keda is installed with version 2.4.0-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13781000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13781001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13781002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package cert-manager is installed with version 1.7.3-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13780000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13780001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13780002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package postgresql is installed with version 14.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13777000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13777001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13777002"/>
@@ -29229,15 +29329,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13737001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13737002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13732000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13732000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13732001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13732002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13731000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13731000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13731001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13731002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13730000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13730000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13730001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13730002"/>
     </linux-def:rpminfo_test>
@@ -29405,15 +29505,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13584001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13584002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-5 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.23.8-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13572001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13572002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-5 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.23.8-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13571001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13571002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-5 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.23.8-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13570001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13570002"/>
     </linux-def:rpminfo_test>
@@ -30665,15 +30765,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11131001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11131002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11130000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11130000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11130001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11130002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11129000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11129000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11129001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11129002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11128000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11128000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11128001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11128002"/>
     </linux-def:rpminfo_test>
@@ -30981,7 +31081,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10856001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10856002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10855000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10855000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10855001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10855002"/>
     </linux-def:rpminfo_test>
@@ -35805,11 +35905,11 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:6450001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:6450002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:6449000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:6449000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:6449001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:6449002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:6448000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.19.5-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:6448000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:6448001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:6448002"/>
     </linux-def:rpminfo_test>
@@ -36103,6 +36203,21 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13784001" version="0">
+      <linux-def:name>sudo</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13783001" version="0">
+      <linux-def:name>rook</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13782001" version="0">
+      <linux-def:name>kube-vip-cloud-provider</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13781001" version="0">
+      <linux-def:name>keda</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13780001" version="0">
+      <linux-def:name>cert-manager</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13777001" version="0">
       <linux-def:name>postgresql</linux-def:name>
     </linux-def:rpminfo_object>
@@ -41319,6 +41434,21 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13784002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.9.12p2-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13783002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.6.2-7.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13782002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.2-5.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13781002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.4.0-7.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13780002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.7.3-6.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13777002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:14.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -41380,13 +41510,13 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.1-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13732002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13731002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13730002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13729002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:11.2.0-4.cm2</linux-def:evr>
@@ -41512,13 +41642,13 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:20.10.14-5.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13572002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-5.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.23.8-6.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13571002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-5.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.23.8-6.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13570002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-5.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.23.8-6.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13569002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.4.22-1.cm2</linux-def:evr>
@@ -42457,13 +42587,13 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.80.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11130002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11129002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11128002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11118002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.74.1-3.cm2</linux-def:evr>
@@ -42694,7 +42824,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:3.9.4-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10855002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10854002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.0.12-1.cm2</linux-def:evr>
@@ -46312,10 +46442,10 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:1.17.8-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:6449002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:6448002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.19.5-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:6447002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.6.14-5.cm2</linux-def:evr>
