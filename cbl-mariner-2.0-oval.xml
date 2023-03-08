@@ -3,10 +3,26 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>13</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-03-07T13:04:55.990791376Z</oval:timestamp>
-    <oval:content_version>1678194295</oval:content_version>
+    <oval:timestamp>2023-03-08T13:02:01.466470913Z</oval:timestamp>
+    <oval:content_version>1678280521</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25317" version="0">
+      <metadata>
+        <title>CVE-2022-0934 affecting package dnsmasq 2.86-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-0934" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0934" source="CVE"/>
+        <patchable>false</patchable>
+        <advisory_id>25317</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-0934 affecting package dnsmasq 2.86-1. No patch is available currently.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package dnsmasq is installed with version 2.86-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:25317000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13832" version="0">
       <metadata>
         <title>CVE-2022-3857 affecting package syslinux 6.04-10</title>
@@ -217,7 +233,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13819" version="0">
       <metadata>
-        <title>CVE-2022-3294 affecting package k3s 1.23.8-6</title>
+        <title>CVE-2022-3294 affecting package k3s 1.24.6-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -225,10 +241,10 @@
         <patchable>false</patchable>
         <advisory_id>13819</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3294 affecting package k3s 1.23.8-6. No patch is available currently.</description>
+        <description>CVE-2022-3294 affecting package k3s 1.24.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.23.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13819000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13819000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13818" version="0">
@@ -238,10 +254,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4904" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4904" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13818</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-4904 affecting package grpc 1.42.0-3. No patch is available currently.</description>
+        <description>CVE-2022-4904 affecting package grpc 1.42.0-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package grpc is installed with version 1.42.0-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13818000"/>
@@ -1371,7 +1387,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13572" version="0">
       <metadata>
-        <title>CVE-2023-0475 affecting package k3s 1.23.8-6</title>
+        <title>CVE-2023-0475 affecting package k3s 1.24.6-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1379,15 +1395,15 @@
         <patchable>false</patchable>
         <advisory_id>13572</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0475 affecting package k3s 1.23.8-6. No patch is available currently.</description>
+        <description>CVE-2023-0475 affecting package k3s 1.24.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.23.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13571" version="0">
       <metadata>
-        <title>CVE-2023-25153 affecting package k3s 1.23.8-6</title>
+        <title>CVE-2023-25153 affecting package k3s 1.24.6-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1395,15 +1411,15 @@
         <patchable>false</patchable>
         <advisory_id>13571</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-25153 affecting package k3s 1.23.8-6. No patch is available currently.</description>
+        <description>CVE-2023-25153 affecting package k3s 1.24.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.23.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13570" version="0">
       <metadata>
-        <title>CVE-2023-25173 affecting package k3s 1.23.8-6</title>
+        <title>CVE-2023-25173 affecting package k3s 1.24.6-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1411,10 +1427,10 @@
         <patchable>false</patchable>
         <advisory_id>13570</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-25173 affecting package k3s 1.23.8-6. No patch is available currently.</description>
+        <description>CVE-2023-25173 affecting package k3s 1.24.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.23.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13569" version="1">
@@ -29485,6 +29501,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package dnsmasq is installed with version 2.86-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:25317000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25317001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25317002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package syslinux is installed with version 6.04-10 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13832000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13832001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13832002"/>
@@ -29537,7 +29557,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13820001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13820002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.23.8-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13819000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13819000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13819001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13819002"/>
     </linux-def:rpminfo_test>
@@ -29825,15 +29845,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13584001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13584002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.23.8-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13572001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13572002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.23.8-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13571001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13571002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.23.8-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13570001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13570002"/>
     </linux-def:rpminfo_test>
@@ -36523,6 +36543,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25317001" version="0">
+      <linux-def:name>dnsmasq</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13832001" version="0">
       <linux-def:name>syslinux</linux-def:name>
     </linux-def:rpminfo_object>
@@ -41802,6 +41825,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25317002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.86-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13832002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.04-10.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -41842,7 +41868,7 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.94.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13819002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.23.8-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13818002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.42.0-3.cm2</linux-def:evr>
@@ -42058,13 +42084,13 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:20.10.14-5.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13572002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.23.8-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13571002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.23.8-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13570002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.23.8-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13569002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.4.22-1.cm2</linux-def:evr>
