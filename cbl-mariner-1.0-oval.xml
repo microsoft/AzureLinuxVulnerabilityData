@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>14</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-03-09T13:01:54.801699018Z</oval:timestamp>
-    <oval:content_version>1678366914</oval:content_version>
+    <oval:timestamp>2023-03-10T13:01:57.762982347Z</oval:timestamp>
+    <oval:content_version>1678453317</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13816" version="2000000000">
@@ -126,10 +126,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-22999" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22999" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13809</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-22999 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-22999 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13809000"/>
@@ -142,10 +142,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-1095" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1095" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13808</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-1095 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-1095 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13808000"/>
@@ -158,10 +158,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-22997" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22997" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13807</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-22997 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-22997 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13807000"/>
@@ -174,10 +174,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-22996" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22996" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13806</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-22996 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-22996 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13806000"/>
@@ -190,10 +190,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-23039" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23039" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13805</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-23039 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-23039 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13805000"/>
@@ -238,10 +238,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-27320" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-27320" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13779</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-27320 affecting package sudo 1.9.12p2-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-27320 affecting package sudo 1.9.12p2-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package sudo is installed with version 1.9.12p2-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13779000"/>
@@ -270,10 +270,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-23920" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23920" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13757</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-23920 affecting package nodejs 14.21.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-23920 affecting package nodejs 14.21.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nodejs is installed with version 14.21.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13757000"/>
@@ -286,10 +286,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-23919" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23919" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13756</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-23919 affecting package nodejs 14.21.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-23919 affecting package nodejs 14.21.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nodejs is installed with version 14.21.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13756000"/>
@@ -302,10 +302,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-23918" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23918" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13755</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-23918 affecting package nodejs 14.21.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-23918 affecting package nodejs 14.21.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nodejs is installed with version 14.21.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13755000"/>
@@ -350,10 +350,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-0480" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0480" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13752</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-0480 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-0480 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13752000"/>
@@ -366,10 +366,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-26242" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-26242" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13742</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-26242 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-26242 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13742000"/>
@@ -377,7 +377,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13720" version="2000000000">
       <metadata>
-        <title>CVE-2022-41722 affecting package golang 1.18.8-2</title>
+        <title>CVE-2022-41722 affecting package golang 1.17.13-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -385,42 +385,42 @@
         <patchable>false</patchable>
         <advisory_id>13720</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41722 affecting package golang 1.18.8-2. No patch is available currently.</description>
+        <description>CVE-2022-41722 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13720000"/>
+        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13720000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13719" version="2000000000">
       <metadata>
-        <title>CVE-2022-41725 affecting package golang 1.18.8-2</title>
+        <title>CVE-2022-41725 affecting package golang 1.17.13-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41725" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41725" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13719</advisory_id>
-        <severity>Medium</severity>
-        <description>CVE-2022-41725 affecting package golang 1.18.8-2. No patch is available currently.</description>
+        <severity>High</severity>
+        <description>CVE-2022-41725 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13719000"/>
+        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13719000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13718" version="2000000000">
       <metadata>
-        <title>CVE-2022-41724 affecting package golang 1.18.8-2</title>
+        <title>CVE-2022-41724 affecting package golang 1.17.13-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41724" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41724" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13718</advisory_id>
-        <severity>Medium</severity>
-        <description>CVE-2022-41724 affecting package golang 1.18.8-2. No patch is available currently.</description>
+        <severity>High</severity>
+        <description>CVE-2022-41724 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package golang is installed with version 1.18.8-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13718000"/>
+        <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13718000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13717" version="2000000000">
@@ -702,10 +702,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-23915" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23915" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13626</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-23915 affecting package cmake 3.21.4-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-23915 affecting package cmake 3.21.4-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cmake is installed with version 3.21.4-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13626000"/>
@@ -766,10 +766,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2013-4342" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2013-4342" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13601</advisory_id>
         <severity>High</severity>
-        <description>CVE-2013-4342 affecting package xinetd 2.3.15-12. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2013-4342 affecting package xinetd 2.3.15-12. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package xinetd is installed with version 2.3.15-12 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13601000"/>
@@ -863,10 +863,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-22795" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22795" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13560</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-22795 affecting package ruby 2.6.10-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-22795 affecting package ruby 2.6.10-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ruby is installed with version 2.6.10-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13560000"/>
@@ -1057,10 +1057,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0615" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0615" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13363</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0615 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-0615 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13363000"/>
@@ -1285,10 +1285,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4450" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4450" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13318</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-4450 affecting package cloud-hypervisor 22.0-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-4450 affecting package cloud-hypervisor 22.0-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cloud-hypervisor is installed with version 22.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13318000"/>
@@ -1301,10 +1301,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0215" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0215" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13317</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-0215 affecting package cloud-hypervisor 22.0-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-0215 affecting package cloud-hypervisor 22.0-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cloud-hypervisor is installed with version 22.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13317000"/>
@@ -1333,10 +1333,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-25012" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25012" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13290</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-25012 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-25012 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13290000"/>
@@ -1414,10 +1414,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-22606" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22606" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13255</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-22606 affecting package binutils 2.36.1-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-22606 affecting package binutils 2.36.1-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package binutils is installed with version 2.36.1-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13255000"/>
@@ -1446,10 +1446,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-22607" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22607" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13253</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-22607 affecting package binutils 2.36.1-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-22607 affecting package binutils 2.36.1-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package binutils is installed with version 2.36.1-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13253000"/>
@@ -1462,10 +1462,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-22603" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22603" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13252</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-22603 affecting package binutils 2.36.1-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-22603 affecting package binutils 2.36.1-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package binutils is installed with version 2.36.1-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13252000"/>
@@ -1611,10 +1611,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-42919" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-42919" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13209</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-42919 affecting package python3 3.7.13-6. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-42919 affecting package python3 3.7.13-6. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is installed with version 3.7.13-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13209000"/>
@@ -1629,7 +1629,7 @@
         <reference ref_id="CVE-2023-25136" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25136" source="CVE"/>
         <patchable>Not Applicable</patchable>
         <advisory_id>13208</advisory_id>
-        <severity>Critical</severity>
+        <severity>Medium</severity>
         <description>CVE-2023-25136 affecting package openssh 8.9p1-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
@@ -1711,10 +1711,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2018-25078" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2018-25078" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13188</advisory_id>
         <severity>High</severity>
-        <description>CVE-2018-25078 affecting package man-db 2.8.4-5. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2018-25078 affecting package man-db 2.8.4-5. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package man-db is installed with version 2.8.4-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13188000"/>
@@ -1727,10 +1727,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-1943" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-1943" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13186</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-1943 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-1943 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13186000"/>
@@ -1743,10 +1743,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-1941" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-1941" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13166</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-1941 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-1941 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13166000"/>
@@ -1775,10 +1775,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0468" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0468" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13162</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0468 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-0468 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13162000"/>
@@ -1808,10 +1808,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0469" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0469" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13159</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0469 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-0469 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13159000"/>
@@ -2041,10 +2041,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21880" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21880" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13101</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21880 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21880 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13101000"/>
@@ -2057,10 +2057,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21882" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21882" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13100</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2023-21882 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21882 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13100000"/>
@@ -2073,10 +2073,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21883" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21883" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13099</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21883 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21883 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13099000"/>
@@ -2089,10 +2089,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21881" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21881" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13098</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21881 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21881 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13098000"/>
@@ -2105,10 +2105,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21887" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21887" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13097</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21887 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21887 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13097000"/>
@@ -2121,10 +2121,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21830" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21830" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13074</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21830 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21830 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13074000"/>
@@ -2137,10 +2137,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21843" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21843" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13073</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2023-21843 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21843 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13073000"/>
@@ -2153,10 +2153,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21879" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21879" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13072</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21879 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21879 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13072000"/>
@@ -2169,10 +2169,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21875" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21875" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13071</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21875 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21875 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13071000"/>
@@ -2185,10 +2185,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21876" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21876" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13070</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21876 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21876 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13070000"/>
@@ -2201,10 +2201,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21877" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21877" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13069</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21877 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21877 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13069000"/>
@@ -2217,10 +2217,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-21878" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-21878" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13068</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21878 affecting package mysql 8.0.31-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-21878 affecting package mysql 8.0.31-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mysql is installed with version 8.0.31-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13068000"/>
@@ -2470,10 +2470,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3515" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3515" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13001</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-3515 affecting package gnupg2 2.2.20-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3515 affecting package gnupg2 2.2.20-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gnupg2 is installed with version 2.2.20-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13001000"/>
@@ -2519,10 +2519,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-10735" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-10735" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>12982</advisory_id>
         <severity>High</severity>
-        <description>CVE-2020-10735 affecting package python3 3.7.13-6. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-10735 affecting package python3 3.7.13-6. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is installed with version 3.7.13-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12982000"/>
@@ -2535,10 +2535,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4543" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4543" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>12981</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-4543 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-4543 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12981000"/>
@@ -2650,10 +2650,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4379" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4379" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>12946</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-4379 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-4379 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12946000"/>
@@ -2733,10 +2733,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-46456" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-46456" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>12911</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-46456 affecting package nasm 2.13.03-5. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-46456 affecting package nasm 2.13.03-5. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nasm is installed with version 2.13.03-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12911000"/>
@@ -3036,10 +3036,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4515" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4515" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>12085</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-4515 affecting package ctags 5.8-6. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-4515 affecting package ctags 5.8-6. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ctags is installed with version 5.8-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12085000"/>
@@ -3205,10 +3205,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3114" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3114" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11639</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3114 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3114 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11639000"/>
@@ -3272,10 +3272,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3110" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3110" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11635</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3110 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3110 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11635000"/>
@@ -3288,10 +3288,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3108" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3108" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11634</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3108 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3108 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11634000"/>
@@ -3524,10 +3524,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4144" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4144" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11570</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-4144 affecting package qemu-kvm 4.2.0-48. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-4144 affecting package qemu-kvm 4.2.0-48. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu-kvm is installed with version 4.2.0-48 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11570000"/>
@@ -3641,10 +3641,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45888" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45888" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11492</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-45888 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45888 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11492000"/>
@@ -3657,10 +3657,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45887" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45887" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11491</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-45887 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45887 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11491000"/>
@@ -3673,10 +3673,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45886" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45886" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11490</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45886 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45886 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11490000"/>
@@ -3689,10 +3689,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45885" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45885" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11489</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45885 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45885 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11489000"/>
@@ -3705,10 +3705,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45884" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45884" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11488</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45884 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45884 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11488000"/>
@@ -3755,10 +3755,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45919" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45919" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11472</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45919 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45919 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11472000"/>
@@ -3856,10 +3856,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45061" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45061" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11445</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45061 affecting package python3 3.7.13-6. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45061 affecting package python3 3.7.13-6. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is installed with version 3.7.13-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11445000"/>
@@ -3872,10 +3872,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45061" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45061" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11444</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45061 affecting package python2 2.7.18-12. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45061 affecting package python2 2.7.18-12. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python2 is installed with version 2.7.18-12 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11444000"/>
@@ -3939,10 +3939,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-44793" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44793" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11420</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44793 affecting package net-snmp 5.9-4. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-44793 affecting package net-snmp 5.9-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package net-snmp is installed with version 5.9-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11420000"/>
@@ -3955,10 +3955,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-44792" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44792" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11419</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44792 affecting package net-snmp 5.9-4. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-44792 affecting package net-snmp 5.9-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package net-snmp is installed with version 5.9-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11419000"/>
@@ -3971,10 +3971,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-44034" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44034" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11418</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44034 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-44034 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11418000"/>
@@ -3987,10 +3987,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-44033" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44033" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11417</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44033 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-44033 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11417000"/>
@@ -4003,10 +4003,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-44032" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44032" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11416</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44032 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-44032 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11416000"/>
@@ -4036,10 +4036,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41974" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41974" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11414</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41974 affecting package device-mapper-multipath 0.8.6-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41974 affecting package device-mapper-multipath 0.8.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package device-mapper-multipath is installed with version 0.8.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11414000"/>
@@ -4052,10 +4052,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41973" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41973" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11413</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41973 affecting package device-mapper-multipath 0.8.6-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41973 affecting package device-mapper-multipath 0.8.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package device-mapper-multipath is installed with version 0.8.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11413000"/>
@@ -4102,10 +4102,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3697" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3697" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11410</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-3697 affecting package ansible 2.9.27-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3697 affecting package ansible 2.9.27-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ansible is installed with version 2.9.27-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11410000"/>
@@ -4151,10 +4151,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-39348" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-39348" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11361</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-39348 affecting package python-twisted 20.3.0-4. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-39348 affecting package python-twisted 20.3.0-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-twisted is installed with version 20.3.0-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11361000"/>
@@ -4184,10 +4184,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3344" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3344" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11359</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3344 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3344 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11359000"/>
@@ -4200,11 +4200,11 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3647" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3647" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_date>2022-11-03T00:44:53Z</advisory_date>
         <advisory_id>11338-1</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-3647 affecting package redis 6.2.9-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3647 affecting package redis 6.2.9-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package redis is earlier than 6.2.7-2, affected by CVE-2022-3647" test_ref="oval:com.microsoft.cbl-mariner:tst:11338000"/>
@@ -4302,10 +4302,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-43410" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-43410" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11312</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-43410 affecting package mercurial 5.4-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-43410 affecting package mercurial 5.4-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package mercurial is installed with version 5.4-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11312000"/>
@@ -4437,10 +4437,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-21628" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-21628" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11275</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21628 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-21628 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11275000"/>
@@ -4453,10 +4453,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-21626" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-21626" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11274</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21626 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-21626 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11274000"/>
@@ -4469,10 +4469,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-21624" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-21624" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11273</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-21624 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-21624 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11273000"/>
@@ -4485,10 +4485,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-21619" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-21619" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11272</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-21619 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-21619 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11272000"/>
@@ -4535,10 +4535,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-0569" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-0569" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11265</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-0569 affecting package qt5-qtsvg 5.12.11-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-0569 affecting package qt5-qtsvg 5.12.11-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qt5-qtsvg is installed with version 5.12.11-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11265000"/>
@@ -4891,10 +4891,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-42969" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-42969" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11166</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-42969 affecting package python-py 1.10.0-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-42969 affecting package python-py 1.10.0-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-py is installed with version 1.10.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11166000"/>
@@ -4907,10 +4907,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3672" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3672" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11165</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-3672 affecting package pgbouncer 1.16.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3672 affecting package pgbouncer 1.16.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package pgbouncer is installed with version 1.16.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11165000"/>
@@ -5059,10 +5059,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41715" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41715" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11156</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41715 affecting package golang 1.17.13-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41715 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11156000"/>
@@ -5075,10 +5075,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-2880" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2880" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11155</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2880 affecting package golang 1.17.13-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-2880 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11155000"/>
@@ -5091,10 +5091,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-2879" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2879" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11154</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2879 affecting package golang 1.17.13-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-2879 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11154000"/>
@@ -5158,10 +5158,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-2929" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2929" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11111</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-2929 affecting package dhcp 4.4.2-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-2929 affecting package dhcp 4.4.2-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package dhcp is installed with version 4.4.2-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11111000"/>
@@ -5174,10 +5174,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-2928" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2928" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11110</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-2928 affecting package dhcp 4.4.2-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-2928 affecting package dhcp 4.4.2-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package dhcp is installed with version 4.4.2-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11110000"/>
@@ -5292,10 +5292,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41848" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41848" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11085</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-41848 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41848 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11085000"/>
@@ -5764,10 +5764,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2019-25076" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2019-25076" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10958</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-25076 affecting package openvswitch 2.15.7-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2019-25076 affecting package openvswitch 2.15.7-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openvswitch is installed with version 2.15.7-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10958000"/>
@@ -5848,10 +5848,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-40133" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-40133" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10953</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-40133 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-40133 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10953000"/>
@@ -5864,10 +5864,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-38457" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-38457" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10952</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38457 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-38457 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10952000"/>
@@ -5880,10 +5880,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-38096" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-38096" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10951</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38096 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-38096 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10951000"/>
@@ -6015,10 +6015,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-36049" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-36049" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10899</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-36049 affecting package helm 3.4.1-16. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-36049 affecting package helm 3.4.1-16. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package helm is installed with version 3.4.1-16 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10899000"/>
@@ -6099,10 +6099,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-39189" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-39189" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10876</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-39189 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-39189 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10876000"/>
@@ -6132,10 +6132,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-36055" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-36055" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10874</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-36055 affecting package helm 3.4.1-16. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-36055 affecting package helm 3.4.1-16. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package helm is installed with version 3.4.1-16 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10874000"/>
@@ -6148,10 +6148,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-27664" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-27664" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10873</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-27664 affecting package golang 1.17.13-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-27664 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10873000"/>
@@ -6470,10 +6470,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-35939" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-35939" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10784</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-35939 affecting package rpm 4.14.2-15. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-35939 affecting package rpm 4.14.2-15. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package rpm is installed with version 4.14.2-15 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10784000"/>
@@ -6486,10 +6486,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-35937" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-35937" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10783</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-35937 affecting package rpm 4.14.2-15. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-35937 affecting package rpm 4.14.2-15. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package rpm is installed with version 4.14.2-15 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10783000"/>
@@ -6519,10 +6519,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-0216" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0216" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10781</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-0216 affecting package qemu-kvm 4.2.0-48. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-0216 affecting package qemu-kvm 4.2.0-48. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu-kvm is installed with version 4.2.0-48 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10781000"/>
@@ -6569,10 +6569,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-2961" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2961" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10778</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2961 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-2961 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10778000"/>
@@ -6636,10 +6636,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-35938" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-35938" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10726</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-35938 affecting package rpm 4.14.2-15. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-35938 affecting package rpm 4.14.2-15. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package rpm is installed with version 4.14.2-15 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10726000"/>
@@ -6652,10 +6652,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3929" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3929" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10725</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3929 affecting package qemu-kvm 4.2.0-48. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3929 affecting package qemu-kvm 4.2.0-48. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu-kvm is installed with version 4.2.0-48 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10725000"/>
@@ -6702,10 +6702,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-38533" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-38533" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10711</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38533 affecting package binutils 2.36.1-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-38533 affecting package binutils 2.36.1-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package binutils is installed with version 2.36.1-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10711000"/>
@@ -6852,10 +6852,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3669" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3669" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10701</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-3669 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3669 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10701000"/>
@@ -7799,10 +7799,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-30699" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-30699" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10459</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-30699 affecting package unbound 1.10.0-5. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-30699 affecting package unbound 1.10.0-5. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package unbound is installed with version 1.10.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10459000"/>
@@ -7815,10 +7815,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-30698" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-30698" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10458</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-30698 affecting package unbound 1.10.0-5. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-30698 affecting package unbound 1.10.0-5. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package unbound is installed with version 1.10.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10458000"/>
@@ -8084,10 +8084,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33468" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33468" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10386</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33468 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33468 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10386000"/>
@@ -8100,10 +8100,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33467" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33467" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10385</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33467 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33467 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10385000"/>
@@ -8116,10 +8116,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33466" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33466" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10384</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33466 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33466 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10384000"/>
@@ -8132,10 +8132,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33465" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33465" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10383</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33465 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33465 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10383000"/>
@@ -8148,10 +8148,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33464" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33464" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10382</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33464 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33464 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10382000"/>
@@ -8164,10 +8164,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33463" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33463" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10381</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33463 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33463 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10381000"/>
@@ -8180,10 +8180,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33462" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33462" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10380</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33462 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33462 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10380000"/>
@@ -8196,10 +8196,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33461" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33461" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10379</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33461 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33461 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10379000"/>
@@ -8212,10 +8212,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33460" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33460" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10378</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33460 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33460 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10378000"/>
@@ -8228,10 +8228,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33459" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33459" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10377</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33459 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33459 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10377000"/>
@@ -8244,10 +8244,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33458" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33458" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10376</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33458 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33458 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10376000"/>
@@ -8260,10 +8260,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33457" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33457" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10375</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33457 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33457 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10375000"/>
@@ -8276,10 +8276,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33456" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33456" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10374</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33456 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33456 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10374000"/>
@@ -8292,10 +8292,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33455" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33455" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10373</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33455 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33455 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10373000"/>
@@ -8308,10 +8308,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-33454" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-33454" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10372</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33454 affecting package yasm 1.3.0-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-33454 affecting package yasm 1.3.0-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10372000"/>
@@ -8324,10 +8324,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-34169" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-34169" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10371</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-34169 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-34169 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10371000"/>
@@ -8391,10 +8391,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-21541" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-21541" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10309</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21541 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-21541 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10309000"/>
@@ -8407,10 +8407,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-21540" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-21540" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10308</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21540 affecting package openjdk8 1.8.0.332-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-21540 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10308000"/>
@@ -8542,10 +8542,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3773" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3773" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10133</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2021-3773 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3773 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10133000"/>
@@ -8762,10 +8762,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-25657" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-25657" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10079</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-25657 affecting package m2crypto 0.35.2-8. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-25657 affecting package m2crypto 0.35.2-8. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package m2crypto is installed with version 0.35.2-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10079000"/>
@@ -8795,10 +8795,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-34903" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-34903" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10077</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-34903 affecting package gnupg2 2.2.20-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-34903 affecting package gnupg2 2.2.20-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gnupg2 is installed with version 2.2.20-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10077000"/>
@@ -10102,10 +10102,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3611" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3611" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>9745</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-3611 affecting package qemu-kvm 4.2.0-48. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3611 affecting package qemu-kvm 4.2.0-48. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu-kvm is installed with version 4.2.0-48 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9745000"/>
@@ -11546,10 +11546,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3847" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3847" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>9305</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3847 affecting package kernel 5.10.172.1-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3847 affecting package kernel 5.10.172.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.10.172.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9305000"/>
@@ -13601,10 +13601,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-0530" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0530" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>8545</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-0530 affecting package unzip 6.0-19. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-0530 affecting package unzip 6.0-19. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package unzip is installed with version 6.0-19 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:8545000"/>
@@ -13617,10 +13617,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-0529" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-0529" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>8544</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-0529 affecting package unzip 6.0-19. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-0529 affecting package unzip 6.0-19. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package unzip is installed with version 6.0-19 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:8544000"/>
@@ -14296,10 +14296,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-22570" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-22570" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>8349</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-22570 affecting package protobuf 3.14.0-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-22570 affecting package protobuf 3.14.0-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package protobuf is installed with version 3.14.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:8349000"/>
@@ -16487,10 +16487,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-41495" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-41495" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>7036</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-41495 affecting package numpy 1.16.6-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-41495 affecting package numpy 1.16.6-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package numpy is installed with version 1.16.6-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7036000"/>
@@ -16758,10 +16758,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-41186" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-41186" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>6279</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-41186 affecting package rubygem-fluentd 1.11.0-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-41186 affecting package rubygem-fluentd 1.11.0-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package rubygem-fluentd is installed with version 1.11.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:6279000"/>
@@ -19248,10 +19248,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2007-4559" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2007-4559" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>5430</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2007-4559 affecting package python3 3.7.13-6. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2007-4559 affecting package python3 3.7.13-6. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is installed with version 3.7.13-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:5430000"/>
@@ -21559,10 +21559,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3544" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3544" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>4342</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-3544 affecting package qemu-kvm 4.2.0-48. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3544 affecting package qemu-kvm 4.2.0-48. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu-kvm is installed with version 4.2.0-48 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:4342000"/>
@@ -21575,10 +21575,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-35503" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-35503" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>4341</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-35503 affecting package qemu-kvm 4.2.0-48. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-35503 affecting package qemu-kvm 4.2.0-48. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu-kvm is installed with version 4.2.0-48 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:4341000"/>
@@ -22201,10 +22201,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-35504" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-35504" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>4247</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-35504 affecting package qemu-kvm 4.2.0-48. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-35504 affecting package qemu-kvm 4.2.0-48. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu-kvm is installed with version 4.2.0-48 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:4247000"/>
@@ -22642,10 +22642,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3507" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3507" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>4186</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-3507 affecting package qemu-kvm 4.2.0-48. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3507 affecting package qemu-kvm 4.2.0-48. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qemu-kvm is installed with version 4.2.0-48 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:4186000"/>
@@ -22828,10 +22828,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-36325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-36325" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>4163</advisory_id>
         <severity>High</severity>
-        <description>CVE-2020-36325 affecting package jansson 2.11-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-36325 affecting package jansson 2.11-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package jansson is installed with version 2.11-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:4163000"/>
@@ -27026,10 +27026,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2018-20225" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2018-20225" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>3692</advisory_id>
         <severity>High</severity>
-        <description>CVE-2018-20225 affecting package python-pip 19.2-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2018-20225 affecting package python-pip 19.2-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python-pip is installed with version 19.2-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:3692000"/>
@@ -27127,10 +27127,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-29511" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-29511" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>3677</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-29511 affecting package golang 1.17.13-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-29511 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:3677000"/>
@@ -27143,10 +27143,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-29509" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-29509" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>3676</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-29509 affecting package golang 1.17.13-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-29509 affecting package golang 1.17.13-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is installed with version 1.17.13-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:3676000"/>
@@ -30406,10 +30406,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2016-2568" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2016-2568" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>2698</advisory_id>
         <severity>High</severity>
-        <description>CVE-2016-2568 affecting package polkit 0.116-7. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2016-2568 affecting package polkit 0.116-7. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package polkit is installed with version 0.116-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:2698000"/>
@@ -30796,10 +30796,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2000-0006" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2000-0006" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>2671</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2000-0006 affecting package strace 5.1-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2000-0006 affecting package strace 5.1-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package strace is installed with version 5.1-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:2671000"/>
@@ -30982,10 +30982,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-15945" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-15945" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>2658</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-15945 affecting package lua 5.3.5-9. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-15945 affecting package lua 5.3.5-9. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package lua is installed with version 5.3.5-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:2658000"/>
@@ -31287,10 +31287,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2010-4756" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2010-4756" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>2551</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2010-4756 affecting package glibc 2.28-24. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2010-4756 affecting package glibc 2.28-24. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package glibc is installed with version 2.28-24 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:2551000"/>
@@ -31473,10 +31473,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2010-4226" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2010-4226" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>2534</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2010-4226 affecting package cpio 2.13-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2010-4226 affecting package cpio 2.13-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cpio is installed with version 2.13-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:2534000"/>
@@ -31506,10 +31506,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-14150" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-14150" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>2529</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-14150 affecting package bison 3.1-4. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-14150 affecting package bison 3.1-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package bison is installed with version 3.1-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:2529000"/>
@@ -32593,10 +32593,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2019-9192" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2019-9192" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>1939</advisory_id>
         <severity>High</severity>
-        <description>CVE-2019-9192 affecting package glibc 2.28-24. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2019-9192 affecting package glibc 2.28-24. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package glibc is installed with version 2.28-24 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:1939000"/>
@@ -32983,10 +32983,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2019-20633" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2019-20633" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>1916</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-20633 affecting package patch 2.7.6-7. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2019-20633 affecting package patch 2.7.6-7. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package patch is installed with version 2.7.6-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:1916000"/>
@@ -35040,15 +35040,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13742001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13742002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13720000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13720000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13720001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13720002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13719000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13719000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13719001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13719002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.18.8-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13718000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is installed with version 1.17.13-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13718000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13718001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13718002"/>
     </linux-def:rpminfo_test>
@@ -49512,13 +49512,13 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.10.172.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13720002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13719002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13718002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.8-2.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.17.13-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13717002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:9.1.0-7.cm1</linux-def:evr>
