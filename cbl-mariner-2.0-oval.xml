@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>14</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-04-03T12:13:33.370463411Z</oval:timestamp>
-    <oval:content_version>1680524013</oval:content_version>
+    <oval:timestamp>2023-04-04T12:12:35.918114885Z</oval:timestamp>
+    <oval:content_version>1680610355</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25707" version="1">
@@ -2683,7 +2683,7 @@
         <advisory_date>2023-02-24T01:53:30Z</advisory_date>
         <advisory_id>13226-3</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-24963 affecting package apr 1.7.0-1. An upgraded version of the package is available that resolves this issue.</description>
+        <description>CVE-2022-24963 affecting package apr 1.7.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package apr is earlier than 1.7.2-1, affected by CVE-2022-24963" test_ref="oval:com.microsoft.cbl-mariner:tst:13226000"/>
