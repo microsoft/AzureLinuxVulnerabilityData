@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>14</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-04-20T12:17:02.860559856Z</oval:timestamp>
-    <oval:content_version>1681993022</oval:content_version>
+    <oval:timestamp>2023-04-21T12:13:05.981952982Z</oval:timestamp>
+    <oval:content_version>1682079185</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25940" version="1">
@@ -783,7 +783,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13819" version="0">
       <metadata>
-        <title>CVE-2022-3294 affecting package k3s 1.25.0-8</title>
+        <title>CVE-2022-3294 affecting package k3s 1.24.6-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -791,10 +791,10 @@
         <patchable>false</patchable>
         <advisory_id>13819</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-3294 affecting package k3s 1.25.0-8. No patch is available currently.</description>
+        <description>CVE-2022-3294 affecting package k3s 1.24.6-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.25.0-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13819000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13819000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13818" version="0">
@@ -1739,7 +1739,7 @@
         <reference ref_id="CVE-2023-23916" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23916" source="CVE"/>
         <patchable>false</patchable>
         <advisory_id>13651</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2023-23916 affecting package cmake 3.21.4-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
@@ -1964,7 +1964,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13572" version="0">
       <metadata>
-        <title>CVE-2023-0475 affecting package k3s 1.25.0-8</title>
+        <title>CVE-2023-0475 affecting package k3s 1.24.6-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1972,15 +1972,15 @@
         <patchable>false</patchable>
         <advisory_id>13572</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0475 affecting package k3s 1.25.0-8. No patch is available currently.</description>
+        <description>CVE-2023-0475 affecting package k3s 1.24.6-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.25.0-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13571" version="0">
       <metadata>
-        <title>CVE-2023-25153 affecting package k3s 1.25.0-8</title>
+        <title>CVE-2023-25153 affecting package k3s 1.24.6-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1988,15 +1988,15 @@
         <patchable>false</patchable>
         <advisory_id>13571</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-25153 affecting package k3s 1.25.0-8. No patch is available currently.</description>
+        <description>CVE-2023-25153 affecting package k3s 1.24.6-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.25.0-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13570" version="0">
       <metadata>
-        <title>CVE-2023-25173 affecting package k3s 1.25.0-8</title>
+        <title>CVE-2023-25173 affecting package k3s 1.24.6-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2004,10 +2004,10 @@
         <patchable>false</patchable>
         <advisory_id>13570</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-25173 affecting package k3s 1.25.0-8. No patch is available currently.</description>
+        <description>CVE-2023-25173 affecting package k3s 1.24.6-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.25.0-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13569" version="3">
@@ -4955,7 +4955,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11587" version="0">
       <metadata>
-        <title>CVE-2022-4123 affecting package podman 4.1.1-7</title>
+        <title>CVE-2022-4123 affecting package podman 4.1.1-9</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -4963,10 +4963,10 @@
         <patchable>false</patchable>
         <advisory_id>11587</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-4123 affecting package podman 4.1.1-7. No patch is available currently.</description>
+        <description>CVE-2022-4123 affecting package podman 4.1.1-9. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package podman is installed with version 4.1.1-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11587000"/>
+        <criterion comment="Package podman is installed with version 4.1.1-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11587000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11586" version="1">
@@ -8005,7 +8005,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10964" version="0">
       <metadata>
-        <title>CVE-2022-2989 affecting package podman 4.1.1-7</title>
+        <title>CVE-2022-2989 affecting package podman 4.1.1-9</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -8013,15 +8013,15 @@
         <patchable>false</patchable>
         <advisory_id>10964</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2989 affecting package podman 4.1.1-7. No patch is available currently.</description>
+        <description>CVE-2022-2989 affecting package podman 4.1.1-9. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package podman is installed with version 4.1.1-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10964000"/>
+        <criterion comment="Package podman is installed with version 4.1.1-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10964000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10960" version="0">
       <metadata>
-        <title>CVE-2022-2990 affecting package buildah 1.18.0-10</title>
+        <title>CVE-2022-2990 affecting package buildah 1.18.0-12</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -8029,10 +8029,10 @@
         <patchable>false</patchable>
         <advisory_id>10960</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2990 affecting package buildah 1.18.0-10. No patch is available currently.</description>
+        <description>CVE-2022-2990 affecting package buildah 1.18.0-12. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package buildah is installed with version 1.18.0-10 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10960000"/>
+        <criterion comment="Package buildah is installed with version 1.18.0-12 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10960000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10925" version="1">
@@ -14451,7 +14451,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9318" version="0">
       <metadata>
-        <title>CVE-2022-27651 affecting package buildah 1.18.0-10</title>
+        <title>CVE-2022-27651 affecting package buildah 1.18.0-12</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -14459,10 +14459,10 @@
         <patchable>false</patchable>
         <advisory_id>9318</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-27651 affecting package buildah 1.18.0-10. No patch is available currently.</description>
+        <description>CVE-2022-27651 affecting package buildah 1.18.0-12. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package buildah is installed with version 1.18.0-10 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9318000"/>
+        <criterion comment="Package buildah is installed with version 1.18.0-12 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9318000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9317" version="1">
@@ -19523,7 +19523,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:7397" version="0">
       <metadata>
-        <title>CVE-2020-25207 affecting package toolbox 0.0.18-7</title>
+        <title>CVE-2020-25207 affecting package toolbox 0.0.18-9</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -19531,15 +19531,15 @@
         <patchable>false</patchable>
         <advisory_id>7397</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2020-25207 affecting package toolbox 0.0.18-7. No patch is available currently.</description>
+        <description>CVE-2020-25207 affecting package toolbox 0.0.18-9. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package toolbox is installed with version 0.0.18-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7397000"/>
+        <criterion comment="Package toolbox is installed with version 0.0.18-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7397000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:7396" version="0">
       <metadata>
-        <title>CVE-2020-25013 affecting package toolbox 0.0.18-7</title>
+        <title>CVE-2020-25013 affecting package toolbox 0.0.18-9</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -19547,15 +19547,15 @@
         <patchable>false</patchable>
         <advisory_id>7396</advisory_id>
         <severity>High</severity>
-        <description>CVE-2020-25013 affecting package toolbox 0.0.18-7. No patch is available currently.</description>
+        <description>CVE-2020-25013 affecting package toolbox 0.0.18-9. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package toolbox is installed with version 0.0.18-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7396000"/>
+        <criterion comment="Package toolbox is installed with version 0.0.18-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7396000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:7395" version="0">
       <metadata>
-        <title>CVE-2019-18368 affecting package toolbox 0.0.18-7</title>
+        <title>CVE-2019-18368 affecting package toolbox 0.0.18-9</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -19563,15 +19563,15 @@
         <patchable>false</patchable>
         <advisory_id>7395</advisory_id>
         <severity>High</severity>
-        <description>CVE-2019-18368 affecting package toolbox 0.0.18-7. No patch is available currently.</description>
+        <description>CVE-2019-18368 affecting package toolbox 0.0.18-9. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package toolbox is installed with version 0.0.18-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7395000"/>
+        <criterion comment="Package toolbox is installed with version 0.0.18-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7395000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:7394" version="0">
       <metadata>
-        <title>CVE-2019-14959 affecting package toolbox 0.0.18-7</title>
+        <title>CVE-2019-14959 affecting package toolbox 0.0.18-9</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -19579,15 +19579,15 @@
         <patchable>false</patchable>
         <advisory_id>7394</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-14959 affecting package toolbox 0.0.18-7. No patch is available currently.</description>
+        <description>CVE-2019-14959 affecting package toolbox 0.0.18-9. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package toolbox is installed with version 0.0.18-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7394000"/>
+        <criterion comment="Package toolbox is installed with version 0.0.18-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7394000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:7393" version="0">
       <metadata>
-        <title>CVE-2019-12280 affecting package toolbox 0.0.18-7</title>
+        <title>CVE-2019-12280 affecting package toolbox 0.0.18-9</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -19595,10 +19595,10 @@
         <patchable>false</patchable>
         <advisory_id>7393</advisory_id>
         <severity>High</severity>
-        <description>CVE-2019-12280 affecting package toolbox 0.0.18-7. No patch is available currently.</description>
+        <description>CVE-2019-12280 affecting package toolbox 0.0.18-9. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package toolbox is installed with version 0.0.18-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7393000"/>
+        <criterion comment="Package toolbox is installed with version 0.0.18-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7393000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:7384" version="0">
@@ -20908,10 +20908,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-8908" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-8908" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>7240</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2020-8908 affecting package guava 25.0-5. No patch is available currently.</description>
+        <description>CVE-2020-8908 affecting package guava 25.0-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package guava is installed with version 25.0-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:7240000"/>
@@ -30261,7 +30261,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13820001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13820002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-8 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13819000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13819000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13819001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13819002"/>
     </linux-def:rpminfo_test>
@@ -30549,15 +30549,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13584001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13584002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-8 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13572001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13572002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-8 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13571001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13571002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.25.0-8 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13570001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13570002"/>
     </linux-def:rpminfo_test>
@@ -31269,7 +31269,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11604001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11604002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package podman is installed with version 4.1.1-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11587000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package podman is installed with version 4.1.1-9 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11587000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11587001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11587002"/>
     </linux-def:rpminfo_test>
@@ -31997,11 +31997,11 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10967001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10967002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package podman is installed with version 4.1.1-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10964000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package podman is installed with version 4.1.1-9 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10964000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10964001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10964002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package buildah is installed with version 1.18.0-10 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10960000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package buildah is installed with version 1.18.0-12 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10960000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10960001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10960002"/>
     </linux-def:rpminfo_test>
@@ -33529,7 +33529,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:9320001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:9320002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package buildah is installed with version 1.18.0-10 or earlier" id="oval:com.microsoft.cbl-mariner:tst:9318000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package buildah is installed with version 1.18.0-12 or earlier" id="oval:com.microsoft.cbl-mariner:tst:9318000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:9318001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:9318002"/>
     </linux-def:rpminfo_test>
@@ -34729,23 +34729,23 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:7398001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:7398002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7397000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-9 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7397000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:7397001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:7397002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7396000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-9 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7396000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:7396001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:7396002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7395000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-9 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7395000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:7395001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:7395002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7394000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-9 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7394000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:7394001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:7394002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7393000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package toolbox is installed with version 0.0.18-9 or earlier" id="oval:com.microsoft.cbl-mariner:tst:7393000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:7393001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:7393002"/>
     </linux-def:rpminfo_test>
@@ -42750,7 +42750,7 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.102.1-3.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13819002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-8.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13818002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.42.0-4.cm2</linux-def:evr>
@@ -42966,13 +42966,13 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:20.10.14-7.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13572002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-8.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13571002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-8.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13570002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.0-8.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13569002" version="3">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.4.22-1.cm2</linux-def:evr>
@@ -43506,7 +43506,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:2.06-8.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11587002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.1.1-7.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.1.1-9.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11586002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.39.2-2.cm2</linux-def:evr>
@@ -44052,10 +44052,10 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.70.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10964002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.1.1-7.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.1.1-9.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10960002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.0-10.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.0-12.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10925002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.3-2.cm2</linux-def:evr>
@@ -45201,7 +45201,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:4.1.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:9318002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.0-10.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.18.0-12.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:9317002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.4.3-3.cm2</linux-def:evr>
@@ -46101,19 +46101,19 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.16.0-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:7397002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-7.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-9.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:7396002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-7.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-9.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:7395002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-7.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-9.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:7394002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-7.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-9.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:7393002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-7.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.0.18-9.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:7384002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:9.0.39-6.cm2</linux-def:evr>
