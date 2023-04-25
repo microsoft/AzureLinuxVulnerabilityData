@@ -1,10 +1,10 @@
 <oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:linux-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 https://oval.mitre.org/language/version5.11/ovaldefinition/complete/oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 https://oval.mitre.org/language/version5.11/ovaldefinition/complete/oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux https://oval.mitre.org/language/version5.11/ovaldefinition/complete/linux-definitions-schema.xsd ">
   <generator>
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
-    <oval:product_version>14</oval:product_version>
+    <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-04-24T12:01:44.941110965Z</oval:timestamp>
-    <oval:content_version>1682337704</oval:content_version>
+    <oval:timestamp>2023-04-25T12:01:36.621324035Z</oval:timestamp>
+    <oval:content_version>1682424096</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25951" version="2000000001">
