@@ -3,10 +3,146 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-05-03T12:02:21.302101343Z</oval:timestamp>
-    <oval:content_version>1683115341</oval:content_version>
+    <oval:timestamp>2023-05-04T12:02:05.33249868Z</oval:timestamp>
+    <oval:content_version>1683201725</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26260" version="2000000001">
+      <metadata>
+        <title>CVE-2023-30772 affecting package hyperv-daemons 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-30772" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-30772" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26260-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-30772 affecting package hyperv-daemons 5.10.174.1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-30772" test_ref="oval:com.microsoft.cbl-mariner:tst:26260000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26222" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1990 affecting package hyperv-daemons 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1990" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1990" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26222-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-1990 affecting package hyperv-daemons 5.10.174.1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-1990" test_ref="oval:com.microsoft.cbl-mariner:tst:26222000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26175" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1989 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1989" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1989" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26175-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-1989 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1989" test_ref="oval:com.microsoft.cbl-mariner:tst:26175000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26174" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1990 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1990" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1990" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26174-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-1990 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1990" test_ref="oval:com.microsoft.cbl-mariner:tst:26174000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26173" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1872 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1872" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1872" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26173-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-1872 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1872" test_ref="oval:com.microsoft.cbl-mariner:tst:26173000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26171" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1829 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1829" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1829" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26171-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-1829 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1829" test_ref="oval:com.microsoft.cbl-mariner:tst:26171000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26127" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1855 affecting package hyperv-daemons 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1855" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1855" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26127-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-1855 affecting package hyperv-daemons 5.10.174.1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-1855" test_ref="oval:com.microsoft.cbl-mariner:tst:26127000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26118" version="2000000001">
+      <metadata>
+        <title>CVE-2018-25032 affecting package tcl 8.6.8-3</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2018-25032" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2018-25032" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26118-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2018-25032 affecting package tcl 8.6.8-3. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package tcl is earlier than 8.6.13-1, affected by CVE-2018-25032" test_ref="oval:com.microsoft.cbl-mariner:tst:26118000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26092" version="2000000001">
       <metadata>
         <title>CVE-2018-25032 affecting package grpc for versions less than 1.35.0-4</title>
@@ -21,6 +157,91 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package grpc is earlier than 1.35.0-4, affected by CVE-2018-25032" test_ref="oval:com.microsoft.cbl-mariner:tst:26092000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26043" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1838 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1838" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1838" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26043-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-1838 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1838" test_ref="oval:com.microsoft.cbl-mariner:tst:26043000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26042" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1855 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1855" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1855" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26042-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-1855 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1855" test_ref="oval:com.microsoft.cbl-mariner:tst:26042000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26041" version="2000000001">
+      <metadata>
+        <title>CVE-2023-30456 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-30456" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-30456" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26041-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-30456 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-30456" test_ref="oval:com.microsoft.cbl-mariner:tst:26041000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26018" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1652 affecting package hyperv-daemons 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1652" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1652" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>26018-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-1652 affecting package hyperv-daemons 5.10.174.1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-1652" test_ref="oval:com.microsoft.cbl-mariner:tst:26018000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25982" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1670 affecting package hyperv-daemons 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1670" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1670" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>25982-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-1670 affecting package hyperv-daemons 5.10.174.1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-1670" test_ref="oval:com.microsoft.cbl-mariner:tst:25982000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25951" version="2000000001">
@@ -55,6 +276,40 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-15, affected by CVE-2023-0466" test_ref="oval:com.microsoft.cbl-mariner:tst:25950000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25915" version="2000000001">
+      <metadata>
+        <title>CVE-2021-3923 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2021-3923" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3923" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>25915-1</advisory_id>
+        <severity>Low</severity>
+        <description>CVE-2021-3923 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2021-3923" test_ref="oval:com.microsoft.cbl-mariner:tst:25915000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25914" version="2000000001">
+      <metadata>
+        <title>CVE-2023-0179 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0179" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0179" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>25914-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-0179 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-0179" test_ref="oval:com.microsoft.cbl-mariner:tst:25914000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25913" version="2000000001">
@@ -142,6 +397,23 @@
         <criterion comment="Package kernel is earlier than 5.10.174.1-1, affected by CVE-2023-1079" test_ref="oval:com.microsoft.cbl-mariner:tst:25797000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25755" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1252 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1252" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1252" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>25755-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-1252 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1252" test_ref="oval:com.microsoft.cbl-mariner:tst:25755000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25754" version="2000000001">
       <metadata>
         <title>CVE-2023-28772 affecting package kernel 5.10.174.1-1</title>
@@ -159,6 +431,40 @@
         <criterion comment="Package kernel is earlier than 5.10.174.1-1, affected by CVE-2023-28772" test_ref="oval:com.microsoft.cbl-mariner:tst:25754000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25753" version="2000000001">
+      <metadata>
+        <title>CVE-2023-1249 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1249" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1249" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>25753-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-1249 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1249" test_ref="oval:com.microsoft.cbl-mariner:tst:25753000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25751" version="2000000001">
+      <metadata>
+        <title>CVE-2023-0590 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-0590" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0590" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>25751-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-0590 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-0590" test_ref="oval:com.microsoft.cbl-mariner:tst:25751000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25697" version="2000000001">
       <metadata>
         <title>CVE-2023-0464 affecting package openssl 1.1.1k-13</title>
@@ -174,6 +480,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-15, affected by CVE-2023-0464" test_ref="oval:com.microsoft.cbl-mariner:tst:25697000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25687" version="2000000001">
+      <metadata>
+        <title>CVE-2022-4095 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-4095" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4095" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>25687-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-4095 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2022-4095" test_ref="oval:com.microsoft.cbl-mariner:tst:25687000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25684" version="2000000001">
@@ -225,6 +548,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package redis is earlier than 6.2.11-1, affected by CVE-2023-28425" test_ref="oval:com.microsoft.cbl-mariner:tst:25671000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25651" version="2000000001">
+      <metadata>
+        <title>CVE-2023-28466 affecting package kernel 5.10.174.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-28466" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-28466" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>25651-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-28466 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-28466" test_ref="oval:com.microsoft.cbl-mariner:tst:25651000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25650" version="2000000001">
@@ -1968,20 +2308,21 @@
         <criterion comment="Package boost is installed with version 1.66.0-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13316000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13290" version="2000000000">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13290" version="2000000001">
       <metadata>
         <title>CVE-2023-25012 affecting package kernel 5.10.174.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-25012" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25012" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>13290</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>13290-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-25012 affecting package kernel 5.10.174.1-1. No patch is available currently.</description>
+        <description>CVE-2023-25012 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.10.174.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13290000"/>
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-25012" test_ref="oval:com.microsoft.cbl-mariner:tst:13290000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13269" version="2000000000">
@@ -3298,20 +3639,21 @@
         <criterion comment="Package kernel is earlier than 5.10.172.1-1, affected by CVE-2022-2196" test_ref="oval:com.microsoft.cbl-mariner:tst:12947000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12946" version="2000000000">
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12946" version="2000000001">
       <metadata>
         <title>CVE-2022-4379 affecting package kernel 5.10.174.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4379" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4379" source="CVE"/>
-        <patchable>false</patchable>
-        <advisory_id>12946</advisory_id>
+        <patchable>true</patchable>
+        <advisory_date>2023-05-03T19:35:26Z</advisory_date>
+        <advisory_id>12946-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-4379 affecting package kernel 5.10.174.1-1. No patch is available currently.</description>
+        <description>CVE-2022-4379 affecting package kernel 5.10.174.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.10.174.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12946000"/>
+        <criterion comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2022-4379" test_ref="oval:com.microsoft.cbl-mariner:tst:12946000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12915" version="2000000001">
@@ -35608,9 +35950,61 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-30772" id="oval:com.microsoft.cbl-mariner:tst:26260000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26260001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26260002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-1990" id="oval:com.microsoft.cbl-mariner:tst:26222000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26222001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26222002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1989" id="oval:com.microsoft.cbl-mariner:tst:26175000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26175001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26175002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1990" id="oval:com.microsoft.cbl-mariner:tst:26174000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26174001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26174002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1872" id="oval:com.microsoft.cbl-mariner:tst:26173000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26173001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26173002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1829" id="oval:com.microsoft.cbl-mariner:tst:26171000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26171001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26171002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-1855" id="oval:com.microsoft.cbl-mariner:tst:26127000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26127001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26127002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package tcl is earlier than 8.6.13-1, affected by CVE-2018-25032" id="oval:com.microsoft.cbl-mariner:tst:26118000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26118001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26118002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package grpc is earlier than 1.35.0-4, affected by CVE-2018-25032" id="oval:com.microsoft.cbl-mariner:tst:26092000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26092001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26092002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1838" id="oval:com.microsoft.cbl-mariner:tst:26043000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26043001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26043002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1855" id="oval:com.microsoft.cbl-mariner:tst:26042000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26042001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26042002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-30456" id="oval:com.microsoft.cbl-mariner:tst:26041000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26041001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26041002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-1652" id="oval:com.microsoft.cbl-mariner:tst:26018000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26018001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26018002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package hyperv-daemons is earlier than 5.10.177.1-1, affected by CVE-2023-1670" id="oval:com.microsoft.cbl-mariner:tst:25982000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25982001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25982002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package openssl is earlier than 1.1.1k-15, affected by CVE-2023-0465" id="oval:com.microsoft.cbl-mariner:tst:25951000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25951001"/>
@@ -35619,6 +36013,14 @@
     <linux-def:rpminfo_test check="at least one" comment="Package openssl is earlier than 1.1.1k-15, affected by CVE-2023-0466" id="oval:com.microsoft.cbl-mariner:tst:25950000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25950001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25950002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2021-3923" id="oval:com.microsoft.cbl-mariner:tst:25915000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25915001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25915002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-0179" id="oval:com.microsoft.cbl-mariner:tst:25914000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25914001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25914002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.174.1-1, affected by CVE-2023-1513" id="oval:com.microsoft.cbl-mariner:tst:25913000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25913001"/>
@@ -35640,13 +36042,29 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25797001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25797002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1252" id="oval:com.microsoft.cbl-mariner:tst:25755000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25755001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25755002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.174.1-1, affected by CVE-2023-28772" id="oval:com.microsoft.cbl-mariner:tst:25754000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25754001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25754002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-1249" id="oval:com.microsoft.cbl-mariner:tst:25753000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25753001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25753002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-0590" id="oval:com.microsoft.cbl-mariner:tst:25751000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25751001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25751002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package openssl is earlier than 1.1.1k-15, affected by CVE-2023-0464" id="oval:com.microsoft.cbl-mariner:tst:25697000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25697001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25697002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2022-4095" id="oval:com.microsoft.cbl-mariner:tst:25687000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25687001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25687002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.174.1-1, affected by CVE-2023-1281" id="oval:com.microsoft.cbl-mariner:tst:25684000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25684001"/>
@@ -35659,6 +36077,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package redis is earlier than 6.2.11-1, affected by CVE-2023-28425" id="oval:com.microsoft.cbl-mariner:tst:25671000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25671001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25671002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-28466" id="oval:com.microsoft.cbl-mariner:tst:25651000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25651001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25651002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package dnsmasq is earlier than 2.85-2, affected by CVE-2023-28450" id="oval:com.microsoft.cbl-mariner:tst:25650000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25650001"/>
@@ -36080,7 +36502,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13316001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13316002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.10.174.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13290000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2023-25012" id="oval:com.microsoft.cbl-mariner:tst:13290000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13290001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13290002"/>
     </linux-def:rpminfo_test>
@@ -36400,7 +36822,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12947001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12947002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.10.174.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12946000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.10.177.1-1, affected by CVE-2022-4379" id="oval:com.microsoft.cbl-mariner:tst:12946000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12946001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12946002"/>
     </linux-def:rpminfo_test>
@@ -44034,14 +44456,59 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26260001" version="1">
+      <linux-def:name>hyperv-daemons</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26222001" version="1">
+      <linux-def:name>hyperv-daemons</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26175001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26174001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26173001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26171001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26127001" version="1">
+      <linux-def:name>hyperv-daemons</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26118001" version="1">
+      <linux-def:name>tcl</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26092001" version="0">
       <linux-def:name>grpc</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26043001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26042001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26041001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26018001" version="1">
+      <linux-def:name>hyperv-daemons</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25982001" version="1">
+      <linux-def:name>hyperv-daemons</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25951001" version="1">
       <linux-def:name>openssl</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25950001" version="1">
       <linux-def:name>openssl</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25915001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25914001" version="1">
+      <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25913001" version="1">
       <linux-def:name>kernel</linux-def:name>
@@ -44058,11 +44525,23 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25797001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25755001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25754001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25753001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25751001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25697001" version="1">
       <linux-def:name>openssl</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25687001" version="1">
+      <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25684001" version="1">
       <linux-def:name>kernel</linux-def:name>
@@ -44072,6 +44551,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25671001" version="1">
       <linux-def:name>redis</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25651001" version="1">
+      <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25650001" version="1">
       <linux-def:name>dnsmasq</linux-def:name>
@@ -44388,7 +44870,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13316001" version="0">
       <linux-def:name>boost</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13290001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13290001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13269001" version="0">
@@ -44628,7 +45110,7 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12947001" version="5">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12946001" version="0">
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12946001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:12915001" version="1">
@@ -50354,14 +50836,59 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26260002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26222002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26175002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26174002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26173002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26171002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26127002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26118002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.6.13-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26092002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.35.0-4.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26043002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26042002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26041002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26018002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25982002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25951002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.1.1k-15.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25950002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.1.1k-15.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25915002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25914002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25913002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.174.1-1.cm1</linux-def:evr>
@@ -50378,11 +50905,23 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25797002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.174.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25755002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25754002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.174.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25753002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25751002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25697002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.1.1k-15.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25687002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25684002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.174.1-1.cm1</linux-def:evr>
@@ -50392,6 +50931,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25671002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.2.11-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25651002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25650002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.85-2.cm1</linux-def:evr>
@@ -50708,8 +51250,8 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13316002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.66.0-4.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13290002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.10.174.1-1.cm1</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13290002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13269002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.59.0-1.cm1</linux-def:evr>
@@ -50948,8 +51490,8 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12947002" version="5">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.172.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12946002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.10.174.1-1.cm1</linux-def:evr>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12946002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.10.177.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12915002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:9.0.1189-1.cm1</linux-def:evr>
