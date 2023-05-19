@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-05-18T12:01:53.080031648Z</oval:timestamp>
-    <oval:content_version>1684411313</oval:content_version>
+    <oval:timestamp>2023-05-19T12:01:50.405275183Z</oval:timestamp>
+    <oval:content_version>1684497710</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26260" version="2000000001">
@@ -1963,7 +1963,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13385" version="2000000003">
       <metadata>
-        <title>CVE-2023-0800 affecting package libtiff 4.5.0-1</title>
+        <title>CVE-2023-0800 affecting package libtiff 4.5.0-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1972,7 +1972,7 @@
         <advisory_date>2023-03-02T04:18:33Z</advisory_date>
         <advisory_id>13385-3</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0800 affecting package libtiff 4.5.0-1. A patched version of the package is available.</description>
+        <description>CVE-2023-0800 affecting package libtiff 4.5.0-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is earlier than 4.4.0-9, affected by CVE-2023-0800" test_ref="oval:com.microsoft.cbl-mariner:tst:13385000"/>
@@ -1980,7 +1980,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13384" version="2000000003">
       <metadata>
-        <title>CVE-2023-0803 affecting package libtiff 4.5.0-1</title>
+        <title>CVE-2023-0803 affecting package libtiff 4.5.0-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -1989,7 +1989,7 @@
         <advisory_date>2023-03-09T19:51:01Z</advisory_date>
         <advisory_id>13384-3</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0803 affecting package libtiff 4.5.0-1. A patched version of the package is available.</description>
+        <description>CVE-2023-0803 affecting package libtiff 4.5.0-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is earlier than 4.5.0-1, affected by CVE-2023-0803" test_ref="oval:com.microsoft.cbl-mariner:tst:13384000"/>
@@ -2031,7 +2031,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13381" version="2000000003">
       <metadata>
-        <title>CVE-2023-0801 affecting package libtiff 4.5.0-1</title>
+        <title>CVE-2023-0801 affecting package libtiff 4.5.0-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2040,7 +2040,7 @@
         <advisory_date>2023-03-09T19:51:01Z</advisory_date>
         <advisory_id>13381-3</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0801 affecting package libtiff 4.5.0-1. A patched version of the package is available.</description>
+        <description>CVE-2023-0801 affecting package libtiff 4.5.0-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is earlier than 4.5.0-1, affected by CVE-2023-0801" test_ref="oval:com.microsoft.cbl-mariner:tst:13381000"/>
@@ -2082,7 +2082,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13378" version="2000000003">
       <metadata>
-        <title>CVE-2023-0802 affecting package libtiff 4.5.0-1</title>
+        <title>CVE-2023-0802 affecting package libtiff 4.5.0-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2091,7 +2091,7 @@
         <advisory_date>2023-03-09T19:51:01Z</advisory_date>
         <advisory_id>13378-3</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0802 affecting package libtiff 4.5.0-1. A patched version of the package is available.</description>
+        <description>CVE-2023-0802 affecting package libtiff 4.5.0-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is earlier than 4.5.0-1, affected by CVE-2023-0802" test_ref="oval:com.microsoft.cbl-mariner:tst:13378000"/>
@@ -2099,7 +2099,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13377" version="2000000003">
       <metadata>
-        <title>CVE-2023-0804 affecting package libtiff 4.5.0-1</title>
+        <title>CVE-2023-0804 affecting package libtiff 4.5.0-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2108,7 +2108,7 @@
         <advisory_date>2023-03-09T19:51:01Z</advisory_date>
         <advisory_id>13377-3</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0804 affecting package libtiff 4.5.0-1. A patched version of the package is available.</description>
+        <description>CVE-2023-0804 affecting package libtiff 4.5.0-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package libtiff is earlier than 4.5.0-1, affected by CVE-2023-0804" test_ref="oval:com.microsoft.cbl-mariner:tst:13377000"/>
@@ -5293,7 +5293,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11338" version="1">
       <metadata>
-        <title>CVE-2022-3647 affecting package redis 6.2.11-1</title>
+        <title>CVE-2022-3647 affecting package redis 6.2.12-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -5302,7 +5302,7 @@
         <advisory_date>2022-11-03T00:44:53Z</advisory_date>
         <advisory_id>11338-1</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-3647 affecting package redis 6.2.11-1. A patched version of the package is available.</description>
+        <description>CVE-2022-3647 affecting package redis 6.2.12-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package redis is earlier than 6.2.7-2, affected by CVE-2022-3647" test_ref="oval:com.microsoft.cbl-mariner:tst:11338000"/>
