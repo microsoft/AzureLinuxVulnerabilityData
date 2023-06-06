@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-06-05T12:01:37.401671658Z</oval:timestamp>
-    <oval:content_version>1685966497</oval:content_version>
+    <oval:timestamp>2023-06-06T12:01:38.117651644Z</oval:timestamp>
+    <oval:content_version>1686052898</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26784" version="1">
@@ -200,11 +200,11 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-32573" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-32573" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_date>2023-05-25T09:38:10Z</advisory_date>
         <advisory_id>26670-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-32573 affecting package qt5-qtsvg 5.12.11-4. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-32573 affecting package qt5-qtsvg 5.12.11-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qt5-qtsvg is earlier than 5.15.9-1, affected by CVE-2023-32573" test_ref="oval:com.microsoft.cbl-mariner:tst:26670000"/>
@@ -2803,10 +2803,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41725" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41725" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13729</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41725 affecting package gcc 11.2.0-4. No patch is available currently.</description>
+        <description>CVE-2022-41725 affecting package gcc 11.2.0-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gcc is installed with version 11.2.0-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13729000"/>
@@ -2819,10 +2819,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41724" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41724" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13728</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41724 affecting package gcc 11.2.0-4. No patch is available currently.</description>
+        <description>CVE-2022-41724 affecting package gcc 11.2.0-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gcc is installed with version 11.2.0-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13728000"/>
@@ -2896,7 +2896,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13703" version="3">
       <metadata>
-        <title>CVE-2023-23920 affecting package nodejs 16.19.1-1</title>
+        <title>CVE-2023-23920 affecting package nodejs 16.19.1-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2905,7 +2905,7 @@
         <advisory_date>2023-03-24T23:56:25Z</advisory_date>
         <advisory_id>13703-3</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-23920 affecting package nodejs 16.19.1-1. A patched version of the package is available.</description>
+        <description>CVE-2023-23920 affecting package nodejs 16.19.1-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nodejs is earlier than 16.19.1-1, affected by CVE-2023-23920" test_ref="oval:com.microsoft.cbl-mariner:tst:13703000"/>
@@ -2997,7 +2997,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13684" version="3">
       <metadata>
-        <title>CVE-2023-23919 affecting package nodejs 16.19.1-1</title>
+        <title>CVE-2023-23919 affecting package nodejs 16.19.1-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3006,7 +3006,7 @@
         <advisory_date>2023-03-24T23:56:25Z</advisory_date>
         <advisory_id>13684-3</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-23919 affecting package nodejs 16.19.1-1. A patched version of the package is available.</description>
+        <description>CVE-2023-23919 affecting package nodejs 16.19.1-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package nodejs is earlier than 16.19.1-1, affected by CVE-2023-23919" test_ref="oval:com.microsoft.cbl-mariner:tst:13684000"/>
@@ -8201,7 +8201,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11223" version="1">
       <metadata>
-        <title>CVE-2020-0569 affecting package qt5-qtsvg 5.12.11-4</title>
+        <title>CVE-2020-0569 affecting package qt5-qtsvg 5.12.11-5</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -8210,7 +8210,7 @@
         <advisory_date>2023-05-25T09:38:10Z</advisory_date>
         <advisory_id>11223-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-0569 affecting package qt5-qtsvg 5.12.11-4. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2020-0569 affecting package qt5-qtsvg 5.12.11-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qt5-qtsvg is earlier than 5.15.9-1, affected by CVE-2020-0569" test_ref="oval:com.microsoft.cbl-mariner:tst:11223000"/>
@@ -15880,10 +15880,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-26635" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-26635" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>9342</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-26635 affecting package memcached 1.6.13-3. No patch is available currently.</description>
+        <description>CVE-2022-26635 affecting package memcached 1.6.13-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package memcached is installed with version 1.6.13-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9342000"/>
