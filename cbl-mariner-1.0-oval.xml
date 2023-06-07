@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-06-06T12:01:36.906850594Z</oval:timestamp>
-    <oval:content_version>1686052896</oval:content_version>
+    <oval:timestamp>2023-06-07T12:01:40.158511043Z</oval:timestamp>
+    <oval:content_version>1686139300</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26686" version="2000000001">
@@ -1729,10 +1729,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41725" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41725" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13717</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41725 affecting package gcc 9.1.0-7. No patch is available currently.</description>
+        <description>CVE-2022-41725 affecting package gcc 9.1.0-7. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gcc is installed with version 9.1.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13717000"/>
@@ -1745,10 +1745,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41724" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41724" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13716</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41724 affecting package gcc 9.1.0-7. No patch is available currently.</description>
+        <description>CVE-2022-41724 affecting package gcc 9.1.0-7. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gcc is installed with version 9.1.0-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13716000"/>
@@ -1859,10 +1859,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-23914" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23914" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13635</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2023-23914 affecting package rust 1.59.0-1. No patch is available currently.</description>
+        <description>CVE-2023-23914 affecting package rust 1.59.0-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package rust is installed with version 1.59.0-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13635000"/>
@@ -2022,10 +2022,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-23914" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-23914" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13625</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2023-23914 affecting package cmake 3.21.4-3. No patch is available currently.</description>
+        <description>CVE-2023-23914 affecting package cmake 3.21.4-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cmake is installed with version 3.21.4-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13625000"/>
@@ -3443,7 +3443,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13074" version="2000000000">
       <metadata>
-        <title>CVE-2023-21830 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2023-21830 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3451,15 +3451,15 @@
         <patchable>false</patchable>
         <advisory_id>13074</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-21830 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2023-21830 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13074000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13074000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13073" version="2000000000">
       <metadata>
-        <title>CVE-2023-21843 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2023-21843 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3467,10 +3467,10 @@
         <patchable>false</patchable>
         <advisory_id>13073</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2023-21843 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2023-21843 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13073000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13073000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13072" version="2000000001">
@@ -3798,18 +3798,18 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13001" version="2000000000">
       <metadata>
-        <title>CVE-2022-3515 affecting package gnupg2 2.2.20-3</title>
+        <title>CVE-2022-3515 affecting package gnupg2 2.2.20-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3515" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3515" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13001</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-3515 affecting package gnupg2 2.2.20-3. No patch is available currently.</description>
+        <description>CVE-2022-3515 affecting package gnupg2 2.2.20-4. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package gnupg2 is installed with version 2.2.20-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13001000"/>
+        <criterion comment="Package gnupg2 is installed with version 2.2.20-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13001000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12984" version="2000000001">
@@ -5768,7 +5768,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11275" version="2000000000">
       <metadata>
-        <title>CVE-2022-21628 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2022-21628 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -5776,15 +5776,15 @@
         <patchable>false</patchable>
         <advisory_id>11275</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21628 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2022-21628 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11275000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11275000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11274" version="2000000000">
       <metadata>
-        <title>CVE-2022-21626 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2022-21626 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -5792,15 +5792,15 @@
         <patchable>false</patchable>
         <advisory_id>11274</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21626 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2022-21626 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11274000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11274000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11273" version="2000000000">
       <metadata>
-        <title>CVE-2022-21624 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2022-21624 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -5808,15 +5808,15 @@
         <patchable>false</patchable>
         <advisory_id>11273</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-21624 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2022-21624 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11273000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11273000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11272" version="2000000000">
       <metadata>
-        <title>CVE-2022-21619 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2022-21619 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -5824,10 +5824,10 @@
         <patchable>false</patchable>
         <advisory_id>11272</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-21619 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2022-21619 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11272000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11272000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11271" version="2000000002">
@@ -9659,7 +9659,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10371" version="2000000000">
       <metadata>
-        <title>CVE-2022-34169 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2022-34169 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -9667,10 +9667,10 @@
         <patchable>false</patchable>
         <advisory_id>10371</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-34169 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2022-34169 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10371000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10371000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10370" version="2000000001">
@@ -9726,7 +9726,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10309" version="2000000000">
       <metadata>
-        <title>CVE-2022-21541 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2022-21541 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -9734,15 +9734,15 @@
         <patchable>false</patchable>
         <advisory_id>10309</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21541 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2022-21541 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10309000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10309000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10308" version="2000000000">
       <metadata>
-        <title>CVE-2022-21540 affecting package openjdk8 1.8.0.332-1</title>
+        <title>CVE-2022-21540 affecting package openjdk8 1.8.0.332-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -9750,10 +9750,10 @@
         <patchable>false</patchable>
         <advisory_id>10308</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21540 affecting package openjdk8 1.8.0.332-1. No patch is available currently.</description>
+        <description>CVE-2022-21540 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10308000"/>
+        <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10308000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10156" version="2000000001">
@@ -10135,10 +10135,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-34903" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-34903" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>10077</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-34903 affecting package gnupg2 2.2.20-3. No patch is available currently.</description>
+        <description>CVE-2022-34903 affecting package gnupg2 2.2.20-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gnupg2 is installed with version 2.2.20-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10077000"/>
@@ -32322,10 +32322,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2020-15945" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-15945" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>2658</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2020-15945 affecting package lua 5.3.5-9. No patch is available currently.</description>
+        <description>CVE-2020-15945 affecting package lua 5.3.5-9. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package lua is installed with version 5.3.5-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:2658000"/>
@@ -32813,10 +32813,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2010-4226" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2010-4226" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>2534</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2010-4226 affecting package cpio 2.13-3. No patch is available currently.</description>
+        <description>CVE-2010-4226 affecting package cpio 2.13-3. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cpio is installed with version 2.13-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:2534000"/>
@@ -37112,11 +37112,11 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13097001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13097002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13074000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13074000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13074001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13074002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13073000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13073000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13073001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13073002"/>
     </linux-def:rpminfo_test>
@@ -37196,7 +37196,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13002001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13002002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package gnupg2 is installed with version 2.2.20-3 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13001000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package gnupg2 is installed with version 2.2.20-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13001000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13001001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13001002"/>
     </linux-def:rpminfo_test>
@@ -37668,19 +37668,19 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11298001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11298002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11275000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11275000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11275001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11275002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11274000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11274000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11274001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11274002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11273000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11273000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11273001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11273002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11272000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11272000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11272001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11272002"/>
     </linux-def:rpminfo_test>
@@ -38596,7 +38596,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10372001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10372002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10371000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10371000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10371001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10371002"/>
     </linux-def:rpminfo_test>
@@ -38612,11 +38612,11 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10318001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10318002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10309000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10309000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10309001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10309002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10308000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10308000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10308001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10308002"/>
     </linux-def:rpminfo_test>
@@ -51933,10 +51933,10 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:8.0.32-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13074002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13073002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13072002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.0.32-1.cm1</linux-def:evr>
@@ -51996,7 +51996,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.167.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13001002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.2.20-3.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.2.20-4.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12984002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:9.0.1189-1.cm1</linux-def:evr>
@@ -52350,16 +52350,16 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.153.1-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11275002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11274002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11273002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11272002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11271002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.149.1-1.cm1</linux-def:evr>
@@ -53046,7 +53046,7 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10371002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10370002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.131.1-1.cm1</linux-def:evr>
@@ -53058,10 +53058,10 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:6.2.9-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10309002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10308002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-1.cm1</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.8.0.332-2.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10156002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:14.20.0-1.cm1</linux-def:evr>
