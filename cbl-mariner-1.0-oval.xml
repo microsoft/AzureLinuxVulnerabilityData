@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-06-09T12:01:43.665423719Z</oval:timestamp>
-    <oval:content_version>1686312103</oval:content_version>
+    <oval:timestamp>2023-06-10T12:01:13.806476262Z</oval:timestamp>
+    <oval:content_version>1686398473</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26686" version="2000000001">
@@ -5208,10 +5208,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45061" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45061" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11444</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45061 affecting package python2 2.7.18-13. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45061 affecting package python2 2.7.18-13. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python2 is installed with version 2.7.18-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11444000"/>
@@ -5789,10 +5789,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-21626" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-21626" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11274</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-21626 affecting package openjdk8 1.8.0.332-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-21626 affecting package openjdk8 1.8.0.332-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjdk8 is installed with version 1.8.0.332-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11274000"/>
@@ -10135,10 +10135,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-34903" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-34903" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10077</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-34903 affecting package gnupg2 2.2.20-3. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-34903 affecting package gnupg2 2.2.20-3. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package gnupg2 is installed with version 2.2.20-3 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10077000"/>
@@ -14222,7 +14222,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8869" version="2000000001">
       <metadata>
-        <title>CVE-2022-25634 affecting package qt5-qtsvg 5.12.11-3</title>
+        <title>CVE-2022-25634 affecting package qt5-qtsvg 5.12.11-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -14231,7 +14231,7 @@
         <advisory_date>2022-03-19T16:40:52Z</advisory_date>
         <advisory_id>8869-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-25634 affecting package qt5-qtsvg 5.12.11-3. A patched version of the package is available.</description>
+        <description>CVE-2022-25634 affecting package qt5-qtsvg 5.12.11-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qt5-qtsvg is earlier than 5.12.11-3, affected by CVE-2022-25634" test_ref="oval:com.microsoft.cbl-mariner:tst:8869000"/>
@@ -14985,7 +14985,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8534" version="2000000000">
       <metadata>
-        <title>CVE-2022-0391 affecting package python2 2.7.18-13</title>
+        <title>CVE-2022-0391 affecting package python2 2.7.18-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -14994,7 +14994,7 @@
         <advisory_date>2022-03-09T18:31:42Z</advisory_date>
         <advisory_id>8534</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-0391 affecting package python2 2.7.18-13. A patched version of the package is available.</description>
+        <description>CVE-2022-0391 affecting package python2 2.7.18-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python2 is earlier than 2.7.18-9, affected by CVE-2022-0391" test_ref="oval:com.microsoft.cbl-mariner:tst:8534000"/>
@@ -20047,7 +20047,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:5930" version="2000000001">
       <metadata>
-        <title>CVE-2021-38593 affecting package qt5-qtsvg 5.12.11-3</title>
+        <title>CVE-2021-38593 affecting package qt5-qtsvg 5.12.11-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -20056,7 +20056,7 @@
         <advisory_date>2021-11-03T19:21:13Z</advisory_date>
         <advisory_id>5930-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-38593 affecting package qt5-qtsvg 5.12.11-3. A patched version of the package is available.</description>
+        <description>CVE-2021-38593 affecting package qt5-qtsvg 5.12.11-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qt5-qtsvg is earlier than 5.12.11-2, affected by CVE-2021-38593" test_ref="oval:com.microsoft.cbl-mariner:tst:5930000"/>
@@ -20064,7 +20064,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:5929" version="2000000001">
       <metadata>
-        <title>CVE-2018-21035 affecting package qt5-qtsvg 5.12.11-3</title>
+        <title>CVE-2018-21035 affecting package qt5-qtsvg 5.12.11-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -20073,7 +20073,7 @@
         <advisory_date>2021-11-03T19:21:13Z</advisory_date>
         <advisory_id>5929-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2018-21035 affecting package qt5-qtsvg 5.12.11-3. A patched version of the package is available.</description>
+        <description>CVE-2018-21035 affecting package qt5-qtsvg 5.12.11-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qt5-qtsvg is earlier than 5.12.11-2, affected by CVE-2018-21035" test_ref="oval:com.microsoft.cbl-mariner:tst:5929000"/>
@@ -26321,7 +26321,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:3910" version="2000000000">
       <metadata>
-        <title>CVE-2021-23336 affecting package python2 2.7.18-13</title>
+        <title>CVE-2021-23336 affecting package python2 2.7.18-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -26330,7 +26330,7 @@
         <advisory_date>2021-04-06T23:50:12Z</advisory_date>
         <advisory_id>3910</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-23336 affecting package python2 2.7.18-13. A patched version of the package is available.</description>
+        <description>CVE-2021-23336 affecting package python2 2.7.18-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python2 is earlier than 2.7.18-6, affected by CVE-2021-23336" test_ref="oval:com.microsoft.cbl-mariner:tst:3910000"/>
@@ -30585,7 +30585,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:3450" version="2000000001">
       <metadata>
-        <title>CVE-2007-4559 affecting package python2 2.7.18-13</title>
+        <title>CVE-2007-4559 affecting package python2 2.7.18-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -30594,7 +30594,7 @@
         <advisory_date>2020-11-30T19:30:47Z</advisory_date>
         <advisory_id>3450-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2007-4559 affecting package python2 2.7.18-13. A patched version of the package is available.</description>
+        <description>CVE-2007-4559 affecting package python2 2.7.18-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python2 is earlier than 2.7.18-5, affected by CVE-2007-4559" test_ref="oval:com.microsoft.cbl-mariner:tst:3450000"/>
@@ -34368,7 +34368,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:1913" version="2000000001">
       <metadata>
-        <title>CVE-2019-9674 affecting package python2 2.7.18-13</title>
+        <title>CVE-2019-9674 affecting package python2 2.7.18-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -34377,7 +34377,7 @@
         <advisory_date>2020-11-30T19:30:47Z</advisory_date>
         <advisory_id>1913-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2019-9674 affecting package python2 2.7.18-13. A patched version of the package is available.</description>
+        <description>CVE-2019-9674 affecting package python2 2.7.18-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python2 is earlier than 2.7.18-5, affected by CVE-2019-9674" test_ref="oval:com.microsoft.cbl-mariner:tst:1913000"/>
@@ -34385,7 +34385,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:1911" version="2000000001">
       <metadata>
-        <title>CVE-2017-17522 affecting package python2 2.7.18-13</title>
+        <title>CVE-2017-17522 affecting package python2 2.7.18-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -34394,7 +34394,7 @@
         <advisory_date>2020-10-08T18:09:54Z</advisory_date>
         <advisory_id>1911-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2017-17522 affecting package python2 2.7.18-13. A patched version of the package is available.</description>
+        <description>CVE-2017-17522 affecting package python2 2.7.18-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python2 is earlier than 2.7.18-3, affected by CVE-2017-17522" test_ref="oval:com.microsoft.cbl-mariner:tst:1911000"/>
@@ -34419,7 +34419,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:1909" version="2000000000">
       <metadata>
-        <title>CVE-2017-18207 affecting package python2 2.7.18-13</title>
+        <title>CVE-2017-18207 affecting package python2 2.7.18-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -34428,7 +34428,7 @@
         <advisory_date>2020-11-30T19:30:47Z</advisory_date>
         <advisory_id>1909</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2017-18207 affecting package python2 2.7.18-13. A patched version of the package is available.</description>
+        <description>CVE-2017-18207 affecting package python2 2.7.18-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python2 is earlier than 2.7.18-5, affected by CVE-2017-18207" test_ref="oval:com.microsoft.cbl-mariner:tst:1909000"/>
