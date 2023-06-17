@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-06-16T12:01:28.732656288Z</oval:timestamp>
-    <oval:content_version>1686916888</oval:content_version>
+    <oval:timestamp>2023-06-17T12:01:16.316887858Z</oval:timestamp>
+    <oval:content_version>1687003276</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27009" version="1">
@@ -2463,7 +2463,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13819" version="0">
       <metadata>
-        <title>CVE-2022-3294 affecting package k3s 1.24.12-1</title>
+        <title>CVE-2022-3294 affecting package k3s 1.24.6-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2471,10 +2471,10 @@
         <patchable>false</patchable>
         <advisory_id>13819</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-3294 affecting package k3s 1.24.12-1. No patch is available currently.</description>
+        <description>CVE-2022-3294 affecting package k3s 1.24.6-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.24.12-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13819000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13819000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13818" version="0">
@@ -3650,7 +3650,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13572" version="0">
       <metadata>
-        <title>CVE-2023-0475 affecting package k3s 1.24.12-1</title>
+        <title>CVE-2023-0475 affecting package k3s 1.24.6-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3658,15 +3658,15 @@
         <patchable>false</patchable>
         <advisory_id>13572</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0475 affecting package k3s 1.24.12-1. No patch is available currently.</description>
+        <description>CVE-2023-0475 affecting package k3s 1.24.6-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.24.12-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13572000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13571" version="0">
       <metadata>
-        <title>CVE-2023-25153 affecting package k3s 1.24.12-1</title>
+        <title>CVE-2023-25153 affecting package k3s 1.24.6-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3674,15 +3674,15 @@
         <patchable>false</patchable>
         <advisory_id>13571</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-25153 affecting package k3s 1.24.12-1. No patch is available currently.</description>
+        <description>CVE-2023-25153 affecting package k3s 1.24.6-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.24.12-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13571000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13570" version="0">
       <metadata>
-        <title>CVE-2023-25173 affecting package k3s 1.24.12-1</title>
+        <title>CVE-2023-25173 affecting package k3s 1.24.6-4</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3690,10 +3690,10 @@
         <patchable>false</patchable>
         <advisory_id>13570</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-25173 affecting package k3s 1.24.12-1. No patch is available currently.</description>
+        <description>CVE-2023-25173 affecting package k3s 1.24.6-4. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package k3s is installed with version 1.24.12-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
+        <criterion comment="Package k3s is installed with version 1.24.6-4 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13570000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13569" version="3">
@@ -12235,7 +12235,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10338" version="0">
       <metadata>
-        <title>CVE-2021-33468 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33468 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12243,15 +12243,15 @@
         <patchable>false</patchable>
         <advisory_id>10338</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33468 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33468 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10338000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10338000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10337" version="0">
       <metadata>
-        <title>CVE-2021-33467 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33467 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12259,15 +12259,15 @@
         <patchable>false</patchable>
         <advisory_id>10337</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33467 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33467 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10337000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10337000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10336" version="0">
       <metadata>
-        <title>CVE-2021-33466 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33466 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12275,15 +12275,15 @@
         <patchable>false</patchable>
         <advisory_id>10336</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33466 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33466 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10336000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10336000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10335" version="0">
       <metadata>
-        <title>CVE-2021-33465 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33465 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12291,15 +12291,15 @@
         <patchable>false</patchable>
         <advisory_id>10335</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33465 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33465 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10335000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10335000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10334" version="0">
       <metadata>
-        <title>CVE-2021-33464 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33464 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12307,15 +12307,15 @@
         <patchable>false</patchable>
         <advisory_id>10334</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33464 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33464 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10334000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10334000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10333" version="0">
       <metadata>
-        <title>CVE-2021-33463 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33463 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12323,15 +12323,15 @@
         <patchable>false</patchable>
         <advisory_id>10333</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33463 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33463 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10333000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10333000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10332" version="0">
       <metadata>
-        <title>CVE-2021-33462 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33462 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12339,15 +12339,15 @@
         <patchable>false</patchable>
         <advisory_id>10332</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33462 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33462 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10332000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10332000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10331" version="0">
       <metadata>
-        <title>CVE-2021-33461 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33461 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12355,15 +12355,15 @@
         <patchable>false</patchable>
         <advisory_id>10331</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33461 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33461 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10331000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10331000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10330" version="0">
       <metadata>
-        <title>CVE-2021-33460 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33460 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12371,15 +12371,15 @@
         <patchable>false</patchable>
         <advisory_id>10330</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33460 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33460 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10330000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10330000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10329" version="0">
       <metadata>
-        <title>CVE-2021-33459 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33459 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12387,15 +12387,15 @@
         <patchable>false</patchable>
         <advisory_id>10329</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33459 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33459 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10329000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10329000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10328" version="0">
       <metadata>
-        <title>CVE-2021-33458 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33458 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12403,15 +12403,15 @@
         <patchable>false</patchable>
         <advisory_id>10328</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33458 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33458 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10328000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10328000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10327" version="0">
       <metadata>
-        <title>CVE-2021-33457 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33457 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12419,15 +12419,15 @@
         <patchable>false</patchable>
         <advisory_id>10327</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33457 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33457 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10327000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10327000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10326" version="0">
       <metadata>
-        <title>CVE-2021-33456 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33456 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12435,15 +12435,15 @@
         <patchable>false</patchable>
         <advisory_id>10326</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33456 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33456 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10326000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10326000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10325" version="0">
       <metadata>
-        <title>CVE-2021-33455 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33455 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12451,15 +12451,15 @@
         <patchable>false</patchable>
         <advisory_id>10325</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33455 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33455 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10325000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10325000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10324" version="0">
       <metadata>
-        <title>CVE-2021-33454 affecting package yasm 1.3.0-13</title>
+        <title>CVE-2021-33454 affecting package yasm 1.3.0-14</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -12467,10 +12467,10 @@
         <patchable>false</patchable>
         <advisory_id>10324</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-33454 affecting package yasm 1.3.0-13. No patch is available currently.</description>
+        <description>CVE-2021-33454 affecting package yasm 1.3.0-14. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package yasm is installed with version 1.3.0-13 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10324000"/>
+        <criterion comment="Package yasm is installed with version 1.3.0-14 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10324000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10321" version="1">
@@ -32355,7 +32355,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13820001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13820002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.12-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13819000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13819000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13819001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13819002"/>
     </linux-def:rpminfo_test>
@@ -32643,15 +32643,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13584001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13584002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.12-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13572000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13572001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13572002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.12-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13571000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13571001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13571002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.12-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package k3s is installed with version 1.24.6-4 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13570000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13570001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13570002"/>
     </linux-def:rpminfo_test>
@@ -34695,63 +34695,63 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10387001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10387002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10338000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10338000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10338001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10338002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10337000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10337000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10337001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10337002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10336000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10336000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10336001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10336002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10335000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10335000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10335001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10335002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10334000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10334000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10334001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10334002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10333000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10333000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10333001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10333002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10332000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10332000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10332001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10332002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10331000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10331000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10331001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10331002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10330000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10330000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10330001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10330002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10329000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10329000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10329001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10329002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10328000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10328000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10328001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10328002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10327000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10327000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10327001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10327002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10326000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10326000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10326001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10326002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10325000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10325000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10325001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10325002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-13 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10324000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package yasm is installed with version 1.3.0-14 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10324000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10324001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10324002"/>
     </linux-def:rpminfo_test>
@@ -45438,7 +45438,7 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13819002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.12-1.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13818002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.42.0-5.cm2</linux-def:evr>
@@ -45654,13 +45654,13 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:20.10.14-7.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13572002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.12-1.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13571002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.12-1.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13570002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.12-1.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.24.6-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13569002" version="3">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.4.22-1.cm2</linux-def:evr>
@@ -47193,49 +47193,49 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:16.2.10-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10338002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10337002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10336002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10335002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10334002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10333002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10332002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10331002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10330002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10329002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10328002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10327002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10326002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10325002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10324002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-13.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.0-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10321002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:9.0.0325-1.cm2</linux-def:evr>
