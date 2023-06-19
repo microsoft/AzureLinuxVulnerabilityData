@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-06-18T12:01:44.8596664Z</oval:timestamp>
-    <oval:content_version>1687089704</oval:content_version>
+    <oval:timestamp>2023-06-19T12:01:37.509143115Z</oval:timestamp>
+    <oval:content_version>1687176097</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27009" version="1">
@@ -135,7 +135,7 @@
         <patchable>true</patchable>
         <advisory_date>2023-06-14T23:53:35Z</advisory_date>
         <advisory_id>26791-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>Low</severity>
         <description>CVE-2023-28322 affecting package cmake 3.21.4-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -2315,7 +2315,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13829" version="0">
       <metadata>
-        <title>CVE-2022-3857 affecting package qt5-qtbase 5.12.11-6</title>
+        <title>CVE-2022-3857 affecting package qt5-qtbase 5.12.11-8</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2323,10 +2323,10 @@
         <patchable>false</patchable>
         <advisory_id>13829</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3857 affecting package qt5-qtbase 5.12.11-6. No patch is available currently.</description>
+        <description>CVE-2022-3857 affecting package qt5-qtbase 5.12.11-8. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package qt5-qtbase is installed with version 5.12.11-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13829000"/>
+        <criterion comment="Package qt5-qtbase is installed with version 5.12.11-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13829000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13828" version="0">
@@ -2464,7 +2464,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13820" version="0">
       <metadata>
-        <title>CVE-2023-23039 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2023-23039 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2472,10 +2472,10 @@
         <patchable>false</patchable>
         <advisory_id>13820</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-23039 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2023-23039 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13820000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13820000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13819" version="0">
@@ -2854,7 +2854,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13743" version="0">
       <metadata>
-        <title>CVE-2023-26242 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2023-26242 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2862,10 +2862,10 @@
         <patchable>false</patchable>
         <advisory_id>13743</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-26242 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2023-26242 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13743000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13743000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13740" version="3">
@@ -3434,7 +3434,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13651" version="0">
       <metadata>
-        <title>CVE-2023-23916 affecting package cmake 3.21.4-6</title>
+        <title>CVE-2023-23916 affecting package cmake 3.21.4-7</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3442,10 +3442,10 @@
         <patchable>false</patchable>
         <advisory_id>13651</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-23916 affecting package cmake 3.21.4-6. No patch is available currently.</description>
+        <description>CVE-2023-23916 affecting package cmake 3.21.4-7. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package cmake is installed with version 3.21.4-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13651000"/>
+        <criterion comment="Package cmake is installed with version 3.21.4-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13651000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13650" version="1">
@@ -3467,7 +3467,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13649" version="0">
       <metadata>
-        <title>CVE-2023-23915 affecting package cmake 3.21.4-6</title>
+        <title>CVE-2023-23915 affecting package cmake 3.21.4-7</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3475,10 +3475,10 @@
         <patchable>false</patchable>
         <advisory_id>13649</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-23915 affecting package cmake 3.21.4-6. No patch is available currently.</description>
+        <description>CVE-2023-23915 affecting package cmake 3.21.4-7. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package cmake is installed with version 3.21.4-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13649000"/>
+        <criterion comment="Package cmake is installed with version 3.21.4-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13649000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13624" version="0">
@@ -3749,7 +3749,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13564" version="1">
       <metadata>
-        <title>CVE-2023-0286 affecting package openssl 1.1.1k-23</title>
+        <title>CVE-2023-0286 affecting package openssl 1.1.1k-24</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3758,7 +3758,7 @@
         <advisory_date>2023-02-14T20:36:09Z</advisory_date>
         <advisory_id>13564-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-0286 affecting package openssl 1.1.1k-23. A patched version of the package is available.</description>
+        <description>CVE-2023-0286 affecting package openssl 1.1.1k-24. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-21, affected by CVE-2023-0286" test_ref="oval:com.microsoft.cbl-mariner:tst:13564000"/>
@@ -3970,7 +3970,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13364" version="0">
       <metadata>
-        <title>CVE-2023-0615 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2023-0615 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -3978,10 +3978,10 @@
         <patchable>false</patchable>
         <advisory_id>13364</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0615 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2023-0615 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13364000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13364000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13353" version="3">
@@ -4003,7 +4003,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13352" version="1">
       <metadata>
-        <title>CVE-2023-0215 affecting package openssl 1.1.1k-23</title>
+        <title>CVE-2023-0215 affecting package openssl 1.1.1k-24</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -4012,7 +4012,7 @@
         <advisory_date>2023-02-14T20:36:09Z</advisory_date>
         <advisory_id>13352-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-0215 affecting package openssl 1.1.1k-23. A patched version of the package is available.</description>
+        <description>CVE-2023-0215 affecting package openssl 1.1.1k-24. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-21, affected by CVE-2023-0215" test_ref="oval:com.microsoft.cbl-mariner:tst:13352000"/>
@@ -4020,7 +4020,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13351" version="1">
       <metadata>
-        <title>CVE-2022-4450 affecting package openssl 1.1.1k-23</title>
+        <title>CVE-2022-4450 affecting package openssl 1.1.1k-24</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -4029,7 +4029,7 @@
         <advisory_date>2023-02-14T20:36:09Z</advisory_date>
         <advisory_id>13351-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-4450 affecting package openssl 1.1.1k-23. A patched version of the package is available.</description>
+        <description>CVE-2022-4450 affecting package openssl 1.1.1k-24. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-21, affected by CVE-2022-4450" test_ref="oval:com.microsoft.cbl-mariner:tst:13351000"/>
@@ -4183,7 +4183,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13310" version="1">
       <metadata>
-        <title>CVE-2022-4304 affecting package openssl 1.1.1k-23</title>
+        <title>CVE-2022-4304 affecting package openssl 1.1.1k-24</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -4192,7 +4192,7 @@
         <advisory_date>2023-02-14T20:36:09Z</advisory_date>
         <advisory_id>13310-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-4304 affecting package openssl 1.1.1k-23. A patched version of the package is available.</description>
+        <description>CVE-2022-4304 affecting package openssl 1.1.1k-24. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-21, affected by CVE-2022-4304" test_ref="oval:com.microsoft.cbl-mariner:tst:13310000"/>
@@ -4351,7 +4351,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13280" version="0">
       <metadata>
-        <title>CVE-2022-43552 affecting package cmake 3.21.4-6</title>
+        <title>CVE-2022-43552 affecting package cmake 3.21.4-7</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -4359,10 +4359,10 @@
         <patchable>false</patchable>
         <advisory_id>13280</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-43552 affecting package cmake 3.21.4-6. No patch is available currently.</description>
+        <description>CVE-2022-43552 affecting package cmake 3.21.4-7. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package cmake is installed with version 3.21.4-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13280000"/>
+        <criterion comment="Package cmake is installed with version 3.21.4-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13280000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13275" version="0">
@@ -4545,7 +4545,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13231" version="0">
       <metadata>
-        <title>CVE-2023-25193 affecting package qt5-qtbase 5.12.11-6</title>
+        <title>CVE-2023-25193 affecting package qt5-qtbase 5.12.11-8</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -4553,10 +4553,10 @@
         <patchable>Not Applicable</patchable>
         <advisory_id>13231</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-25193 affecting package qt5-qtbase 5.12.11-6. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-25193 affecting package qt5-qtbase 5.12.11-8. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package qt5-qtbase is installed with version 5.12.11-6 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13231000"/>
+        <criterion comment="Package qt5-qtbase is installed with version 5.12.11-8 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13231000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13230" version="0">
@@ -4839,7 +4839,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13171" version="0">
       <metadata>
-        <title>CVE-2023-0469 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2023-0469 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -4847,10 +4847,10 @@
         <patchable>false</patchable>
         <advisory_id>13171</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2023-0469 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2023-0469 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13171000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13171000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13170" version="2">
@@ -5659,7 +5659,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12989" version="0">
       <metadata>
-        <title>CVE-2022-4543 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-4543 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -5667,10 +5667,10 @@
         <patchable>false</patchable>
         <advisory_id>12989</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-4543 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-4543 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12989000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12989000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:12971" version="3">
@@ -6299,10 +6299,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3775" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3775" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>12079</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-3775 affecting package grub2 2.06-9. No patch is available currently.</description>
+        <description>CVE-2022-3775 affecting package grub2 2.06-9. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package grub2 is installed with version 2.06-9 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12079000"/>
@@ -6478,7 +6478,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11614" version="0">
       <metadata>
-        <title>CVE-2022-3114 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-3114 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -6486,10 +6486,10 @@
         <patchable>false</patchable>
         <advisory_id>11614</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3114 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-3114 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11614000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11614000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11613" version="2">
@@ -7341,7 +7341,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11487" version="0">
       <metadata>
-        <title>CVE-2022-45888 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-45888 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7349,15 +7349,15 @@
         <patchable>false</patchable>
         <advisory_id>11487</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-45888 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-45888 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11487000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11487000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11486" version="0">
       <metadata>
-        <title>CVE-2022-45887 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-45887 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7365,15 +7365,15 @@
         <patchable>false</patchable>
         <advisory_id>11486</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-45887 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-45887 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11486000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11486000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11485" version="0">
       <metadata>
-        <title>CVE-2022-45886 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-45886 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7381,15 +7381,15 @@
         <patchable>false</patchable>
         <advisory_id>11485</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45886 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-45886 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11485000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11485000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11484" version="0">
       <metadata>
-        <title>CVE-2022-45885 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-45885 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7397,15 +7397,15 @@
         <patchable>false</patchable>
         <advisory_id>11484</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45885 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-45885 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11484000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11484000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11483" version="0">
       <metadata>
-        <title>CVE-2022-45884 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-45884 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7413,10 +7413,10 @@
         <patchable>false</patchable>
         <advisory_id>11483</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45884 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-45884 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11483000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11483000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11471" version="1">
@@ -7455,7 +7455,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11469" version="0">
       <metadata>
-        <title>CVE-2022-45919 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-45919 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7463,10 +7463,10 @@
         <patchable>false</patchable>
         <advisory_id>11469</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45919 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-45919 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11469000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11469000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11465" version="0">
@@ -7804,7 +7804,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11382" version="0">
       <metadata>
-        <title>CVE-2022-44034 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-44034 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7812,15 +7812,15 @@
         <patchable>false</patchable>
         <advisory_id>11382</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44034 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-44034 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11382000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11382000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11381" version="0">
       <metadata>
-        <title>CVE-2022-44033 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-44033 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7828,15 +7828,15 @@
         <patchable>false</patchable>
         <advisory_id>11381</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44033 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-44033 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11381000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11381000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11380" version="0">
       <metadata>
-        <title>CVE-2022-44032 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-44032 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -7844,10 +7844,10 @@
         <patchable>false</patchable>
         <advisory_id>11380</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-44032 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-44032 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11380000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11380000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11379" version="2">
@@ -9179,7 +9179,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11079" version="0">
       <metadata>
-        <title>CVE-2022-41848 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-41848 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -9187,10 +9187,10 @@
         <patchable>false</patchable>
         <advisory_id>11079</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-41848 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-41848 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11079000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11079000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:11070" version="0">
@@ -9918,7 +9918,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10903" version="0">
       <metadata>
-        <title>CVE-2022-40133 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-40133 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -9926,15 +9926,15 @@
         <patchable>false</patchable>
         <advisory_id>10903</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-40133 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-40133 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10903000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10903000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10902" version="0">
       <metadata>
-        <title>CVE-2022-38457 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-38457 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -9942,15 +9942,15 @@
         <patchable>false</patchable>
         <advisory_id>10902</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38457 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-38457 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10902000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10902000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10901" version="0">
       <metadata>
-        <title>CVE-2022-38096 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-38096 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -9958,10 +9958,10 @@
         <patchable>false</patchable>
         <advisory_id>10901</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38096 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-38096 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10901000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10901000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10900" version="1">
@@ -10622,7 +10622,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10761" version="0">
       <metadata>
-        <title>CVE-2022-2961 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-2961 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -10630,10 +10630,10 @@
         <patchable>false</patchable>
         <advisory_id>10761</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2961 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2022-2961 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10761000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10761000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:10760" version="2">
@@ -13455,7 +13455,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9967" version="1">
       <metadata>
-        <title>CVE-2022-2068 affecting package openssl 1.1.1k-23</title>
+        <title>CVE-2022-2068 affecting package openssl 1.1.1k-24</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -13464,7 +13464,7 @@
         <advisory_date>2022-07-01T21:02:21Z</advisory_date>
         <advisory_id>9967-1</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-2068 affecting package openssl 1.1.1k-23. A patched version of the package is available.</description>
+        <description>CVE-2022-2068 affecting package openssl 1.1.1k-24. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-17, affected by CVE-2022-2068" test_ref="oval:com.microsoft.cbl-mariner:tst:9967000"/>
@@ -16230,7 +16230,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9301" version="0">
       <metadata>
-        <title>CVE-2021-3847 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2021-3847 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -16238,10 +16238,10 @@
         <patchable>false</patchable>
         <advisory_id>9301</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3847 affecting package kernel 5.15.112.1-2. No patch is available currently.</description>
+        <description>CVE-2021-3847 affecting package kernel 5.15.116.1-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package kernel is installed with version 5.15.112.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9301000"/>
+        <criterion comment="Package kernel is installed with version 5.15.116.1-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9301000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9295" version="2">
@@ -16941,7 +16941,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9051" version="1">
       <metadata>
-        <title>CVE-2022-0778 affecting package openssl 1.1.1k-23</title>
+        <title>CVE-2022-0778 affecting package openssl 1.1.1k-24</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -16950,7 +16950,7 @@
         <advisory_date>2022-04-09T06:51:56Z</advisory_date>
         <advisory_id>9051-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-0778 affecting package openssl 1.1.1k-23. A patched version of the package is available.</description>
+        <description>CVE-2022-0778 affecting package openssl 1.1.1k-24. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-12, affected by CVE-2022-0778" test_ref="oval:com.microsoft.cbl-mariner:tst:9051000"/>
@@ -17059,7 +17059,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9019" version="2">
       <metadata>
-        <title>CVE-2022-26966 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-26966 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -17068,7 +17068,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>9019-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-26966 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-26966 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-2, affected by CVE-2022-26966" test_ref="oval:com.microsoft.cbl-mariner:tst:9019000"/>
@@ -17279,7 +17279,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8966" version="2">
       <metadata>
-        <title>CVE-2022-0492 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-0492 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -17288,7 +17288,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8966-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-0492 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-0492 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-2, affected by CVE-2022-0492" test_ref="oval:com.microsoft.cbl-mariner:tst:8966000"/>
@@ -17466,7 +17466,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8921" version="2">
       <metadata>
-        <title>CVE-2021-3743 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2021-3743 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -17475,7 +17475,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8921-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3743 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2021-3743 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-2, affected by CVE-2021-3743" test_ref="oval:com.microsoft.cbl-mariner:tst:8921000"/>
@@ -17784,7 +17784,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8801" version="2">
       <metadata>
-        <title>CVE-2022-0617 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-0617 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -17793,7 +17793,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8801-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-0617 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-0617 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-0617" test_ref="oval:com.microsoft.cbl-mariner:tst:8801000"/>
@@ -18020,7 +18020,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8656" version="2">
       <metadata>
-        <title>CVE-2022-25375 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-25375 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18029,7 +18029,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8656-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-25375 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-25375 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-25375" test_ref="oval:com.microsoft.cbl-mariner:tst:8656000"/>
@@ -18037,7 +18037,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8655" version="2">
       <metadata>
-        <title>CVE-2022-25258 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-25258 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18046,7 +18046,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8655-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-25258 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-25258 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-25258" test_ref="oval:com.microsoft.cbl-mariner:tst:8655000"/>
@@ -18054,7 +18054,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8654" version="2">
       <metadata>
-        <title>CVE-2021-4090 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2021-4090 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18063,7 +18063,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8654-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-4090 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2021-4090 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2021-4090" test_ref="oval:com.microsoft.cbl-mariner:tst:8654000"/>
@@ -18136,7 +18136,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8641" version="2">
       <metadata>
-        <title>CVE-2022-25265 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-25265 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18145,7 +18145,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8641-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-25265 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-25265 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-25265" test_ref="oval:com.microsoft.cbl-mariner:tst:8641000"/>
@@ -18304,7 +18304,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8605" version="2">
       <metadata>
-        <title>CVE-2021-45402 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2021-45402 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18313,7 +18313,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8605-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-45402 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2021-45402 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2021-45402" test_ref="oval:com.microsoft.cbl-mariner:tst:8605000"/>
@@ -18406,7 +18406,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8579" version="2">
       <metadata>
-        <title>CVE-2022-0382 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-0382 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18415,7 +18415,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8579-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-0382 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-0382 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-0382" test_ref="oval:com.microsoft.cbl-mariner:tst:8579000"/>
@@ -18440,7 +18440,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8577" version="2">
       <metadata>
-        <title>CVE-2021-44879 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2021-44879 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18449,7 +18449,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8577-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-44879 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2021-44879 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2021-44879" test_ref="oval:com.microsoft.cbl-mariner:tst:8577000"/>
@@ -18540,7 +18540,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8526" version="2">
       <metadata>
-        <title>CVE-2022-24959 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-24959 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18549,7 +18549,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8526-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-24959 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-24959 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-24959" test_ref="oval:com.microsoft.cbl-mariner:tst:8526000"/>
@@ -18676,7 +18676,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8497" version="2">
       <metadata>
-        <title>CVE-2022-0264 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-0264 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18685,7 +18685,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8497-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-0264 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-0264 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-0264" test_ref="oval:com.microsoft.cbl-mariner:tst:8497000"/>
@@ -18710,7 +18710,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8483" version="2">
       <metadata>
-        <title>CVE-2022-24448 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-24448 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18719,7 +18719,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8483-2</advisory_id>
         <severity>Low</severity>
-        <description>CVE-2022-24448 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-24448 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-24448" test_ref="oval:com.microsoft.cbl-mariner:tst:8483000"/>
@@ -18914,7 +18914,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8451" version="2">
       <metadata>
-        <title>CVE-2022-24122 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2022-24122 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -18923,7 +18923,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>8451-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-24122 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2022-24122 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2022-24122" test_ref="oval:com.microsoft.cbl-mariner:tst:8451000"/>
@@ -25866,7 +25866,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6780" version="1">
       <metadata>
-        <title>CVE-2021-3712 affecting package openssl 1.1.1k-23</title>
+        <title>CVE-2021-3712 affecting package openssl 1.1.1k-24</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -25875,7 +25875,7 @@
         <advisory_date>2022-04-09T06:51:56Z</advisory_date>
         <advisory_id>6780-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3712 affecting package openssl 1.1.1k-23. A patched version of the package is available.</description>
+        <description>CVE-2021-3712 affecting package openssl 1.1.1k-24. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-11, affected by CVE-2021-3712" test_ref="oval:com.microsoft.cbl-mariner:tst:6780000"/>
@@ -25883,7 +25883,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6779" version="1">
       <metadata>
-        <title>CVE-2021-3711 affecting package openssl 1.1.1k-23</title>
+        <title>CVE-2021-3711 affecting package openssl 1.1.1k-24</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -25892,7 +25892,7 @@
         <advisory_date>2022-04-09T06:51:56Z</advisory_date>
         <advisory_id>6779-1</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2021-3711 affecting package openssl 1.1.1k-23. A patched version of the package is available.</description>
+        <description>CVE-2021-3711 affecting package openssl 1.1.1k-24. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-11, affected by CVE-2021-3711" test_ref="oval:com.microsoft.cbl-mariner:tst:6779000"/>
@@ -28634,7 +28634,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6573" version="2">
       <metadata>
-        <title>CVE-2021-3564 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2021-3564 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -28643,7 +28643,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6573-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-3564 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2021-3564 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2021-3564" test_ref="oval:com.microsoft.cbl-mariner:tst:6573000"/>
@@ -29382,7 +29382,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6529" version="2">
       <metadata>
-        <title>CVE-2021-20194 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2021-20194 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29391,7 +29391,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6529-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-20194 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2021-20194 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.26.1-1, affected by CVE-2021-20194" test_ref="oval:com.microsoft.cbl-mariner:tst:6529000"/>
@@ -29467,7 +29467,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6524" version="2">
       <metadata>
-        <title>CVE-2020-25672 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2020-25672 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29476,7 +29476,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6524-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2020-25672 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2020-25672 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2020-25672" test_ref="oval:com.microsoft.cbl-mariner:tst:6524000"/>
@@ -29518,7 +29518,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6521" version="2">
       <metadata>
-        <title>CVE-2019-3887 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2019-3887 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29527,7 +29527,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6521-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-3887 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2019-3887 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2019-3887" test_ref="oval:com.microsoft.cbl-mariner:tst:6521000"/>
@@ -29535,7 +29535,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6520" version="2">
       <metadata>
-        <title>CVE-2019-3819 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2019-3819 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29544,7 +29544,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6520-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-3819 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2019-3819 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2019-3819" test_ref="oval:com.microsoft.cbl-mariner:tst:6520000"/>
@@ -29552,7 +29552,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6519" version="2">
       <metadata>
-        <title>CVE-2019-3016 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2019-3016 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29561,7 +29561,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6519-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2019-3016 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2019-3016 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2019-3016" test_ref="oval:com.microsoft.cbl-mariner:tst:6519000"/>
@@ -29569,7 +29569,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6518" version="2">
       <metadata>
-        <title>CVE-2018-16880 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2018-16880 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29578,7 +29578,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6518-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2018-16880 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2018-16880 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2018-16880" test_ref="oval:com.microsoft.cbl-mariner:tst:6518000"/>
@@ -29586,7 +29586,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6517" version="2">
       <metadata>
-        <title>CVE-2018-1000026 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2018-1000026 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29595,7 +29595,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6517-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2018-1000026 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2018-1000026 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2018-1000026" test_ref="oval:com.microsoft.cbl-mariner:tst:6517000"/>
@@ -29620,7 +29620,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6515" version="2">
       <metadata>
-        <title>CVE-2010-4563 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2010-4563 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29629,7 +29629,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6515-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2010-4563 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2010-4563 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2010-4563" test_ref="oval:com.microsoft.cbl-mariner:tst:6515000"/>
@@ -29637,7 +29637,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6514" version="2">
       <metadata>
-        <title>CVE-2010-0298 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2010-0298 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29646,7 +29646,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6514-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2010-0298 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2010-0298 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2010-0298" test_ref="oval:com.microsoft.cbl-mariner:tst:6514000"/>
@@ -29722,7 +29722,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6509" version="2">
       <metadata>
-        <title>CVE-2010-0309 affecting package kernel 5.15.112.1-2</title>
+        <title>CVE-2010-0309 affecting package kernel 5.15.116.1-1</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -29731,7 +29731,7 @@
         <advisory_date>2022-04-09T06:52:47Z</advisory_date>
         <advisory_id>6509-2</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2010-0309 affecting package kernel 5.15.112.1-2. A patched version of the package is available.</description>
+        <description>CVE-2010-0309 affecting package kernel 5.15.116.1-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.10.78.1-1, affected by CVE-2010-0309" test_ref="oval:com.microsoft.cbl-mariner:tst:6509000"/>
@@ -32336,7 +32336,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13830001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13830002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package qt5-qtbase is installed with version 5.12.11-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13829000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package qt5-qtbase is installed with version 5.12.11-8 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13829000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13829001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13829002"/>
     </linux-def:rpminfo_test>
@@ -32372,7 +32372,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13821001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13821002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13820000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13820000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13820001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13820002"/>
     </linux-def:rpminfo_test>
@@ -32468,7 +32468,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13759001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13759002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13743000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13743000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13743001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13743002"/>
     </linux-def:rpminfo_test>
@@ -32608,7 +32608,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13652001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13652002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package cmake is installed with version 3.21.4-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13651000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package cmake is installed with version 3.21.4-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13651000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13651001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13651002"/>
     </linux-def:rpminfo_test>
@@ -32616,7 +32616,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13650001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13650002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package cmake is installed with version 3.21.4-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13649000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package cmake is installed with version 3.21.4-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13649000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13649001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13649002"/>
     </linux-def:rpminfo_test>
@@ -32736,7 +32736,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13386001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13386002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13364000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13364000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13364001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13364002"/>
     </linux-def:rpminfo_test>
@@ -32828,7 +32828,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13284001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13284002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package cmake is installed with version 3.21.4-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13280000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package cmake is installed with version 3.21.4-7 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13280000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13280001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13280002"/>
     </linux-def:rpminfo_test>
@@ -32876,7 +32876,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13232001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13232002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package qt5-qtbase is installed with version 5.12.11-6 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13231000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package qt5-qtbase is installed with version 5.12.11-8 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13231000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13231001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13231002"/>
     </linux-def:rpminfo_test>
@@ -32948,7 +32948,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13172001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13172002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13171000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13171000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13171001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13171002"/>
     </linux-def:rpminfo_test>
@@ -33144,7 +33144,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12990001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12990002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12989000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:12989000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:12989001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:12989002"/>
     </linux-def:rpminfo_test>
@@ -33340,7 +33340,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11615001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11615002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11614000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11614000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11614001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11614002"/>
     </linux-def:rpminfo_test>
@@ -33544,23 +33544,23 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11500001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11500002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11487000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11487000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11487001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11487002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11486000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11486000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11486001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11486002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11485000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11485000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11485001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11485002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11484000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11484000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11484001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11484002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11483000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11483000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11483001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11483002"/>
     </linux-def:rpminfo_test>
@@ -33572,7 +33572,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11470001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11470002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11469000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11469000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11469001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11469002"/>
     </linux-def:rpminfo_test>
@@ -33656,15 +33656,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11385001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11385002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11382000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11382000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11382001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11382002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11381000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11381000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11381001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11381002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11380000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11380000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11380001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11380002"/>
     </linux-def:rpminfo_test>
@@ -33984,7 +33984,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11080001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11080002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11079000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:11079000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:11079001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:11079002"/>
     </linux-def:rpminfo_test>
@@ -34160,15 +34160,15 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10904001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10904002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10903000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10903000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10903001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10903002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10902000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10902000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10902001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10902002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10901000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10901000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10901001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10901002"/>
     </linux-def:rpminfo_test>
@@ -34328,7 +34328,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10762001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10762002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10761000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:10761000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:10761001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:10761002"/>
     </linux-def:rpminfo_test>
@@ -35660,7 +35660,7 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:9302001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:9302002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.112.1-2 or earlier" id="oval:com.microsoft.cbl-mariner:tst:9301000" version="0">
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is installed with version 5.15.116.1-1 or earlier" id="oval:com.microsoft.cbl-mariner:tst:9301000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:9301001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:9301002"/>
     </linux-def:rpminfo_test>
@@ -45435,7 +45435,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:6.2.11-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13829002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.12.11-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.12.11-8.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13828002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.3.6-8.cm2</linux-def:evr>
@@ -45462,7 +45462,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.102.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13820002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13819002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.25.8-1.cm2</linux-def:evr>
@@ -45534,7 +45534,7 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:0.9.2-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13743002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13740002" version="3">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.1.16-1.cm2</linux-def:evr>
@@ -45639,13 +45639,13 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:7.88.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13651002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.21.4-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.21.4-7.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13650002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.21.4-6.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13649002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.21.4-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.21.4-7.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13624002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:4.13-5.cm2</linux-def:evr>
@@ -45735,7 +45735,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:4.4.0-8.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13364002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13353002" version="3">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.3.2-4.cm2</linux-def:evr>
@@ -45804,7 +45804,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:7.86.0-3.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13280002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.21.4-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.21.4-7.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13275002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:2.37-5.cm2</linux-def:evr>
@@ -45840,7 +45840,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:3.1.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13231002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.12.11-6.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.12.11-8.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13230002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:3.5.13-5.cm2</linux-def:evr>
@@ -45894,7 +45894,7 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:8.0.33-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13171002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13170002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.92.1-1.cm2</linux-def:evr>
@@ -46041,7 +46041,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:9.0.1189-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12989002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:12971002" version="3">
       <linux-def:evr datatype="evr_string" operation="less than">0:250.3-12.cm2</linux-def:evr>
@@ -46188,7 +46188,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.86.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11614002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11613002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.86.1-1.cm2</linux-def:evr>
@@ -46341,19 +46341,19 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:2.10.3-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11487002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11486002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11485002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11484002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11483002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11471002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.10.3-1.cm2</linux-def:evr>
@@ -46362,7 +46362,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:3.6.1-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11469002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11465002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:1.1.3-7.cm2</linux-def:evr>
@@ -46425,13 +46425,13 @@
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.9.1-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11382002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11381002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11380002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11379002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.82.1-1.cm2</linux-def:evr>
@@ -46671,7 +46671,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.82.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11079002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:11070002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:7.4.14-3.cm2</linux-def:evr>
@@ -46803,13 +46803,13 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.70.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10903002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10902002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10901002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10900002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.9.4-2.cm2</linux-def:evr>
@@ -46929,7 +46929,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:4.4.0-4.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10761002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:10760002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.82.1-1.cm2</linux-def:evr>
@@ -47928,7 +47928,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:4.4.0-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:9301002" version="0">
-      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.112.1-2.cm2</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than or equal">0:5.15.116.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:9295002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.37.1-2.cm2</linux-def:evr>

@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-06-18T12:01:43.562779116Z</oval:timestamp>
-    <oval:content_version>1687089703</oval:content_version>
+    <oval:timestamp>2023-06-19T12:01:36.21208065Z</oval:timestamp>
+    <oval:content_version>1687176096</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26951" version="2000000001">
@@ -2513,10 +2513,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-25725" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-25725" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13575</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2023-25725 affecting package haproxy 2.1.5-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-25725 affecting package haproxy 2.1.5-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package haproxy is installed with version 2.1.5-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13575000"/>
@@ -2558,7 +2558,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13566" version="2000000001">
       <metadata>
-        <title>CVE-2023-0286 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2023-0286 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2567,7 +2567,7 @@
         <advisory_date>2023-02-14T02:35:59Z</advisory_date>
         <advisory_id>13566-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-0286 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2023-0286 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-13, affected by CVE-2023-0286" test_ref="oval:com.microsoft.cbl-mariner:tst:13566000"/>
@@ -2815,10 +2815,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0215" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0215" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13335</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-0215 affecting package shim-unsigned-aarch64 15-5. No patch is available currently.</description>
+        <description>CVE-2023-0215 affecting package shim-unsigned-aarch64 15-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package shim-unsigned-aarch64 is installed with version 15-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13335000"/>
@@ -2891,7 +2891,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13326" version="2000000001">
       <metadata>
-        <title>CVE-2022-4304 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2022-4304 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2900,7 +2900,7 @@
         <advisory_date>2023-02-14T02:35:59Z</advisory_date>
         <advisory_id>13326-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-4304 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2022-4304 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-13, affected by CVE-2022-4304" test_ref="oval:com.microsoft.cbl-mariner:tst:13326000"/>
@@ -2908,7 +2908,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13325" version="2000000001">
       <metadata>
-        <title>CVE-2023-0215 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2023-0215 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2917,7 +2917,7 @@
         <advisory_date>2023-02-14T02:35:59Z</advisory_date>
         <advisory_id>13325-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-0215 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2023-0215 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-13, affected by CVE-2023-0215" test_ref="oval:com.microsoft.cbl-mariner:tst:13325000"/>
@@ -2925,7 +2925,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13323" version="2000000001">
       <metadata>
-        <title>CVE-2022-4450 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2022-4450 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -2934,7 +2934,7 @@
         <advisory_date>2023-02-14T02:35:59Z</advisory_date>
         <advisory_id>13323-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-4450 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2022-4450 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-13, affected by CVE-2022-4450" test_ref="oval:com.microsoft.cbl-mariner:tst:13323000"/>
@@ -5784,10 +5784,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41974" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41974" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>11414</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41974 affecting package device-mapper-multipath 0.8.6-1. No patch is available currently.</description>
+        <description>CVE-2022-41974 affecting package device-mapper-multipath 0.8.6-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package device-mapper-multipath is installed with version 0.8.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11414000"/>
@@ -5800,10 +5800,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41973" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41973" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>11413</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41973 affecting package device-mapper-multipath 0.8.6-1. No patch is available currently.</description>
+        <description>CVE-2022-41973 affecting package device-mapper-multipath 0.8.6-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package device-mapper-multipath is installed with version 0.8.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11413000"/>
@@ -10950,7 +10950,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9971" version="2000000001">
       <metadata>
-        <title>CVE-2022-2068 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2022-2068 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -10959,7 +10959,7 @@
         <advisory_date>2022-07-14T20:59:56Z</advisory_date>
         <advisory_id>9971-1</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2022-2068 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2022-2068 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-12, affected by CVE-2022-2068" test_ref="oval:com.microsoft.cbl-mariner:tst:9971000"/>
@@ -14041,7 +14041,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:9049" version="2000000000">
       <metadata>
-        <title>CVE-2022-0778 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2022-0778 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -14050,7 +14050,7 @@
         <advisory_date>2022-03-19T16:40:53Z</advisory_date>
         <advisory_id>9049</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-0778 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2022-0778 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-9, affected by CVE-2022-0778" test_ref="oval:com.microsoft.cbl-mariner:tst:9049000"/>
@@ -15654,7 +15654,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:8471" version="2000000001">
       <metadata>
-        <title>CVE-2021-4160 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2021-4160 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -15663,7 +15663,7 @@
         <advisory_date>2021-09-09T15:02:55Z</advisory_date>
         <advisory_id>8471-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2021-4160 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2021-4160 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-8, affected by CVE-2021-4160" test_ref="oval:com.microsoft.cbl-mariner:tst:8471000"/>
@@ -20036,7 +20036,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6006" version="2000000000">
       <metadata>
-        <title>CVE-2021-3712 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2021-3712 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -20045,7 +20045,7 @@
         <advisory_date>2021-09-09T15:02:55Z</advisory_date>
         <advisory_id>6006</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3712 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2021-3712 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-8, affected by CVE-2021-3712" test_ref="oval:com.microsoft.cbl-mariner:tst:6006000"/>
@@ -20053,7 +20053,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:6005" version="2000000000">
       <metadata>
-        <title>CVE-2021-3711 affecting package openssl 1.1.1k-15</title>
+        <title>CVE-2021-3711 affecting package openssl 1.1.1k-16</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -20062,7 +20062,7 @@
         <advisory_date>2021-09-09T15:02:55Z</advisory_date>
         <advisory_id>6005</advisory_id>
         <severity>Critical</severity>
-        <description>CVE-2021-3711 affecting package openssl 1.1.1k-15. A patched version of the package is available.</description>
+        <description>CVE-2021-3711 affecting package openssl 1.1.1k-16. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssl is earlier than 1.1.1k-8, affected by CVE-2021-3711" test_ref="oval:com.microsoft.cbl-mariner:tst:6005000"/>
@@ -21002,10 +21002,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2007-4559" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2007-4559" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>5430</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2007-4559 affecting package python3 3.7.16-1. No patch is available currently.</description>
+        <description>CVE-2007-4559 affecting package python3 3.7.16-1. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is installed with version 3.7.16-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:5430000"/>
@@ -33288,7 +33288,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:2522" version="2000000001">
       <metadata>
-        <title>CVE-2007-2768 affecting package openssh 8.9p1-1</title>
+        <title>CVE-2007-2768 affecting package openssh 8.9p1-2</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -33297,7 +33297,7 @@
         <advisory_date>2021-07-08T21:56:34Z</advisory_date>
         <advisory_id>2522-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2007-2768 affecting package openssh 8.9p1-1. A patched version of the package is available.</description>
+        <description>CVE-2007-2768 affecting package openssh 8.9p1-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssh is earlier than 8.5p1-3, affected by CVE-2007-2768" test_ref="oval:com.microsoft.cbl-mariner:tst:2522000"/>
