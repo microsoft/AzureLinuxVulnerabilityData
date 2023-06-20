@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-06-19T12:01:36.21208065Z</oval:timestamp>
-    <oval:content_version>1687176096</oval:content_version>
+    <oval:timestamp>2023-06-20T12:01:32.557834523Z</oval:timestamp>
+    <oval:content_version>1687262492</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26951" version="2000000001">
@@ -1703,6 +1703,22 @@
         <criterion comment="Package kernel is earlier than 5.10.174.1-1, affected by CVE-2023-23003" test_ref="oval:com.microsoft.cbl-mariner:tst:25340000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25337" version="2000000001">
+      <metadata>
+        <title>CVE-2017-12613 affecting package apr for versions less than 1.6.3-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2017-12613" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2017-12613" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>25337-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2017-12613 affecting package apr for versions less than 1.6.3-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package apr is earlier than 1.6.3-1, affected by CVE-2017-12613" test_ref="oval:com.microsoft.cbl-mariner:tst:25337000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:13816" version="2000000000">
       <metadata>
         <title>CVE-2022-3857 affecting package syslinux 6.04-9</title>
@@ -2815,10 +2831,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-0215" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-0215" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13335</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-0215 affecting package shim-unsigned-aarch64 15-5. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-0215 affecting package shim-unsigned-aarch64 15-5. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package shim-unsigned-aarch64 is installed with version 15-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13335000"/>
@@ -3440,10 +3456,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2018-25078" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2018-25078" source="CVE"/>
-        <patchable>false</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>13188</advisory_id>
         <severity>High</severity>
-        <description>CVE-2018-25078 affecting package man-db 2.8.4-5. No patch is available currently.</description>
+        <description>CVE-2018-25078 affecting package man-db 2.8.4-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package man-db is installed with version 2.8.4-5 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13188000"/>
@@ -5784,10 +5800,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41974" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41974" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11414</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41974 affecting package device-mapper-multipath 0.8.6-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41974 affecting package device-mapper-multipath 0.8.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package device-mapper-multipath is installed with version 0.8.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11414000"/>
@@ -5800,10 +5816,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41973" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41973" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11413</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41973 affecting package device-mapper-multipath 0.8.6-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41973 affecting package device-mapper-multipath 0.8.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package device-mapper-multipath is installed with version 0.8.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11413000"/>
@@ -21002,10 +21018,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2007-4559" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2007-4559" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>5430</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2007-4559 affecting package python3 3.7.16-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2007-4559 affecting package python3 3.7.16-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is installed with version 3.7.16-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:5430000"/>
@@ -37102,6 +37118,10 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25340001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25340002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package apr is earlier than 1.6.3-1, affected by CVE-2017-12613" id="oval:com.microsoft.cbl-mariner:tst:25337000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25337001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25337002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package syslinux is installed with version 6.04-9 or earlier" id="oval:com.microsoft.cbl-mariner:tst:13816000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:13816001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:13816002"/>
@@ -45684,6 +45704,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25340001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25337001" version="0">
+      <linux-def:name>apr</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:13816001" version="0">
       <linux-def:name>syslinux</linux-def:name>
     </linux-def:rpminfo_object>
@@ -52195,6 +52218,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25340002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.10.174.1-1.cm1</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25337002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.6.3-1.cm1</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:13816002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than or equal">0:6.04-9.cm1</linux-def:evr>
