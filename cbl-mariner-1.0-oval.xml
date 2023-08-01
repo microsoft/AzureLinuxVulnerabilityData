@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-07-31T12:01:24.762326646Z</oval:timestamp>
-    <oval:content_version>1690804884</oval:content_version>
+    <oval:timestamp>2023-08-01T12:01:27.531588459Z</oval:timestamp>
+    <oval:content_version>1690891287</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27363" version="2000000001">
@@ -2592,10 +2592,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-3857" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3857" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>13814</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-3857 affecting package qt5-qtbase 5.12.11-7. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-3857 affecting package qt5-qtbase 5.12.11-7. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package qt5-qtbase is installed with version 5.12.11-7 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:13814000"/>
@@ -6635,10 +6635,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41974" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41974" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11414</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41974 affecting package device-mapper-multipath 0.8.6-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41974 affecting package device-mapper-multipath 0.8.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package device-mapper-multipath is installed with version 0.8.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11414000"/>
@@ -6651,10 +6651,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-41973" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41973" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11413</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-41973 affecting package device-mapper-multipath 0.8.6-1. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-41973 affecting package device-mapper-multipath 0.8.6-1. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package device-mapper-multipath is installed with version 0.8.6-1 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11413000"/>
