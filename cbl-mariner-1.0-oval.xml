@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-08-05T12:01:38.839854922Z</oval:timestamp>
-    <oval:content_version>1691236898</oval:content_version>
+    <oval:timestamp>2023-08-06T12:01:28.513618233Z</oval:timestamp>
+    <oval:content_version>1691323288</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27363" version="2000000001">
@@ -34139,7 +34139,7 @@
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:2522" version="2000000001">
       <metadata>
-        <title>CVE-2007-2768 affecting package openssh 8.9p1-2</title>
+        <title>CVE-2007-2768 affecting package openssh 8.9p1-3</title>
         <affected family="unix">
           <platform>CBL-Mariner</platform>
         </affected>
@@ -34148,7 +34148,7 @@
         <advisory_date>2021-07-08T21:56:34Z</advisory_date>
         <advisory_id>2522-1</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2007-2768 affecting package openssh 8.9p1-2. A patched version of the package is available.</description>
+        <description>CVE-2007-2768 affecting package openssh 8.9p1-3. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openssh is earlier than 8.5p1-3, affected by CVE-2007-2768" test_ref="oval:com.microsoft.cbl-mariner:tst:2522000"/>
