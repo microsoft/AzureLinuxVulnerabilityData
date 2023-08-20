@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-08-19T12:01:43.921776102Z</oval:timestamp>
-    <oval:content_version>1692446503</oval:content_version>
+    <oval:timestamp>2023-08-20T12:01:27.351386104Z</oval:timestamp>
+    <oval:content_version>1692532887</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27795" version="1">
@@ -7501,10 +7501,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-4543" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-4543" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>12989</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-4543 affecting package kernel 5.15.125.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-4543 affecting package kernel 5.15.125.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.125.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:12989000"/>
@@ -9235,10 +9235,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-45885" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45885" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>11484</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-45885 affecting package kernel 5.15.125.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-45885 affecting package kernel 5.15.125.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.125.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:11484000"/>
@@ -11786,10 +11786,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-38457" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-38457" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10902</advisory_id>
         <severity>Medium</severity>
-        <description>CVE-2022-38457 affecting package kernel 5.15.125.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-38457 affecting package kernel 5.15.125.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.125.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10902000"/>
@@ -12474,10 +12474,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2022-2961" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2961" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>10761</advisory_id>
         <severity>High</severity>
-        <description>CVE-2022-2961 affecting package kernel 5.15.125.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2022-2961 affecting package kernel 5.15.125.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.125.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:10761000"/>
@@ -18084,10 +18084,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2021-3847" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3847" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>false</patchable>
         <advisory_id>9301</advisory_id>
         <severity>High</severity>
-        <description>CVE-2021-3847 affecting package kernel 5.15.125.1-2. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2021-3847 affecting package kernel 5.15.125.1-2. No patch is available currently.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is installed with version 5.15.125.1-2 or earlier" test_ref="oval:com.microsoft.cbl-mariner:tst:9301000"/>
