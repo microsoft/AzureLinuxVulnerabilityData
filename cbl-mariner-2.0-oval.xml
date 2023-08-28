@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-08-27T12:01:31.927274368Z</oval:timestamp>
-    <oval:content_version>1693137691</oval:content_version>
+    <oval:timestamp>2023-08-28T12:01:53.986075865Z</oval:timestamp>
+    <oval:content_version>1693224113</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27920" version="1">
@@ -17,7 +17,7 @@
         <patchable>true</patchable>
         <advisory_date>2023-08-10T16:37:57Z</advisory_date>
         <advisory_id>27920-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2023-37369 affecting package qt5-qtbase 5.12.11-9. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
