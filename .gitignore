@@ -352,3 +352,10 @@ MigrationBackup/
 
 *dev*.xml
 .idea/
+
+**/*
+
+!.gitignore
+!cbl-mariner-1.0-oval.xml
+!cbl-mariner-2.0-oval.xml
+!*.md
