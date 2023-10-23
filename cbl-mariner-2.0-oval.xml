@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-10-22T12:01:32.316044196Z</oval:timestamp>
-    <oval:content_version>1697976092</oval:content_version>
+    <oval:timestamp>2023-10-23T12:01:47.839402616Z</oval:timestamp>
+    <oval:content_version>1698062507</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31520" version="1">
@@ -193,10 +193,10 @@
           <platform>CBL-Mariner</platform>
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
-        <patchable>Not Applicable</patchable>
+        <patchable>true</patchable>
         <advisory_id>31345-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package skopeo for versions less than 1.12.0-4. This CVE either no longer is or was never applicable.</description>
+        <description>CVE-2023-44487 affecting package skopeo for versions less than 1.12.0-4. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package skopeo is earlier than 1.12.0-4, affected by CVE-2023-44487" test_ref="oval:com.microsoft.cbl-mariner:tst:31345000"/>
