@@ -3,10 +3,129 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-11-18T13:01:31.756111966Z</oval:timestamp>
-    <oval:content_version>1700312491</oval:content_version>
+    <oval:timestamp>2023-11-19T13:01:42.118388529Z</oval:timestamp>
+    <oval:content_version>1700398902</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31981" version="1">
+      <metadata>
+        <title>CVE-2022-21698 affecting package kured 1.9.1-15</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-21698" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-21698" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-15T20:12:47Z</advisory_date>
+        <advisory_id>31981-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-21698 affecting package kured 1.9.1-15. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-21698" test_ref="oval:com.microsoft.cbl-mariner:tst:31981000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31978" version="1">
+      <metadata>
+        <title>CVE-2021-44716 affecting package kured 1.9.1-15</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2021-44716" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-44716" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-15T20:12:47Z</advisory_date>
+        <advisory_id>31978-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2021-44716 affecting package kured 1.9.1-15. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kured is earlier than 1.13.2-1, affected by CVE-2021-44716" test_ref="oval:com.microsoft.cbl-mariner:tst:31978000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31975" version="1">
+      <metadata>
+        <title>CVE-2022-29526 affecting package kured 1.9.1-15</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-29526" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-29526" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-15T20:12:47Z</advisory_date>
+        <advisory_id>31975-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-29526 affecting package kured 1.9.1-15. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-29526" test_ref="oval:com.microsoft.cbl-mariner:tst:31975000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31972" version="1">
+      <metadata>
+        <title>CVE-2022-32149 affecting package kured 1.9.1-15</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-32149" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-32149" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-15T20:12:47Z</advisory_date>
+        <advisory_id>31972-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-32149 affecting package kured 1.9.1-15. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-32149" test_ref="oval:com.microsoft.cbl-mariner:tst:31972000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31969" version="1">
+      <metadata>
+        <title>CVE-2022-25891 affecting package kured 1.9.1-15</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-25891" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-25891" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-15T20:12:47Z</advisory_date>
+        <advisory_id>31969-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-25891 affecting package kured 1.9.1-15. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-25891" test_ref="oval:com.microsoft.cbl-mariner:tst:31969000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31966" version="1">
+      <metadata>
+        <title>CVE-2022-28948 affecting package kured 1.9.1-15</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-28948" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-28948" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-15T20:12:47Z</advisory_date>
+        <advisory_id>31966-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-28948 affecting package kured 1.9.1-15. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-28948" test_ref="oval:com.microsoft.cbl-mariner:tst:31966000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31963" version="1">
+      <metadata>
+        <title>CVE-2022-27664 affecting package kured 1.9.1-15</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2022-27664" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-27664" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-15T20:12:47Z</advisory_date>
+        <advisory_id>31963-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-27664 affecting package kured 1.9.1-15. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-27664" test_ref="oval:com.microsoft.cbl-mariner:tst:31963000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31859" version="1">
       <metadata>
         <title>CVE-2023-39325 affecting package multus for versions less than 3.8-12</title>
@@ -37,6 +156,91 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kured is earlier than 1.9.1-14, affected by CVE-2023-39325" test_ref="oval:com.microsoft.cbl-mariner:tst:31857000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31853" version="1">
+      <metadata>
+        <title>CVE-2023-1192 affecting package kernel 5.15.137.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-1192" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-1192" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31853-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-1192 affecting package kernel 5.15.137.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-1192" test_ref="oval:com.microsoft.cbl-mariner:tst:31853000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31852" version="0">
+      <metadata>
+        <title>CVE-2023-5178 affecting package kernel 5.15.137.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-5178" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-5178" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31852</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-5178 affecting package kernel 5.15.137.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-5178" test_ref="oval:com.microsoft.cbl-mariner:tst:31852000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31815" version="1">
+      <metadata>
+        <title>CVE-2023-46813 affecting package kernel 5.15.135.1-2</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-46813" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-46813" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31815-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-46813 affecting package kernel 5.15.135.1-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-46813" test_ref="oval:com.microsoft.cbl-mariner:tst:31815000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31814" version="1">
+      <metadata>
+        <title>CVE-2023-5717 affecting package hyperv-daemons 5.15.135.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-5717" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-5717" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31814-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-5717 affecting package hyperv-daemons 5.15.135.1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package hyperv-daemons is earlier than 5.15.137.1-1, affected by CVE-2023-5717" test_ref="oval:com.microsoft.cbl-mariner:tst:31814000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31792" version="1">
+      <metadata>
+        <title>CVE-2023-46129 affecting package telegraf 1.27.3-4</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-46129" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-46129" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31792-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-46129 affecting package telegraf 1.27.3-4. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package telegraf is earlier than 1.27.4-1, affected by CVE-2023-46129" test_ref="oval:com.microsoft.cbl-mariner:tst:31792000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31783" version="1">
@@ -71,6 +275,40 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package PyYAML is earlier than 5.4.1-1, affected by CVE-2020-14343" test_ref="oval:com.microsoft.cbl-mariner:tst:31782000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31777" version="1">
+      <metadata>
+        <title>CVE-2023-5178 affecting package hyperv-daemons 5.15.135.1-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-5178" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-5178" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31777-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-5178 affecting package hyperv-daemons 5.15.135.1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package hyperv-daemons is earlier than 5.15.137.1-1, affected by CVE-2023-5178" test_ref="oval:com.microsoft.cbl-mariner:tst:31777000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31774" version="1">
+      <metadata>
+        <title>CVE-2023-5717 affecting package kernel 5.15.135.1-2</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-5717" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-5717" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31774-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-5717 affecting package kernel 5.15.135.1-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-5717" test_ref="oval:com.microsoft.cbl-mariner:tst:31774000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31746" version="1">
@@ -255,6 +493,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package coredns is earlier than 1.9.3-9, affected by CVE-2023-39325" test_ref="oval:com.microsoft.cbl-mariner:tst:31691000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31687" version="1">
+      <metadata>
+        <title>CVE-2023-3338 affecting package kernel 5.15.135.1-2</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-3338" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-3338" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31687-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-3338 affecting package kernel 5.15.135.1-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-3338" test_ref="oval:com.microsoft.cbl-mariner:tst:31687000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31660" version="1">
@@ -537,6 +792,108 @@
         <criterion comment="Package cri-tools is earlier than 1.28.0-2, affected by CVE-2023-39325" test_ref="oval:com.microsoft.cbl-mariner:tst:31609000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31608" version="1">
+      <metadata>
+        <title>CVE-2023-39325 affecting package blobfuse2 2.1.0-3</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31608-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-39325 affecting package blobfuse2 2.1.0-3. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package blobfuse2 is earlier than 2.1.1-1, affected by CVE-2023-39325" test_ref="oval:com.microsoft.cbl-mariner:tst:31608000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31584" version="1">
+      <metadata>
+        <title>CVE-2023-22111 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22111" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22111" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31584-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22111 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22111" test_ref="oval:com.microsoft.cbl-mariner:tst:31584000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31582" version="1">
+      <metadata>
+        <title>CVE-2023-22110 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22110" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22110" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31582-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22110 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22110" test_ref="oval:com.microsoft.cbl-mariner:tst:31582000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31577" version="1">
+      <metadata>
+        <title>CVE-2023-22113 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22113" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22113" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31577-1</advisory_id>
+        <severity>Low</severity>
+        <description>CVE-2023-22113 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22113" test_ref="oval:com.microsoft.cbl-mariner:tst:31577000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31573" version="1">
+      <metadata>
+        <title>CVE-2023-22102 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22102" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22102" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31573-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-22102 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22102" test_ref="oval:com.microsoft.cbl-mariner:tst:31573000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31572" version="1">
+      <metadata>
+        <title>CVE-2023-22065 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22065" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22065" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31572-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22065 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22065" test_ref="oval:com.microsoft.cbl-mariner:tst:31572000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31568" version="1">
       <metadata>
         <title>CVE-2023-45863 affecting package kernel 5.15.133.1-1</title>
@@ -620,6 +977,40 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.135.1-2, affected by CVE-2023-40791" test_ref="oval:com.microsoft.cbl-mariner:tst:31564000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31523" version="1">
+      <metadata>
+        <title>CVE-2023-22115 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22115" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22115" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31523-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22115 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22115" test_ref="oval:com.microsoft.cbl-mariner:tst:31523000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31521" version="1">
+      <metadata>
+        <title>CVE-2023-42752 affecting package kernel 5.15.135.1-2</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-42752" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-42752" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31521-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-42752 affecting package kernel 5.15.135.1-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-42752" test_ref="oval:com.microsoft.cbl-mariner:tst:31521000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31520" version="1">
@@ -731,6 +1122,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
         <advisory_id>31498-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package telegraf for versions less than 1.27.3-3. An upgraded version of the package is available that resolves this issue.</description>
@@ -2088,6 +2480,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package python3 is earlier than 3.9.14-8, affected by CVE-2023-24329" test_ref="oval:com.microsoft.cbl-mariner:tst:31165000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31150" version="1">
+      <metadata>
+        <title>CVE-2023-39191 affecting package kernel 5.15.135.1-2</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-39191" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39191" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>31150-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-39191 affecting package kernel 5.15.135.1-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-39191" test_ref="oval:com.microsoft.cbl-mariner:tst:31150000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:31149" version="1">
@@ -3837,6 +4246,23 @@
         <criterion comment="Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-4132" test_ref="oval:com.microsoft.cbl-mariner:tst:27852000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27831" version="1">
+      <metadata>
+        <title>CVE-2023-3978 affecting package telegraf 1.27.3-4</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-3978" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-3978" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27831-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-3978 affecting package telegraf 1.27.3-4. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package telegraf is earlier than 1.27.4-1, affected by CVE-2023-3978" test_ref="oval:com.microsoft.cbl-mariner:tst:27831000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27830" version="1">
       <metadata>
         <title>CVE-2023-38697 affecting package rubygem-protocol-http1 0.14.2-1</title>
@@ -4055,6 +4481,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-32248" test_ref="oval:com.microsoft.cbl-mariner:tst:27760000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27759" version="1">
+      <metadata>
+        <title>CVE-2023-2430 affecting package kernel 5.15.135.1-2</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-2430" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-2430" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27759-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-2430 affecting package kernel 5.15.135.1-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-2430" test_ref="oval:com.microsoft.cbl-mariner:tst:27759000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27758" version="1">
@@ -4666,6 +5109,193 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package redis is earlier than 6.2.13-2, affected by CVE-2022-24834" test_ref="oval:com.microsoft.cbl-mariner:tst:27477000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27475" version="1">
+      <metadata>
+        <title>CVE-2023-22038 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22038" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22038" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27475-1</advisory_id>
+        <severity>Low</severity>
+        <description>CVE-2023-22038 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22038" test_ref="oval:com.microsoft.cbl-mariner:tst:27475000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27474" version="1">
+      <metadata>
+        <title>CVE-2023-22033 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22033" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22033" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27474-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22033 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22033" test_ref="oval:com.microsoft.cbl-mariner:tst:27474000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27473" version="1">
+      <metadata>
+        <title>CVE-2023-22058 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22058" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22058" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27473-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22058 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22058" test_ref="oval:com.microsoft.cbl-mariner:tst:27473000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27472" version="1">
+      <metadata>
+        <title>CVE-2023-22005 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22005" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22005" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27472-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22005 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22005" test_ref="oval:com.microsoft.cbl-mariner:tst:27472000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27471" version="1">
+      <metadata>
+        <title>CVE-2023-22057 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22057" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22057" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27471-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22057 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22057" test_ref="oval:com.microsoft.cbl-mariner:tst:27471000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27470" version="1">
+      <metadata>
+        <title>CVE-2023-22056 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22056" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22056" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27470-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22056 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22056" test_ref="oval:com.microsoft.cbl-mariner:tst:27470000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27469" version="1">
+      <metadata>
+        <title>CVE-2023-22008 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22008" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22008" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27469-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22008 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22008" test_ref="oval:com.microsoft.cbl-mariner:tst:27469000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27468" version="1">
+      <metadata>
+        <title>CVE-2023-22053 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22053" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22053" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27468-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22053 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22053" test_ref="oval:com.microsoft.cbl-mariner:tst:27468000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27467" version="1">
+      <metadata>
+        <title>CVE-2023-22046 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22046" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22046" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27467-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22046 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22046" test_ref="oval:com.microsoft.cbl-mariner:tst:27467000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27466" version="1">
+      <metadata>
+        <title>CVE-2023-22054 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22054" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22054" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27466-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-22054 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22054" test_ref="oval:com.microsoft.cbl-mariner:tst:27466000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27465" version="1">
+      <metadata>
+        <title>CVE-2023-22048 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-22048" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-22048" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>27465-1</advisory_id>
+        <severity>Low</severity>
+        <description>CVE-2023-22048 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22048" test_ref="oval:com.microsoft.cbl-mariner:tst:27465000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27435" version="1">
@@ -6276,6 +6906,57 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package rust is earlier than 1.72.0-2, affected by CVE-2023-28319" test_ref="oval:com.microsoft.cbl-mariner:tst:26810000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26809" version="1">
+      <metadata>
+        <title>CVE-2023-28320 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-28320" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-28320" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>26809-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-28320 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-28320" test_ref="oval:com.microsoft.cbl-mariner:tst:26809000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26808" version="1">
+      <metadata>
+        <title>CVE-2023-28321 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-28321" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-28321" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>26808-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-28321 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-28321" test_ref="oval:com.microsoft.cbl-mariner:tst:26808000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26807" version="1">
+      <metadata>
+        <title>CVE-2023-28319 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-28319" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-28319" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>26807-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-28319 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-28319" test_ref="oval:com.microsoft.cbl-mariner:tst:26807000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:26798" version="1">
@@ -8378,6 +9059,91 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package rust is earlier than 1.72.0-2, affected by CVE-2023-27538" test_ref="oval:com.microsoft.cbl-mariner:tst:25808000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25806" version="1">
+      <metadata>
+        <title>CVE-2023-27534 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-27534" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-27534" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>25806-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-27534 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27534" test_ref="oval:com.microsoft.cbl-mariner:tst:25806000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25805" version="1">
+      <metadata>
+        <title>CVE-2023-27535 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-27535" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-27535" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>25805-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-27535 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27535" test_ref="oval:com.microsoft.cbl-mariner:tst:25805000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25804" version="1">
+      <metadata>
+        <title>CVE-2023-27533 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-27533" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-27533" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>25804-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-27533 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27533" test_ref="oval:com.microsoft.cbl-mariner:tst:25804000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25803" version="1">
+      <metadata>
+        <title>CVE-2023-27538 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-27538" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-27538" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>25803-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-27538 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27538" test_ref="oval:com.microsoft.cbl-mariner:tst:25803000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25802" version="1">
+      <metadata>
+        <title>CVE-2023-27536 affecting package mysql 8.0.33-1</title>
+        <affected family="unix">
+          <platform>CBL-Mariner</platform>
+        </affected>
+        <reference ref_id="CVE-2023-27536" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-27536" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2023-11-17T23:23:29Z</advisory_date>
+        <advisory_id>25802-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-27536 affecting package mysql 8.0.33-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27536" test_ref="oval:com.microsoft.cbl-mariner:tst:25802000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:25798" version="1">
@@ -38735,6 +39501,34 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-21698" id="oval:com.microsoft.cbl-mariner:tst:31981000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31981001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31981002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kured is earlier than 1.13.2-1, affected by CVE-2021-44716" id="oval:com.microsoft.cbl-mariner:tst:31978000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31978001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31978002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-29526" id="oval:com.microsoft.cbl-mariner:tst:31975000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31975001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31975002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-32149" id="oval:com.microsoft.cbl-mariner:tst:31972000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31972001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31972002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-25891" id="oval:com.microsoft.cbl-mariner:tst:31969000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31969001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31969002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-28948" id="oval:com.microsoft.cbl-mariner:tst:31966000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31966001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31966002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kured is earlier than 1.13.2-1, affected by CVE-2022-27664" id="oval:com.microsoft.cbl-mariner:tst:31963000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31963001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31963002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package multus is earlier than 3.8-12, affected by CVE-2023-39325" id="oval:com.microsoft.cbl-mariner:tst:31859000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31859001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31859002"/>
@@ -38743,6 +39537,26 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31857001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31857002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-1192" id="oval:com.microsoft.cbl-mariner:tst:31853000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31853001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31853002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-5178" id="oval:com.microsoft.cbl-mariner:tst:31852000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31852001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31852002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-46813" id="oval:com.microsoft.cbl-mariner:tst:31815000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31815001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31815002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package hyperv-daemons is earlier than 5.15.137.1-1, affected by CVE-2023-5717" id="oval:com.microsoft.cbl-mariner:tst:31814000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31814001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31814002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package telegraf is earlier than 1.27.4-1, affected by CVE-2023-46129" id="oval:com.microsoft.cbl-mariner:tst:31792000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31792001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31792002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package PyYAML is earlier than 5.4.1-1, affected by CVE-2020-1747" id="oval:com.microsoft.cbl-mariner:tst:31783000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31783001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31783002"/>
@@ -38750,6 +39564,14 @@
     <linux-def:rpminfo_test check="at least one" comment="Package PyYAML is earlier than 5.4.1-1, affected by CVE-2020-14343" id="oval:com.microsoft.cbl-mariner:tst:31782000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31782001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31782002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package hyperv-daemons is earlier than 5.15.137.1-1, affected by CVE-2023-5178" id="oval:com.microsoft.cbl-mariner:tst:31777000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31777001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31777002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-5717" id="oval:com.microsoft.cbl-mariner:tst:31774000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31774001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31774002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package traceroute is earlier than 2.1.3-1, affected by CVE-2023-46316" id="oval:com.microsoft.cbl-mariner:tst:31746000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31746001"/>
@@ -38794,6 +39616,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package coredns is earlier than 1.9.3-9, affected by CVE-2023-39325" id="oval:com.microsoft.cbl-mariner:tst:31691000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31691001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31691002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-3338" id="oval:com.microsoft.cbl-mariner:tst:31687000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31687001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31687002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package skopeo is earlier than 1.12.0-4, affected by CVE-2023-39325" id="oval:com.microsoft.cbl-mariner:tst:31660000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31660001"/>
@@ -38863,6 +39689,30 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31609001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31609002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package blobfuse2 is earlier than 2.1.1-1, affected by CVE-2023-39325" id="oval:com.microsoft.cbl-mariner:tst:31608000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31608001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31608002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22111" id="oval:com.microsoft.cbl-mariner:tst:31584000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31584001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31584002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22110" id="oval:com.microsoft.cbl-mariner:tst:31582000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31582001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31582002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22113" id="oval:com.microsoft.cbl-mariner:tst:31577000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31577001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31577002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22102" id="oval:com.microsoft.cbl-mariner:tst:31573000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31573001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31573002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22065" id="oval:com.microsoft.cbl-mariner:tst:31572000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31572001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31572002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.135.1-2, affected by CVE-2023-45863" id="oval:com.microsoft.cbl-mariner:tst:31568000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31568001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31568002"/>
@@ -38882,6 +39732,14 @@
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.135.1-2, affected by CVE-2023-40791" id="oval:com.microsoft.cbl-mariner:tst:31564000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31564001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31564002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22115" id="oval:com.microsoft.cbl-mariner:tst:31523000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31523001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31523002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-42752" id="oval:com.microsoft.cbl-mariner:tst:31521000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31521001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31521002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package grpc is earlier than 1.42.0-7, affected by CVE-2023-44487" id="oval:com.microsoft.cbl-mariner:tst:31520000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31520001"/>
@@ -39242,6 +40100,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package python3 is earlier than 3.9.14-8, affected by CVE-2023-24329" id="oval:com.microsoft.cbl-mariner:tst:31165000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31165001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31165002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-39191" id="oval:com.microsoft.cbl-mariner:tst:31150000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31150001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:31150002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.135.1-2, affected by CVE-2023-5345" id="oval:com.microsoft.cbl-mariner:tst:31149000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:31149001"/>
@@ -39655,6 +40517,10 @@
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27852001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27852002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package telegraf is earlier than 1.27.4-1, affected by CVE-2023-3978" id="oval:com.microsoft.cbl-mariner:tst:27831000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27831001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27831002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package rubygem-protocol-http1 is earlier than 0.15.1-1, affected by CVE-2023-38697" id="oval:com.microsoft.cbl-mariner:tst:27830000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27830001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27830002"/>
@@ -39706,6 +40572,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-32248" id="oval:com.microsoft.cbl-mariner:tst:27760000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27760001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27760002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.137.1-1, affected by CVE-2023-2430" id="oval:com.microsoft.cbl-mariner:tst:27759000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27759001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27759002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.126.1-1, affected by CVE-2023-3567" id="oval:com.microsoft.cbl-mariner:tst:27758000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27758001"/>
@@ -39850,6 +40720,50 @@
     <linux-def:rpminfo_test check="at least one" comment="Package redis is earlier than 6.2.13-2, affected by CVE-2022-24834" id="oval:com.microsoft.cbl-mariner:tst:27477000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27477001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27477002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22038" id="oval:com.microsoft.cbl-mariner:tst:27475000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27475001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27475002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22033" id="oval:com.microsoft.cbl-mariner:tst:27474000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27474001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27474002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22058" id="oval:com.microsoft.cbl-mariner:tst:27473000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27473001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27473002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22005" id="oval:com.microsoft.cbl-mariner:tst:27472000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27472001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27472002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22057" id="oval:com.microsoft.cbl-mariner:tst:27471000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27471001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27471002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22056" id="oval:com.microsoft.cbl-mariner:tst:27470000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27470001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27470002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22008" id="oval:com.microsoft.cbl-mariner:tst:27469000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27469001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27469002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22053" id="oval:com.microsoft.cbl-mariner:tst:27468000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27468001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27468002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22046" id="oval:com.microsoft.cbl-mariner:tst:27467000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27467001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27467002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22054" id="oval:com.microsoft.cbl-mariner:tst:27466000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27466001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27466002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-22048" id="oval:com.microsoft.cbl-mariner:tst:27465000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27465001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:27465002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package php is earlier than 8.1.22-1, affected by CVE-2023-3247" id="oval:com.microsoft.cbl-mariner:tst:27435000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:27435001"/>
@@ -40230,6 +41144,18 @@
     <linux-def:rpminfo_test check="at least one" comment="Package rust is earlier than 1.72.0-2, affected by CVE-2023-28319" id="oval:com.microsoft.cbl-mariner:tst:26810000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26810001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26810002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-28320" id="oval:com.microsoft.cbl-mariner:tst:26809000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26809001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26809002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-28321" id="oval:com.microsoft.cbl-mariner:tst:26808000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26808001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26808002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-28319" id="oval:com.microsoft.cbl-mariner:tst:26807000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26807001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:26807002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.112.1-2, affected by CVE-2023-1195" id="oval:com.microsoft.cbl-mariner:tst:26798000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:26798001"/>
@@ -40726,6 +41652,26 @@
     <linux-def:rpminfo_test check="at least one" comment="Package rust is earlier than 1.72.0-2, affected by CVE-2023-27538" id="oval:com.microsoft.cbl-mariner:tst:25808000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25808001"/>
       <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25808002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27534" id="oval:com.microsoft.cbl-mariner:tst:25806000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25806001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25806002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27535" id="oval:com.microsoft.cbl-mariner:tst:25805000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25805001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25805002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27533" id="oval:com.microsoft.cbl-mariner:tst:25804000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25804001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25804002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27538" id="oval:com.microsoft.cbl-mariner:tst:25803000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25803001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25803002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package mysql is earlier than 8.0.34-1, affected by CVE-2023-27536" id="oval:com.microsoft.cbl-mariner:tst:25802000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25802001"/>
+      <linux-def:state state_ref="oval:com.microsoft.cbl-mariner:ste:25802002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 5.15.102.1-3, affected by CVE-2023-1079" id="oval:com.microsoft.cbl-mariner:tst:25798000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.cbl-mariner:obj:25798001"/>
@@ -47933,17 +48879,59 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31981001" version="1">
+      <linux-def:name>kured</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31978001" version="1">
+      <linux-def:name>kured</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31975001" version="1">
+      <linux-def:name>kured</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31972001" version="1">
+      <linux-def:name>kured</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31969001" version="1">
+      <linux-def:name>kured</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31966001" version="1">
+      <linux-def:name>kured</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31963001" version="1">
+      <linux-def:name>kured</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31859001" version="0">
       <linux-def:name>multus</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31857001" version="0">
       <linux-def:name>kured</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31853001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31852001" version="0">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31815001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31814001" version="1">
+      <linux-def:name>hyperv-daemons</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31792001" version="1">
+      <linux-def:name>telegraf</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31783001" version="1">
       <linux-def:name>PyYAML</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31782001" version="1">
       <linux-def:name>PyYAML</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31777001" version="1">
+      <linux-def:name>hyperv-daemons</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31774001" version="1">
+      <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31746001" version="1">
       <linux-def:name>traceroute</linux-def:name>
@@ -47977,6 +48965,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31691001" version="0">
       <linux-def:name>coredns</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31687001" version="1">
+      <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31660001" version="0">
       <linux-def:name>skopeo</linux-def:name>
@@ -48029,6 +49020,24 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31609001" version="0">
       <linux-def:name>cri-tools</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31608001" version="1">
+      <linux-def:name>blobfuse2</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31584001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31582001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31577001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31573001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31572001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31568001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -48042,6 +49051,12 @@
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31564001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31523001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31521001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31520001" version="0">
@@ -48313,6 +49328,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31165001" version="1">
       <linux-def:name>python3</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31150001" version="1">
+      <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:31149001" version="1">
       <linux-def:name>kernel</linux-def:name>
@@ -48623,6 +49641,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27852001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27831001" version="1">
+      <linux-def:name>telegraf</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27830001" version="1">
       <linux-def:name>rubygem-protocol-http1</linux-def:name>
     </linux-def:rpminfo_object>
@@ -48660,6 +49681,9 @@
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27760001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27759001" version="1">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27758001" version="1">
@@ -48769,6 +49793,39 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27477001" version="1">
       <linux-def:name>redis</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27475001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27474001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27473001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27472001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27471001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27470001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27469001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27468001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27467001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27466001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27465001" version="1">
+      <linux-def:name>mysql</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:27435001" version="1">
       <linux-def:name>php</linux-def:name>
@@ -49054,6 +50111,15 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26810001" version="1">
       <linux-def:name>rust</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26809001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26808001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26807001" version="1">
+      <linux-def:name>mysql</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:26798001" version="1">
       <linux-def:name>kernel</linux-def:name>
@@ -49426,6 +50492,21 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25808001" version="1">
       <linux-def:name>rust</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25806001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25805001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25804001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25803001" version="1">
+      <linux-def:name>mysql</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25802001" version="1">
+      <linux-def:name>mysql</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.cbl-mariner:obj:25798001" version="1">
       <linux-def:name>kernel</linux-def:name>
@@ -54832,17 +55913,59 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31981002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.13.2-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31978002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.13.2-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31975002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.13.2-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31972002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.13.2-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31969002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.13.2-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31966002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.13.2-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31963002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.13.2-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31859002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.8-12.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31857002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.9.1-14.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31853002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31852002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31815002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31814002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31792002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.27.4-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31783002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.4.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31782002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.4.1-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31777002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31774002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31746002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.1.3-1.cm2</linux-def:evr>
@@ -54876,6 +55999,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31691002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.9.3-9.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31687002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31660002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.12.0-4.cm2</linux-def:evr>
@@ -54928,6 +56054,24 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31609002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.28.0-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31608002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.1.1-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31584002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31582002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31577002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31573002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31572002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31568002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.135.1-2.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -54942,6 +56086,12 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31564002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.135.1-2.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31523002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31521002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31520002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.42.0-7.cm2</linux-def:evr>
@@ -55212,6 +56362,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31165002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.9.14-8.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31150002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:31149002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.135.1-2.cm2</linux-def:evr>
@@ -55522,6 +56675,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27852002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.126.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27831002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.27.4-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27830002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:0.15.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -55560,6 +56716,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27760002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.126.1-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27759002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.15.137.1-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27758002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.126.1-1.cm2</linux-def:evr>
@@ -55668,6 +56827,39 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27477002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.2.13-2.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27475002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27474002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27473002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27472002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27471002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27470002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27469002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27468002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27467002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27466002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27465002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:27435002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.1.22-1.cm2</linux-def:evr>
@@ -55953,6 +57145,15 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26810002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.72.0-2.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26809002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26808002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26807002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:26798002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.112.1-2.cm2</linux-def:evr>
@@ -56325,6 +57526,21 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25808002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.72.0-2.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25806002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25805002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25804002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25803002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25802002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:8.0.34-1.cm2</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.cbl-mariner:ste:25798002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.15.102.1-3.cm2</linux-def:evr>
