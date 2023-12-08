@@ -3,8 +3,8 @@
     <oval:product_name>CBL-Mariner OVAL Definition Generator</oval:product_name>
     <oval:product_version>15</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2023-12-07T13:01:28.162692686Z</oval:timestamp>
-    <oval:content_version>1701954088</oval:content_version>
+    <oval:timestamp>2023-12-08T13:01:33.193981237Z</oval:timestamp>
+    <oval:content_version>1702040493</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.cbl-mariner:def:27741" version="2000000001">
