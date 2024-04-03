@@ -358,4 +358,5 @@ MigrationBackup/
 !.gitignore
 !cbl-mariner-1.0-oval.xml
 !cbl-mariner-2.0-oval.xml
+!azurelinux-3.0-oval.xml
 !*.md
