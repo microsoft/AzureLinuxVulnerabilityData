@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-04-19T12:06:01.884502767Z</oval:timestamp>
-    <oval:content_version>1713528361</oval:content_version>
+    <oval:timestamp>2024-04-20T12:03:33.204102411Z</oval:timestamp>
+    <oval:content_version>1713614613</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:39708" version="1">
@@ -1275,7 +1275,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-04-02T21:08:16Z</advisory_date>
         <advisory_id>35475-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2024-26581 affecting package hyperv-daemons 6.6.14.1-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
