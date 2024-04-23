@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-04-22T12:03:26.906931088Z</oval:timestamp>
-    <oval:content_version>1713787406</oval:content_version>
+    <oval:timestamp>2024-04-23T12:04:06.62637763Z</oval:timestamp>
+    <oval:content_version>1713873846</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:39708" version="1">
