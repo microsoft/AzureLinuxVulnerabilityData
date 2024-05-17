@@ -3,10 +3,112 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-05-16T12:06:36.807452229Z</oval:timestamp>
-    <oval:content_version>1715861196</oval:content_version>
+    <oval:timestamp>2024-05-17T12:04:19.767453744Z</oval:timestamp>
+    <oval:content_version>1715947459</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41790" version="1">
+      <metadata>
+        <title>CVE-2022-28391 affecting package busybox for versions less than 1.36.1-3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-28391" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-28391" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>41790-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-28391 affecting package busybox for versions less than 1.36.1-3. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package busybox is earlier than 1.36.1-3, affected by CVE-2022-28391" test_ref="oval:com.microsoft.azurelinux:tst:41790000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41659" version="1">
+      <metadata>
+        <title>CVE-2022-3821 affecting package systemd-bootstrap for versions less than 250.3-17</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-3821" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-3821" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>41659-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-3821 affecting package systemd-bootstrap for versions less than 250.3-17. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-3821" test_ref="oval:com.microsoft.azurelinux:tst:41659000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41470" version="1">
+      <metadata>
+        <title>CVE-2022-45873 affecting package systemd-bootstrap for versions less than 250.3-17</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-45873" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-45873" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>41470-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-45873 affecting package systemd-bootstrap for versions less than 250.3-17. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-45873" test_ref="oval:com.microsoft.azurelinux:tst:41470000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41149" version="1">
+      <metadata>
+        <title>CVE-2020-24370 affecting package lua for versions less than 5.4.6-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2020-24370" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-24370" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>41149-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2020-24370 affecting package lua for versions less than 5.4.6-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package lua is earlier than 5.4.6-1, affected by CVE-2020-24370" test_ref="oval:com.microsoft.azurelinux:tst:41149000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40943" version="1">
+      <metadata>
+        <title>CVE-2021-3502 affecting package avahi for versions less than 0.8-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2021-3502" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2021-3502" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>40943-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2021-3502 affecting package avahi for versions less than 0.8-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package avahi is earlier than 0.8-1, affected by CVE-2021-3502" test_ref="oval:com.microsoft.azurelinux:tst:40943000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40794" version="1">
+      <metadata>
+        <title>CVE-2019-6293 affecting package flex for versions less than 2.6.4-7</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2019-6293" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2019-6293" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>40794-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2019-6293 affecting package flex for versions less than 2.6.4-7. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package flex is earlier than 2.6.4-7, affected by CVE-2019-6293" test_ref="oval:com.microsoft.azurelinux:tst:40794000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:39708" version="1">
       <metadata>
         <title>CVE-2024-24258 affecting package freeglut for versions less than 3.4.0-1</title>
@@ -6003,6 +6105,30 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package busybox is earlier than 1.36.1-3, affected by CVE-2022-28391" id="oval:com.microsoft.azurelinux:tst:41790000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41790001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41790002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-3821" id="oval:com.microsoft.azurelinux:tst:41659000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41659001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41659002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-45873" id="oval:com.microsoft.azurelinux:tst:41470000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41470001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41470002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package lua is earlier than 5.4.6-1, affected by CVE-2020-24370" id="oval:com.microsoft.azurelinux:tst:41149000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41149001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41149002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package avahi is earlier than 0.8-1, affected by CVE-2021-3502" id="oval:com.microsoft.azurelinux:tst:40943000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40943001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40943002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package flex is earlier than 2.6.4-7, affected by CVE-2019-6293" id="oval:com.microsoft.azurelinux:tst:40794000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40794001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40794002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package freeglut is earlier than 3.4.0-1, affected by CVE-2024-24258" id="oval:com.microsoft.azurelinux:tst:39708000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:39708001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:39708002"/>
@@ -7429,6 +7555,24 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41790001" version="1">
+      <linux-def:name>busybox</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41659001" version="1">
+      <linux-def:name>systemd-bootstrap</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41470001" version="1">
+      <linux-def:name>systemd-bootstrap</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41149001" version="1">
+      <linux-def:name>lua</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40943001" version="1">
+      <linux-def:name>avahi</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40794001" version="1">
+      <linux-def:name>flex</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:39708001" version="1">
       <linux-def:name>freeglut</linux-def:name>
     </linux-def:rpminfo_object>
@@ -8499,6 +8643,24 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41790002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.36.1-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41659002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:250.3-17.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41470002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:250.3-17.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41149002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.4.6-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40943002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:0.8-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40794002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:2.6.4-7.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:39708002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.4.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
