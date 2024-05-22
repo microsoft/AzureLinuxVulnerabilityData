@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-05-21T12:03:36.207425936Z</oval:timestamp>
-    <oval:content_version>1716293016</oval:content_version>
+    <oval:timestamp>2024-05-22T12:04:13.851335349Z</oval:timestamp>
+    <oval:content_version>1716379453</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41790" version="1">
@@ -1671,6 +1671,22 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package emacs is earlier than 29.3-1, affected by CVE-2024-30205" test_ref="oval:com.microsoft.azurelinux:tst:37107000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:37106" version="1">
+      <metadata>
+        <title>CVE-2024-30204 affecting package emacs for versions less than 29.3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-30204" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-30204" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>37106-1</advisory_id>
+        <severity>Critical</severity>
+        <description>CVE-2024-30204 affecting package emacs for versions less than 29.3. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package emacs is earlier than 29.3, affected by CVE-2024-30204" test_ref="oval:com.microsoft.azurelinux:tst:37106000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:37105" version="1">
@@ -6503,7 +6519,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -7790,6 +7806,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package emacs is earlier than 29.3-1, affected by CVE-2024-30205" id="oval:com.microsoft.azurelinux:tst:37107000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:37107001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:37107002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package emacs is earlier than 29.3, affected by CVE-2024-30204" id="oval:com.microsoft.azurelinux:tst:37106000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:37106001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:37106002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package emacs is earlier than 29.3-1, affected by CVE-2024-30202" id="oval:com.microsoft.azurelinux:tst:37105000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:37105001"/>
@@ -9447,6 +9467,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:37107001" version="1">
       <linux-def:name>emacs</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:37106001" version="0">
+      <linux-def:name>emacs</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:37105001" version="1">
       <linux-def:name>emacs</linux-def:name>
     </linux-def:rpminfo_object>
@@ -10762,6 +10785,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:37107002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:29.3-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:37106002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:29.3.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:37105002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:29.3-1.azl3</linux-def:evr>
