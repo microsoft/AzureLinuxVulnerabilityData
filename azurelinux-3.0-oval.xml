@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-06-18T12:09:25.432964133Z</oval:timestamp>
-    <oval:content_version>1718712565</oval:content_version>
+    <oval:timestamp>2024-06-19T12:07:30.314695557Z</oval:timestamp>
+    <oval:content_version>1718798850</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42064" version="1">
@@ -24,6 +24,23 @@
         <criterion comment="Package rubygem-rexml is earlier than 3.2.8-1, affected by CVE-2024-35176" test_ref="oval:com.microsoft.azurelinux:tst:42064000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41810" version="0">
+      <metadata>
+        <title>CVE-2022-44793 affecting package net-snmp for versions less than 5.9.4-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-44793" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44793" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>41810</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-44793 affecting package net-snmp for versions less than 5.9.4-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package net-snmp is earlier than 5.9.4-1, affected by CVE-2022-44793" test_ref="oval:com.microsoft.azurelinux:tst:41810000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41790" version="1">
       <metadata>
         <title>CVE-2022-28391 affecting package busybox for versions less than 1.36.1-3</title>
@@ -39,6 +56,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package busybox is earlier than 1.36.1-3, affected by CVE-2022-28391" test_ref="oval:com.microsoft.azurelinux:tst:41790000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41665" version="0">
+      <metadata>
+        <title>CVE-2022-44792 affecting package net-snmp for versions less than 5.9.4-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-44792" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-44792" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>41665</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-44792 affecting package net-snmp for versions less than 5.9.4-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package net-snmp is earlier than 5.9.4-1, affected by CVE-2022-44792" test_ref="oval:com.microsoft.azurelinux:tst:41665000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41659" version="1">
@@ -90,6 +124,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package lua is earlier than 5.4.6-1, affected by CVE-2020-24370" test_ref="oval:com.microsoft.azurelinux:tst:41149000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41064" version="0">
+      <metadata>
+        <title>CVE-2022-27664 affecting package golang for versions less than 1.21.6-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-27664" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-27664" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
+        <advisory_id>41064</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2022-27664 affecting package golang for versions less than 1.21.6-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package golang is earlier than 1.21.6-2, affected by CVE-2022-27664" test_ref="oval:com.microsoft.azurelinux:tst:41064000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40943" version="1">
@@ -480,6 +531,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package kernel is earlier than 6.6.29.1-3, affected by CVE-2024-26901" test_ref="oval:com.microsoft.azurelinux:tst:40082000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40079" version="0">
+      <metadata>
+        <title>CVE-2024-26908 affecting package kernel for versions less than 6.6.29.1-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-26908" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-26908" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-05-17T21:38:35Z</advisory_date>
+        <advisory_id>40079</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-26908 affecting package kernel for versions less than 6.6.29.1-2. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 6.6.29.1-2, affected by CVE-2024-26908" test_ref="oval:com.microsoft.azurelinux:tst:40079000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:40076" version="1">
@@ -6778,6 +6846,7 @@
         </affected>
         <reference ref_id="CVE-2022-41717" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-41717" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34750-1</advisory_id>
         <severity>Medium</severity>
         <description>CVE-2022-41717 affecting package golang for versions less than 1.17.13-2,1.18.8-2,1.21.6-1. A patched version of the package is available.</description>
@@ -7166,6 +7235,40 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package ed is earlier than 1.20-1, affected by CVE-2015-2987" test_ref="oval:com.microsoft.azurelinux:tst:34660000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34651" version="0">
+      <metadata>
+        <title>CVE-2022-2929 affecting package dhcp for versions less than 4.4.3.P1-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-2929" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2929" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-04-17T22:02:46Z</advisory_date>
+        <advisory_id>34651</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-2929 affecting package dhcp for versions less than 4.4.3.P1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package dhcp is earlier than 4.4.3.P1-1, affected by CVE-2022-2929" test_ref="oval:com.microsoft.azurelinux:tst:34651000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34650" version="0">
+      <metadata>
+        <title>CVE-2022-2928 affecting package dhcp for versions less than 4.4.3.P1-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2022-2928" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2022-2928" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-04-17T22:02:46Z</advisory_date>
+        <advisory_id>34650</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2022-2928 affecting package dhcp for versions less than 4.4.3.P1-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package dhcp is earlier than 4.4.3.P1-1, affected by CVE-2022-2928" test_ref="oval:com.microsoft.azurelinux:tst:34650000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34647" version="1">
@@ -7894,9 +7997,17 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42064001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42064002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package net-snmp is earlier than 5.9.4-1, affected by CVE-2022-44793" id="oval:com.microsoft.azurelinux:tst:41810000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41810001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41810002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package busybox is earlier than 1.36.1-3, affected by CVE-2022-28391" id="oval:com.microsoft.azurelinux:tst:41790000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41790001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41790002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package net-snmp is earlier than 5.9.4-1, affected by CVE-2022-44792" id="oval:com.microsoft.azurelinux:tst:41665000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41665001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41665002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-3821" id="oval:com.microsoft.azurelinux:tst:41659000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41659001"/>
@@ -7909,6 +8020,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package lua is earlier than 5.4.6-1, affected by CVE-2020-24370" id="oval:com.microsoft.azurelinux:tst:41149000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41149001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41149002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.21.6-2, affected by CVE-2022-27664" id="oval:com.microsoft.azurelinux:tst:41064000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41064001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41064002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package avahi is earlier than 0.8-1, affected by CVE-2021-3502" id="oval:com.microsoft.azurelinux:tst:40943000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40943001"/>
@@ -8001,6 +8116,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.29.1-3, affected by CVE-2024-26901" id="oval:com.microsoft.azurelinux:tst:40082000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40082001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40082002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.29.1-2, affected by CVE-2024-26908" id="oval:com.microsoft.azurelinux:tst:40079000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40079001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:40079002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.29.1-3, affected by CVE-2024-26902" id="oval:com.microsoft.azurelinux:tst:40076000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:40076001"/>
@@ -9586,6 +9705,14 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34660001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34660002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package dhcp is earlier than 4.4.3.P1-1, affected by CVE-2022-2929" id="oval:com.microsoft.azurelinux:tst:34651000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34651001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34651002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package dhcp is earlier than 4.4.3.P1-1, affected by CVE-2022-2928" id="oval:com.microsoft.azurelinux:tst:34650000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34650001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34650002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package ctags is earlier than 6.1.0-1, affected by CVE-2022-4515" id="oval:com.microsoft.azurelinux:tst:34647000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34647001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34647002"/>
@@ -9763,8 +9890,14 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42064001" version="1">
       <linux-def:name>rubygem-rexml</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41810001" version="0">
+      <linux-def:name>net-snmp</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41790001" version="1">
       <linux-def:name>busybox</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41665001" version="0">
+      <linux-def:name>net-snmp</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41659001" version="1">
       <linux-def:name>systemd-bootstrap</linux-def:name>
@@ -9774,6 +9907,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41149001" version="1">
       <linux-def:name>lua</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41064001" version="0">
+      <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40943001" version="1">
       <linux-def:name>avahi</linux-def:name>
@@ -9842,6 +9978,9 @@
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40082001" version="1">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40079001" version="0">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:40076001" version="1">
@@ -11032,6 +11171,12 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34660001" version="1">
       <linux-def:name>ed</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34651001" version="0">
+      <linux-def:name>dhcp</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34650001" version="0">
+      <linux-def:name>dhcp</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34647001" version="1">
       <linux-def:name>ctags</linux-def:name>
     </linux-def:rpminfo_object>
@@ -11166,8 +11311,14 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42064002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.2.8-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41810002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.9.4-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41790002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.36.1-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41665002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:5.9.4-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41659002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:250.3-17.azl3</linux-def:evr>
@@ -11177,6 +11328,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41149002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:5.4.6-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41064002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.21.6-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40943002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:0.8-1.azl3</linux-def:evr>
@@ -11246,6 +11400,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40082002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.29.1-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40079002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:6.6.29.1-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:40076002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.29.1-3.azl3</linux-def:evr>
@@ -12434,6 +12591,12 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34660002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.20-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34651002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:4.4.3.P1-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34650002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:4.4.3.P1-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34647002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.1.0-1.azl3</linux-def:evr>
