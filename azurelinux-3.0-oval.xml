@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-06-25T12:03:51.308209102Z</oval:timestamp>
-    <oval:content_version>1719317031</oval:content_version>
+    <oval:timestamp>2024-06-26T12:04:06.647685058Z</oval:timestamp>
+    <oval:content_version>1719403446</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42330" version="2">
@@ -4398,10 +4398,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>35350-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-44487 affecting package vitess for versions less than 16.0.2-5. A patched version of the package is available.</description>
+        <description>CVE-2023-44487 affecting package vitess for versions less than 16.0.2-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package vitess is earlier than 16.0.2-5, affected by CVE-2023-44487" test_ref="oval:com.microsoft.azurelinux:tst:35350000"/>
@@ -4414,10 +4414,10 @@
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-39325" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-39325" source="CVE"/>
-        <patchable>true</patchable>
+        <patchable>Not Applicable</patchable>
         <advisory_id>35349-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-39325 affecting package vitess for versions less than 16.0.2-5. A patched version of the package is available.</description>
+        <description>CVE-2023-39325 affecting package vitess for versions less than 16.0.2-5. This CVE either no longer is or was never applicable.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package vitess is earlier than 16.0.2-5, affected by CVE-2023-39325" test_ref="oval:com.microsoft.azurelinux:tst:35349000"/>
