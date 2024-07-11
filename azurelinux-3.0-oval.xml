@@ -3,10 +3,26 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-07-10T12:04:17.971666687Z</oval:timestamp>
-    <oval:content_version>1720613057</oval:content_version>
+    <oval:timestamp>2024-07-11T12:07:25.191962589Z</oval:timestamp>
+    <oval:content_version>1720699645</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43109" version="1">
+      <metadata>
+        <title>CVE-2023-24531 affecting package golang for versions less than 1.21.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2023-24531" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24531" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>43109-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-24531 affecting package golang for versions less than 1.21.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package golang is earlier than 1.21.0-1, affected by CVE-2023-24531" test_ref="oval:com.microsoft.azurelinux:tst:43109000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42616" version="1">
       <metadata>
         <title>CVE-2024-2408 affecting package php for versions less than 8.3.8-1</title>
@@ -141,6 +157,70 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-4323" test_ref="oval:com.microsoft.azurelinux:tst:42103000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42093" version="1">
+      <metadata>
+        <title>CVE-2020-27545 affecting package libdwarf for versions less than 0.9.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2020-27545" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-27545" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>42093-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2020-27545 affecting package libdwarf for versions less than 0.9.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libdwarf is earlier than 0.9.0-1, affected by CVE-2020-27545" test_ref="oval:com.microsoft.azurelinux:tst:42093000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42090" version="1">
+      <metadata>
+        <title>CVE-2020-28163 affecting package libdwarf for versions less than 0.9.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2020-28163" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2020-28163" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>42090-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2020-28163 affecting package libdwarf for versions less than 0.9.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libdwarf is earlier than 0.9.0-1, affected by CVE-2020-28163" test_ref="oval:com.microsoft.azurelinux:tst:42090000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42084" version="1">
+      <metadata>
+        <title>CVE-2016-8681 affecting package libdwarf for versions less than 0.9.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2016-8681" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2016-8681" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>42084-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2016-8681 affecting package libdwarf for versions less than 0.9.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libdwarf is earlier than 0.9.0-1, affected by CVE-2016-8681" test_ref="oval:com.microsoft.azurelinux:tst:42084000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42081" version="1">
+      <metadata>
+        <title>CVE-2019-14249 affecting package libdwarf for versions less than 0.9.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2019-14249" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2019-14249" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>42081-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2019-14249 affecting package libdwarf for versions less than 0.9.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libdwarf is earlier than 0.9.0-1, affected by CVE-2019-14249" test_ref="oval:com.microsoft.azurelinux:tst:42081000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42064" version="1">
@@ -8532,6 +8612,22 @@
         <criterion comment="Package golang is earlier than 1.19.5-1, affected by CVE-2022-41725" test_ref="oval:com.microsoft.azurelinux:tst:34761000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34760" version="1">
+      <metadata>
+        <title>CVE-2023-24532 affecting package golang for versions less than 1.20.2-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2023-24532" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-24532" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>34760-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2023-24532 affecting package golang for versions less than 1.20.2-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package golang is earlier than 1.20.2-1, affected by CVE-2023-24532" test_ref="oval:com.microsoft.azurelinux:tst:34760000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34759" version="1">
       <metadata>
         <title>CVE-2023-29406 affecting package golang for versions less than 1.20.7-1</title>
@@ -8919,7 +9015,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -9677,7 +9773,7 @@
         <patchable>true</patchable>
         <advisory_id>34588-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-39325 affecting package cert-manager for versions less than 1.11.2-5. A patched version of the package is available.</description>
+        <description>CVE-2023-39325 affecting package cert-manager for versions less than 1.11.2-5. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cert-manager is earlier than 1.11.2-5, affected by CVE-2023-39325" test_ref="oval:com.microsoft.azurelinux:tst:34588000"/>
@@ -9971,6 +10067,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.21.0-1, affected by CVE-2023-24531" id="oval:com.microsoft.azurelinux:tst:43109000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43109001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43109002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package php is earlier than 8.3.8-1, affected by CVE-2024-2408" id="oval:com.microsoft.azurelinux:tst:42616000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42616001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42616002"/>
@@ -10002,6 +10102,22 @@
     <linux-def:rpminfo_test check="at least one" comment="Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-4323" id="oval:com.microsoft.azurelinux:tst:42103000" version="2">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42103001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42103002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libdwarf is earlier than 0.9.0-1, affected by CVE-2020-27545" id="oval:com.microsoft.azurelinux:tst:42093000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42093001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42093002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libdwarf is earlier than 0.9.0-1, affected by CVE-2020-28163" id="oval:com.microsoft.azurelinux:tst:42090000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42090001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42090002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libdwarf is earlier than 0.9.0-1, affected by CVE-2016-8681" id="oval:com.microsoft.azurelinux:tst:42084000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42084001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42084002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libdwarf is earlier than 0.9.0-1, affected by CVE-2019-14249" id="oval:com.microsoft.azurelinux:tst:42081000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42081001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42081002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package rubygem-rexml is earlier than 3.2.8-1, affected by CVE-2024-35176" id="oval:com.microsoft.azurelinux:tst:42064000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42064001"/>
@@ -11983,6 +12099,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34761001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34761002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.20.2-1, affected by CVE-2023-24532" id="oval:com.microsoft.azurelinux:tst:34760000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34760001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34760002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.20.7-1, affected by CVE-2023-29406" id="oval:com.microsoft.azurelinux:tst:34759000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34759001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34759002"/>
@@ -12329,6 +12449,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43109001" version="0">
+      <linux-def:name>golang</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42616001" version="1">
       <linux-def:name>php</linux-def:name>
     </linux-def:rpminfo_object>
@@ -12352,6 +12475,18 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42103001" version="2">
       <linux-def:name>fluent-bit</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42093001" version="0">
+      <linux-def:name>libdwarf</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42090001" version="0">
+      <linux-def:name>libdwarf</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42084001" version="0">
+      <linux-def:name>libdwarf</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42081001" version="0">
+      <linux-def:name>libdwarf</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42064001" version="1">
       <linux-def:name>rubygem-rexml</linux-def:name>
@@ -13838,6 +13973,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34761001" version="0">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34760001" version="0">
+      <linux-def:name>golang</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34759001" version="0">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
@@ -14098,6 +14236,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43109002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.21.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42616002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.3.8-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -14121,6 +14262,18 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42103002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.0.6-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42093002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:0.9.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42090002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:0.9.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42084002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:0.9.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42081002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:0.9.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42064002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.2.8-1.azl3</linux-def:evr>
@@ -15606,6 +15759,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34761002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.19.5-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34760002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.20.2-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34759002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.20.7-1.azl3</linux-def:evr>
