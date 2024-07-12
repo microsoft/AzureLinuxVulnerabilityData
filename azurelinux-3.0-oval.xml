@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-07-11T12:07:25.191962589Z</oval:timestamp>
-    <oval:content_version>1720699645</oval:content_version>
+    <oval:timestamp>2024-07-12T12:06:41.02309151Z</oval:timestamp>
+    <oval:content_version>1720786001</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43109" version="1">
@@ -675,7 +675,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40649-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-29163 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -709,7 +709,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40630-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-29161 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -726,7 +726,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40625-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-29165 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -760,7 +760,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40621-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32614 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -811,7 +811,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40612-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32618 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -828,7 +828,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40609-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-29160 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -862,7 +862,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40598-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32620 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -896,7 +896,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40589-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32612 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -913,7 +913,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40588-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32619 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -964,7 +964,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40579-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32616 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -981,7 +981,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40574-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-29162 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -1015,7 +1015,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40568-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32613 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -1066,7 +1066,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40556-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32605 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -1083,7 +1083,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40555-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-29158 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -1117,7 +1117,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40547-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-32623 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -1168,7 +1168,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40534-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-33877 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -1185,7 +1185,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>40531-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>High</severity>
         <description>CVE-2024-33873 affecting package hdf5 for versions less than 1.14.4.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -6008,6 +6008,22 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openvswitch is earlier than 2.17.5-3, affected by CVE-2023-1668" test_ref="oval:com.microsoft.azurelinux:tst:35088000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35087" version="1">
+      <metadata>
+        <title>CVE-2023-5366 affecting package openvswitch for versions less than 3.3.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2023-5366" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-5366" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>35087-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-5366 affecting package openvswitch for versions less than 3.3.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package openvswitch is earlier than 3.3.0-1, affected by CVE-2023-5366" test_ref="oval:com.microsoft.azurelinux:tst:35087000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35086" version="2">
@@ -11483,6 +11499,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35088001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35088002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package openvswitch is earlier than 3.3.0-1, affected by CVE-2023-5366" id="oval:com.microsoft.azurelinux:tst:35087000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35087001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35087002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package openssl is earlier than 1.1.1k-29, affected by CVE-2024-0727" id="oval:com.microsoft.azurelinux:tst:35086000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35086001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35086002"/>
@@ -13511,6 +13531,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35088001" version="1">
       <linux-def:name>openvswitch</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35087001" version="0">
+      <linux-def:name>openvswitch</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35086001" version="1">
       <linux-def:name>openssl</linux-def:name>
     </linux-def:rpminfo_object>
@@ -15297,6 +15320,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35088002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.17.5-3.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35087002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.3.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35086002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.1.1k-29.azl3</linux-def:evr>
