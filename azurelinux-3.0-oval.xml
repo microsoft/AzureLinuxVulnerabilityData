@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-07-12T12:06:41.02309151Z</oval:timestamp>
-    <oval:content_version>1720786001</oval:content_version>
+    <oval:timestamp>2024-07-13T12:03:23.188897839Z</oval:timestamp>
+    <oval:content_version>1720872203</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43109" version="1">
@@ -106,6 +106,22 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package php is earlier than 8.3.8-1, affected by CVE-2024-4577" test_ref="oval:com.microsoft.azurelinux:tst:42433000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42354" version="1">
+      <metadata>
+        <title>CVE-2024-24789 affecting package golang for versions less than 1.22.3-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-24789" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-24789" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>42354-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-24789 affecting package golang for versions less than 1.22.3-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package golang is earlier than 1.22.3-1, affected by CVE-2024-24789" test_ref="oval:com.microsoft.azurelinux:tst:42354000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42330" version="2">
@@ -408,6 +424,22 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-3821" test_ref="oval:com.microsoft.azurelinux:tst:41659000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41629" version="1">
+      <metadata>
+        <title>CVE-2018-1000217 affecting package libglvnd for versions less than 1.7.0-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2018-1000217" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2018-1000217" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>41629-1</advisory_id>
+        <severity>Critical</severity>
+        <description>CVE-2018-1000217 affecting package libglvnd for versions less than 1.7.0-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package libglvnd is earlier than 1.7.0-2, affected by CVE-2018-1000217" test_ref="oval:com.microsoft.azurelinux:tst:41629000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:41470" version="1">
@@ -8612,6 +8644,22 @@
         <criterion comment="Package golang is earlier than 1.20.7-1, affected by CVE-2023-24539" test_ref="oval:com.microsoft.azurelinux:tst:34765000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34764" version="1">
+      <metadata>
+        <title>CVE-2023-45287 affecting package golang for versions less than 1.20.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2023-45287" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-45287" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_id>34764-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2023-45287 affecting package golang for versions less than 1.20.0-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package golang is earlier than 1.20.0-1, affected by CVE-2023-45287" test_ref="oval:com.microsoft.azurelinux:tst:34764000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34761" version="1">
       <metadata>
         <title>CVE-2022-41725 affecting package golang for versions less than 1.19.5-1</title>
@@ -9031,7 +9079,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -10107,6 +10155,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42433001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42433002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.22.3-1, affected by CVE-2024-24789" id="oval:com.microsoft.azurelinux:tst:42354000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42354001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42354002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package ig is earlier than 0.29.0-1, affected by CVE-2024-3727" id="oval:com.microsoft.azurelinux:tst:42330000" version="2">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42330001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42330002"/>
@@ -10178,6 +10230,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-3821" id="oval:com.microsoft.azurelinux:tst:41659000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41659001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41659002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package libglvnd is earlier than 1.7.0-2, affected by CVE-2018-1000217" id="oval:com.microsoft.azurelinux:tst:41629000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41629001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:41629002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-45873" id="oval:com.microsoft.azurelinux:tst:41470000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:41470001"/>
@@ -12115,6 +12171,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34765001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34765002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.20.0-1, affected by CVE-2023-45287" id="oval:com.microsoft.azurelinux:tst:34764000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34764001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34764002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.19.5-1, affected by CVE-2022-41725" id="oval:com.microsoft.azurelinux:tst:34761000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34761001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34761002"/>
@@ -12487,6 +12547,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42433001" version="1">
       <linux-def:name>php</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42354001" version="0">
+      <linux-def:name>golang</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42330001" version="2">
       <linux-def:name>ig</linux-def:name>
     </linux-def:rpminfo_object>
@@ -12540,6 +12603,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41659001" version="1">
       <linux-def:name>systemd-bootstrap</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41629001" version="0">
+      <linux-def:name>libglvnd</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:41470001" version="1">
       <linux-def:name>systemd-bootstrap</linux-def:name>
@@ -13993,6 +14059,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34765001" version="0">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34764001" version="0">
+      <linux-def:name>golang</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34761001" version="0">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
@@ -14277,6 +14346,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42433002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:8.3.8-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42354002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.22.3-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42330002" version="2">
       <linux-def:evr datatype="evr_string" operation="less than">0:0.29.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -14330,6 +14402,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41659002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:250.3-17.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41629002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.7.0-2.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:41470002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:250.3-17.azl3</linux-def:evr>
@@ -15782,6 +15857,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34765002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.20.7-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34764002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.20.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34761002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.19.5-1.azl3</linux-def:evr>
