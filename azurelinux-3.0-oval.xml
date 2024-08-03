@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-08-02T12:05:01.407269529Z</oval:timestamp>
-    <oval:content_version>1722600301</oval:content_version>
+    <oval:timestamp>2024-08-03T12:05:11.913801663Z</oval:timestamp>
+    <oval:content_version>1722686711</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:47227" version="0">
@@ -73,6 +73,74 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package golang is earlier than 1.21.6-2, affected by CVE-2023-29404" test_ref="oval:com.microsoft.azurelinux:tst:47146000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:46981" version="1">
+      <metadata>
+        <title>CVE-2024-1737 affecting package bind for versions less than 9.20.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-1737" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-1737" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-08-02T00:50:42Z</advisory_date>
+        <advisory_id>46981-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-1737 affecting package bind for versions less than 9.20.0-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package bind is earlier than 9.20.0-1, affected by CVE-2024-1737" test_ref="oval:com.microsoft.azurelinux:tst:46981000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:46972" version="1">
+      <metadata>
+        <title>CVE-2024-0760 affecting package bind for versions less than 9.20.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-0760" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-0760" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-08-02T00:50:42Z</advisory_date>
+        <advisory_id>46972-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-0760 affecting package bind for versions less than 9.20.0-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package bind is earlier than 9.20.0-1, affected by CVE-2024-0760" test_ref="oval:com.microsoft.azurelinux:tst:46972000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:46969" version="1">
+      <metadata>
+        <title>CVE-2024-1975 affecting package bind for versions less than 9.20.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-1975" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-1975" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-08-02T00:50:42Z</advisory_date>
+        <advisory_id>46969-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-1975 affecting package bind for versions less than 9.20.0-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package bind is earlier than 9.20.0-1, affected by CVE-2024-1975" test_ref="oval:com.microsoft.azurelinux:tst:46969000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:46966" version="1">
+      <metadata>
+        <title>CVE-2024-4076 affecting package bind for versions less than 9.20.0-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-4076" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-4076" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-08-02T00:50:42Z</advisory_date>
+        <advisory_id>46966-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-4076 affecting package bind for versions less than 9.20.0-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package bind is earlier than 9.20.0-1, affected by CVE-2024-4076" test_ref="oval:com.microsoft.azurelinux:tst:46966000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:45333" version="1">
@@ -9382,7 +9450,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -10449,6 +10517,22 @@
     <linux-def:rpminfo_test check="at least one" comment="Package golang is earlier than 1.21.6-2, affected by CVE-2023-29404" id="oval:com.microsoft.azurelinux:tst:47146000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:47146001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:47146002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package bind is earlier than 9.20.0-1, affected by CVE-2024-1737" id="oval:com.microsoft.azurelinux:tst:46981000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:46981001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:46981002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package bind is earlier than 9.20.0-1, affected by CVE-2024-0760" id="oval:com.microsoft.azurelinux:tst:46972000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:46972001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:46972002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package bind is earlier than 9.20.0-1, affected by CVE-2024-1975" id="oval:com.microsoft.azurelinux:tst:46969000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:46969001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:46969002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package bind is earlier than 9.20.0-1, affected by CVE-2024-4076" id="oval:com.microsoft.azurelinux:tst:46966000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:46966001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:46966002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package openjpeg2 is earlier than 2.3.1-12, affected by CVE-2020-27843" id="oval:com.microsoft.azurelinux:tst:45333000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:45333001"/>
@@ -12916,6 +13000,18 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:47146001" version="0">
       <linux-def:name>golang</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:46981001" version="1">
+      <linux-def:name>bind</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:46972001" version="1">
+      <linux-def:name>bind</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:46969001" version="1">
+      <linux-def:name>bind</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:46966001" version="1">
+      <linux-def:name>bind</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:45333001" version="1">
       <linux-def:name>openjpeg2</linux-def:name>
     </linux-def:rpminfo_object>
@@ -14768,6 +14864,18 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:47146002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.21.6-2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:46981002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.20.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:46972002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.20.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:46969002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.20.0-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:46966002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.20.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:45333002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.3.1-12.azl3</linux-def:evr>
