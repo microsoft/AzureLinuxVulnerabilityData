@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-08-15T12:04:00.122373005Z</oval:timestamp>
-    <oval:content_version>1723723440</oval:content_version>
+    <oval:timestamp>2024-08-16T12:03:38.629656135Z</oval:timestamp>
+    <oval:content_version>1723809818</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:47660" version="1">
@@ -1214,6 +1214,23 @@
         <criterion comment="Package openjpeg2 is earlier than 2.3.1-12, affected by CVE-2020-27841" test_ref="oval:com.microsoft.azurelinux:tst:45006000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:44898" version="1">
+      <metadata>
+        <title>CVE-2017-15370 affecting package sox for versions less than 14.4.2.0-33</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2017-15370" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2017-15370" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-08-15T10:17:57Z</advisory_date>
+        <advisory_id>44898-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2017-15370 affecting package sox for versions less than 14.4.2.0-33. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package sox is earlier than 14.4.2.0-33, affected by CVE-2017-15370" test_ref="oval:com.microsoft.azurelinux:tst:44898000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:44814" version="1">
       <metadata>
         <title>CVE-2020-27823 affecting package openjpeg2 for versions less than 2.3.1-12</title>
@@ -1280,6 +1297,40 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package openjpeg2 is earlier than 2.3.1-12, affected by CVE-2020-8112" test_ref="oval:com.microsoft.azurelinux:tst:44577000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:44322" version="1">
+      <metadata>
+        <title>CVE-2017-15371 affecting package sox for versions less than 14.4.2.0-33</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2017-15371" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2017-15371" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-08-15T10:17:57Z</advisory_date>
+        <advisory_id>44322-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2017-15371 affecting package sox for versions less than 14.4.2.0-33. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package sox is earlier than 14.4.2.0-33, affected by CVE-2017-15371" test_ref="oval:com.microsoft.azurelinux:tst:44322000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:44298" version="1">
+      <metadata>
+        <title>CVE-2019-20149 affecting package js-jquery for versions less than 3.5.0-4</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2019-20149" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2019-20149" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-08-15T10:17:57Z</advisory_date>
+        <advisory_id>44298-1</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2019-20149 affecting package js-jquery for versions less than 3.5.0-4. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package js-jquery is earlier than 3.5.0-4, affected by CVE-2019-20149" test_ref="oval:com.microsoft.azurelinux:tst:44298000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:44172" version="1">
@@ -12738,7 +12789,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -14108,6 +14159,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:45006001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:45006002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package sox is earlier than 14.4.2.0-33, affected by CVE-2017-15370" id="oval:com.microsoft.azurelinux:tst:44898000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:44898001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:44898002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package openjpeg2 is earlier than 2.3.1-12, affected by CVE-2020-27823" id="oval:com.microsoft.azurelinux:tst:44814000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:44814001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:44814002"/>
@@ -14123,6 +14178,14 @@
     <linux-def:rpminfo_test check="at least one" comment="Package openjpeg2 is earlier than 2.3.1-12, affected by CVE-2020-8112" id="oval:com.microsoft.azurelinux:tst:44577000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:44577001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:44577002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package sox is earlier than 14.4.2.0-33, affected by CVE-2017-15371" id="oval:com.microsoft.azurelinux:tst:44322000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:44322001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:44322002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package js-jquery is earlier than 3.5.0-4, affected by CVE-2019-20149" id="oval:com.microsoft.azurelinux:tst:44298000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:44298001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:44298002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package audiofile is earlier than 0.3.6-27, affected by CVE-2015-7747" id="oval:com.microsoft.azurelinux:tst:44172000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:44172001"/>
@@ -17307,6 +17370,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:45006001" version="1">
       <linux-def:name>openjpeg2</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:44898001" version="1">
+      <linux-def:name>sox</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:44814001" version="1">
       <linux-def:name>openjpeg2</linux-def:name>
     </linux-def:rpminfo_object>
@@ -17318,6 +17384,12 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:44577001" version="1">
       <linux-def:name>openjpeg2</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:44322001" version="1">
+      <linux-def:name>sox</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:44298001" version="1">
+      <linux-def:name>js-jquery</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:44172001" version="1">
       <linux-def:name>audiofile</linux-def:name>
@@ -19760,6 +19832,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:45006002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.3.1-12.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:44898002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:14.4.2.0-33.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:44814002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.3.1-12.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -19771,6 +19846,12 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:44577002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.3.1-12.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:44322002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:14.4.2.0-33.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:44298002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:3.5.0-4.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:44172002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:0.3.6-27.azl3</linux-def:evr>
