@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-08-27T12:03:45.592296064Z</oval:timestamp>
-    <oval:content_version>1724760225</oval:content_version>
+    <oval:timestamp>2024-08-28T12:04:42.903770113Z</oval:timestamp>
+    <oval:content_version>1724846682</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48066" version="1">
@@ -2242,6 +2242,23 @@
         <criterion comment="Package gtk3 is earlier than 3.24.28-10, affected by CVE-2024-6655" test_ref="oval:com.microsoft.azurelinux:tst:43377000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43251" version="0">
+      <metadata>
+        <title>CVE-2024-39472 affecting package kernel for versions less than 6.6.47.1-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-39472" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-39472" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-08-25T15:13:42Z</advisory_date>
+        <advisory_id>43251</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-39472 affecting package kernel for versions less than 6.6.47.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kernel is earlier than 6.6.47.1-1, affected by CVE-2024-39472" test_ref="oval:com.microsoft.azurelinux:tst:43251000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43242" version="1">
       <metadata>
         <title>CVE-2023-52696 affecting package kernel for versions less than 6.6.14.1-1</title>
@@ -2402,7 +2419,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>43002-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2024-37370 affecting package krb5 for versions less than 1.21.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -2419,7 +2436,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>42996-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>Critical</severity>
         <description>CVE-2024-37371 affecting package krb5 for versions less than 1.21.3-1. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -13834,7 +13851,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -15584,6 +15601,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package gtk3 is earlier than 3.24.28-10, affected by CVE-2024-6655" id="oval:com.microsoft.azurelinux:tst:43377000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43377001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43377002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.47.1-1, affected by CVE-2024-39472" id="oval:com.microsoft.azurelinux:tst:43251000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43251001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43251002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package kernel is earlier than 6.6.14.1-1, affected by CVE-2023-52696" id="oval:com.microsoft.azurelinux:tst:43242000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43242001"/>
@@ -19015,6 +19036,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43377001" version="1">
       <linux-def:name>gtk3</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43251001" version="0">
+      <linux-def:name>kernel</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43242001" version="0">
       <linux-def:name>kernel</linux-def:name>
     </linux-def:rpminfo_object>
@@ -21686,6 +21710,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43377002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:3.24.28-10.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43251002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:6.6.47.1-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43242002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:6.6.14.1-1.azl3</linux-def:evr>
