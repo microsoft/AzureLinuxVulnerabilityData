@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-09-06T12:06:14.492744856Z</oval:timestamp>
-    <oval:content_version>1725624374</oval:content_version>
+    <oval:timestamp>2024-09-07T12:04:46.363185707Z</oval:timestamp>
+    <oval:content_version>1725710686</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48368" version="1">
@@ -6182,7 +6182,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-07-23T22:05:39Z</advisory_date>
         <advisory_id>42975-1</advisory_id>
-        <severity>Critical</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-5535 affecting package openssl for versions less than 3.3.0-2. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -16019,23 +16019,6 @@
         <criterion comment="Package moby-engine is earlier than 25.0.3-1, affected by CVE-2024-24557" test_ref="oval:com.microsoft.azurelinux:tst:35002000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35001" version="1">
-      <metadata>
-        <title>CVE-2023-2253 affecting package moby-engine for versions less than 25.0.3-1</title>
-        <affected family="unix">
-          <platform>Azure Linux</platform>
-        </affected>
-        <reference ref_id="CVE-2023-2253" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-2253" source="CVE"/>
-        <patchable>true</patchable>
-        <advisory_date>2024-03-19T17:21:46Z</advisory_date>
-        <advisory_id>35001-1</advisory_id>
-        <severity>Medium</severity>
-        <description>CVE-2023-2253 affecting package moby-engine for versions less than 25.0.3-1. An upgraded version of the package is available that resolves this issue.</description>
-      </metadata>
-      <criteria operator="AND">
-        <criterion comment="Package moby-engine is earlier than 25.0.3-1, affected by CVE-2023-2253" test_ref="oval:com.microsoft.azurelinux:tst:35001000"/>
-      </criteria>
-    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35000" version="1">
       <metadata>
         <title>CVE-2023-25153 affecting package moby-engine for versions less than 20.10.25-3</title>
@@ -19912,23 +19895,6 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cert-manager is earlier than 1.11.2-5, affected by CVE-2023-39325" test_ref="oval:com.microsoft.azurelinux:tst:34588000"/>
-      </criteria>
-    </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34586" version="1">
-      <metadata>
-        <title>CVE-2023-2253 affecting package cert-manager for versions less than 1.12.12-1</title>
-        <affected family="unix">
-          <platform>Azure Linux</platform>
-        </affected>
-        <reference ref_id="CVE-2023-2253" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-2253" source="CVE"/>
-        <patchable>true</patchable>
-        <advisory_date>2024-08-25T15:13:42Z</advisory_date>
-        <advisory_id>34586-1</advisory_id>
-        <severity>Medium</severity>
-        <description>CVE-2023-2253 affecting package cert-manager for versions less than 1.12.12-1. An upgraded version of the package is available that resolves this issue.</description>
-      </metadata>
-      <criteria operator="AND">
-        <criterion comment="Package cert-manager is earlier than 1.12.12-1, affected by CVE-2023-2253" test_ref="oval:com.microsoft.azurelinux:tst:34586000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34585" version="1">
@@ -24198,10 +24164,6 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35002001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35002002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package moby-engine is earlier than 25.0.3-1, affected by CVE-2023-2253" id="oval:com.microsoft.azurelinux:tst:35001000" version="1">
-      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35001001"/>
-      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35001002"/>
-    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package moby-engine is earlier than 20.10.25-3, affected by CVE-2023-25153" id="oval:com.microsoft.azurelinux:tst:35000000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35000001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35000002"/>
@@ -25121,10 +25083,6 @@
     <linux-def:rpminfo_test check="at least one" comment="Package cert-manager is earlier than 1.11.2-5, affected by CVE-2023-39325" id="oval:com.microsoft.azurelinux:tst:34588000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34588001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34588002"/>
-    </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package cert-manager is earlier than 1.12.12-1, affected by CVE-2023-2253" id="oval:com.microsoft.azurelinux:tst:34586000" version="1">
-      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34586001"/>
-      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34586002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package cert-manager is earlier than 1.12.12-1, affected by CVE-2023-6337" id="oval:com.microsoft.azurelinux:tst:34585000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34585001"/>
@@ -28076,9 +28034,6 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35002001" version="1">
       <linux-def:name>moby-engine</linux-def:name>
     </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35001001" version="1">
-      <linux-def:name>moby-engine</linux-def:name>
-    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35000001" version="1">
       <linux-def:name>moby-engine</linux-def:name>
     </linux-def:rpminfo_object>
@@ -28767,9 +28722,6 @@
       <linux-def:name>cf-cli</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34588001" version="1">
-      <linux-def:name>cert-manager</linux-def:name>
-    </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34586001" version="1">
       <linux-def:name>cert-manager</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34585001" version="1">
@@ -31693,9 +31645,6 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35002002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:25.0.3-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35001002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:25.0.3-1.azl3</linux-def:evr>
-    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35000002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:20.10.25-3.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -32385,9 +32334,6 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34588002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.11.2-5.azl3</linux-def:evr>
-    </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34586002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:1.12.12-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34585002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.12.12-1.azl3</linux-def:evr>
