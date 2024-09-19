@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-09-18T12:14:41.057193833Z</oval:timestamp>
-    <oval:content_version>1726661681</oval:content_version>
+    <oval:timestamp>2024-09-19T12:06:37.107951558Z</oval:timestamp>
+    <oval:content_version>1726747597</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48368" version="1">
@@ -20184,21 +20184,21 @@
         <criterion comment="Package bind is earlier than 9.19.21-1, affected by CVE-2023-4408" test_ref="oval:com.microsoft.azurelinux:tst:34560000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34559" version="1">
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34559" version="2">
       <metadata>
-        <title>CVE-2023-50387 affecting package bind for versions less than 9.19.21-1</title>
+        <title>CVE-2023-50387 affecting package bind for versions less than 9.20.0-1</title>
         <affected family="unix">
           <platform>Azure Linux</platform>
         </affected>
         <reference ref_id="CVE-2023-50387" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-50387" source="CVE"/>
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
-        <advisory_id>34559-1</advisory_id>
+        <advisory_id>34559-2</advisory_id>
         <severity>High</severity>
-        <description>CVE-2023-50387 affecting package bind for versions less than 9.19.21-1. A patched version of the package is available.</description>
+        <description>CVE-2023-50387 affecting package bind for versions less than 9.20.0-1. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Package bind is earlier than 9.19.21-1, affected by CVE-2023-50387" test_ref="oval:com.microsoft.azurelinux:tst:34559000"/>
+        <criterion comment="Package bind is earlier than 9.20.0-1, affected by CVE-2023-50387" test_ref="oval:com.microsoft.azurelinux:tst:34559000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34558" version="1">
@@ -25168,7 +25168,7 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34560001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34560002"/>
     </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package bind is earlier than 9.19.21-1, affected by CVE-2023-50387" id="oval:com.microsoft.azurelinux:tst:34559000" version="1">
+    <linux-def:rpminfo_test check="at least one" comment="Package bind is earlier than 9.20.0-1, affected by CVE-2023-50387" id="oval:com.microsoft.azurelinux:tst:34559000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34559001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34559002"/>
     </linux-def:rpminfo_test>
@@ -32410,7 +32410,7 @@
       <linux-def:evr datatype="evr_string" operation="less than">0:9.19.21-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34559002" version="1">
-      <linux-def:evr datatype="evr_string" operation="less than">0:9.19.21-1.azl3</linux-def:evr>
+      <linux-def:evr datatype="evr_string" operation="less than">0:9.20.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34558002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:9.16.44-2.azl3</linux-def:evr>
