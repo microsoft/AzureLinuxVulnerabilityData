@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-09-20T12:05:29.257457063Z</oval:timestamp>
-    <oval:content_version>1726833929</oval:content_version>
+    <oval:timestamp>2024-09-21T12:03:38.967717518Z</oval:timestamp>
+    <oval:content_version>1726920218</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48368" version="1">
@@ -5902,6 +5902,23 @@
         <criterion comment="Package httpd is earlier than 2.4.61-1, affected by CVE-2024-39884" test_ref="oval:com.microsoft.azurelinux:tst:43170000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43167" version="0">
+      <metadata>
+        <title>CVE-2024-37535 affecting package vte291 for versions less than 0.74.2-6</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-37535" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-37535" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-09-19T22:32:27Z</advisory_date>
+        <advisory_id>43167</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-37535 affecting package vte291 for versions less than 0.74.2-6. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package vte291 is earlier than 0.74.2-6, affected by CVE-2024-37535" test_ref="oval:com.microsoft.azurelinux:tst:43167000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:43140" version="1">
       <metadata>
         <title>CVE-2024-39894 affecting package openssh for versions less than 9.8p1-1</title>
@@ -6339,6 +6356,23 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package influxdb is earlier than 2.7.3-5, affected by CVE-2024-6104" test_ref="oval:com.microsoft.azurelinux:tst:42886000"/>
+      </criteria>
+    </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42880" version="1">
+      <metadata>
+        <title>CVE-2024-6104 affecting package cert-manager for versions less than 1.12.12-3</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-6104" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6104" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-09-20T13:32:36Z</advisory_date>
+        <advisory_id>42880-1</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-6104 affecting package cert-manager for versions less than 1.12.12-3. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package cert-manager is earlier than 1.12.12-3, affected by CVE-2024-6104" test_ref="oval:com.microsoft.azurelinux:tst:42880000"/>
       </criteria>
     </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:42877" version="1">
@@ -19010,7 +19044,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>Medium</severity>
+        <severity>High</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -19930,6 +19964,23 @@
         <criterion comment="Package cert-manager is earlier than 1.12.12-1, affected by CVE-2023-6337" test_ref="oval:com.microsoft.azurelinux:tst:34585000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34584" version="0">
+      <metadata>
+        <title>CVE-2024-26147 affecting package cert-manager for versions less than 1.12.13-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-26147" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-26147" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-09-20T13:32:36Z</advisory_date>
+        <advisory_id>34584</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-26147 affecting package cert-manager for versions less than 1.12.13-1. An upgraded version of the package is available that resolves this issue.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package cert-manager is earlier than 1.12.13-1, affected by CVE-2024-26147" test_ref="oval:com.microsoft.azurelinux:tst:34584000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34583" version="1">
       <metadata>
         <title>CVE-2024-25620 affecting package cert-manager for versions less than 1.12.12-2</title>
@@ -20006,6 +20057,7 @@
         </affected>
         <reference ref_id="CVE-2023-44487" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-44487" source="CVE"/>
         <patchable>true</patchable>
+        <advisory_date>2024-09-20T13:32:36Z</advisory_date>
         <advisory_id>34579-1</advisory_id>
         <severity>High</severity>
         <description>CVE-2023-44487 affecting package cert-manager for versions less than 1.11.2-5. An upgraded version of the package is available that resolves this issue.</description>
@@ -21792,6 +21844,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43170001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43170002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package vte291 is earlier than 0.74.2-6, affected by CVE-2024-37535" id="oval:com.microsoft.azurelinux:tst:43167000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43167001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43167002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package openssh is earlier than 9.8p1-1, affected by CVE-2024-39894" id="oval:com.microsoft.azurelinux:tst:43140000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:43140001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:43140002"/>
@@ -21895,6 +21951,10 @@
     <linux-def:rpminfo_test check="at least one" comment="Package influxdb is earlier than 2.7.3-5, affected by CVE-2024-6104" id="oval:com.microsoft.azurelinux:tst:42886000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42886001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42886002"/>
+    </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package cert-manager is earlier than 1.12.12-3, affected by CVE-2024-6104" id="oval:com.microsoft.azurelinux:tst:42880000" version="1">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42880001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:42880002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package skopeo is earlier than 1.14.4-2, affected by CVE-2024-6104" id="oval:com.microsoft.azurelinux:tst:42877000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:42877001"/>
@@ -25108,6 +25168,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34585001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34585002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package cert-manager is earlier than 1.12.13-1, affected by CVE-2024-26147" id="oval:com.microsoft.azurelinux:tst:34584000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34584001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34584002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package cert-manager is earlier than 1.12.12-2, affected by CVE-2024-25620" id="oval:com.microsoft.azurelinux:tst:34583000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34583001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34583002"/>
@@ -26263,6 +26327,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43170001" version="1">
       <linux-def:name>httpd</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43167001" version="0">
+      <linux-def:name>vte291</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:43140001" version="1">
       <linux-def:name>openssh</linux-def:name>
     </linux-def:rpminfo_object>
@@ -26340,6 +26407,9 @@
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42886001" version="1">
       <linux-def:name>influxdb</linux-def:name>
+    </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42880001" version="1">
+      <linux-def:name>cert-manager</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:42877001" version="1">
       <linux-def:name>skopeo</linux-def:name>
@@ -28750,6 +28820,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34585001" version="1">
       <linux-def:name>cert-manager</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34584001" version="0">
+      <linux-def:name>cert-manager</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34583001" version="1">
       <linux-def:name>cert-manager</linux-def:name>
     </linux-def:rpminfo_object>
@@ -29877,6 +29950,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43170002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.4.61-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43167002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:0.74.2-6.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:43140002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:9.8p1-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -29954,6 +30030,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42886002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.7.3-5.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42880002" version="1">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.12.12-3.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:42877002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.14.4-2.azl3</linux-def:evr>
@@ -32363,6 +32442,9 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34585002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.12.12-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34584002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.12.13-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34583002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.12.12-2.azl3</linux-def:evr>
