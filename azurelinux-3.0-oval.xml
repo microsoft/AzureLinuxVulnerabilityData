@@ -3,10 +3,27 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-09-25T12:04:32.382919941Z</oval:timestamp>
-    <oval:content_version>1727265872</oval:content_version>
+    <oval:timestamp>2024-09-26T12:04:37.842163649Z</oval:timestamp>
+    <oval:content_version>1727352277</oval:content_version>
   </generator>
   <definitions>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48752" version="0">
+      <metadata>
+        <title>CVE-2024-6119 affecting package cloud-hypervisor-cvm for versions less than 38.0.72.2-2</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-6119" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-6119" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-09-25T18:58:20Z</advisory_date>
+        <advisory_id>48752</advisory_id>
+        <severity>High</severity>
+        <description>CVE-2024-6119 affecting package cloud-hypervisor-cvm for versions less than 38.0.72.2-2. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package cloud-hypervisor-cvm is earlier than 38.0.72.2-2, affected by CVE-2024-6119" test_ref="oval:com.microsoft.azurelinux:tst:48752000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:48368" version="1">
       <metadata>
         <title>CVE-2024-5991 affecting package mariadb for versions less than 10.6.9-6</title>
@@ -1680,7 +1697,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>47412-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-42161 affecting package kernel for versions less than 6.6.43.1-7. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -1765,7 +1782,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-08-14T20:43:58Z</advisory_date>
         <advisory_id>47379-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2024-42224 affecting package kernel for versions less than 6.6.43.1-7. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
@@ -12622,7 +12639,7 @@
         <advisory_date>2024-06-21T09:32:44Z</advisory_date>
         <advisory_id>35782-1</advisory_id>
         <severity>High</severity>
-        <description>CVE-2024-24806 affecting package cmake for versions less than 3.28.2-6. A patched version of the package is available.</description>
+        <description>CVE-2024-24806 affecting package cmake for versions less than 3.28.2-6. An upgraded version of the package is available that resolves this issue.</description>
       </metadata>
       <criteria operator="AND">
         <criterion comment="Package cmake is earlier than 3.28.2-6, affected by CVE-2024-24806" test_ref="oval:com.microsoft.azurelinux:tst:35782000"/>
@@ -18382,7 +18399,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34790-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2022-28735 affecting package grub2 for versions less than 2.06-14. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -19095,7 +19112,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -20507,6 +20524,10 @@
     </definition>
   </definitions>
   <tests>
+    <linux-def:rpminfo_test check="at least one" comment="Package cloud-hypervisor-cvm is earlier than 38.0.72.2-2, affected by CVE-2024-6119" id="oval:com.microsoft.azurelinux:tst:48752000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48752001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:48752002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package mariadb is earlier than 10.6.9-6, affected by CVE-2024-5991" id="oval:com.microsoft.azurelinux:tst:48368000" version="0">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:48368001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:48368002"/>
@@ -25349,6 +25370,9 @@
     </linux-def:rpminfo_test>
   </tests>
   <objects>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48752001" version="0">
+      <linux-def:name>cloud-hypervisor-cvm</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:48368001" version="0">
       <linux-def:name>mariadb</linux-def:name>
     </linux-def:rpminfo_object>
@@ -28981,6 +29005,9 @@
     </linux-def:rpminfo_object>
   </objects>
   <states>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48752002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:38.0.72.2-2.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:48368002" version="0">
       <linux-def:evr datatype="evr_string" operation="less than">0:10.6.9-6.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
