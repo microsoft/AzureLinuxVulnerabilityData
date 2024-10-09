@@ -3,8 +3,8 @@
     <oval:product_name>Azure Linux OVAL Definition Generator</oval:product_name>
     <oval:product_version>17</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
-    <oval:timestamp>2024-10-08T12:03:32.090633017Z</oval:timestamp>
-    <oval:content_version>1728389012</oval:content_version>
+    <oval:timestamp>2024-10-09T12:05:11.71757525Z</oval:timestamp>
+    <oval:content_version>1728475511</oval:content_version>
   </generator>
   <definitions>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:49740" version="1">
@@ -12659,6 +12659,23 @@
         <criterion comment="Package libuv is earlier than 1.48.0-1, affected by CVE-2024-22017" test_ref="oval:com.microsoft.azurelinux:tst:35886000"/>
       </criteria>
     </definition>
+    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35883" version="0">
+      <metadata>
+        <title>CVE-2024-28180 affecting package kubernetes for versions less than 1.30.1-1</title>
+        <affected family="unix">
+          <platform>Azure Linux</platform>
+        </affected>
+        <reference ref_id="CVE-2024-28180" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2024-28180" source="CVE"/>
+        <patchable>true</patchable>
+        <advisory_date>2024-07-22T15:42:40Z</advisory_date>
+        <advisory_id>35883</advisory_id>
+        <severity>Medium</severity>
+        <description>CVE-2024-28180 affecting package kubernetes for versions less than 1.30.1-1. A patched version of the package is available.</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion comment="Package kubernetes is earlier than 1.30.1-1, affected by CVE-2024-28180" test_ref="oval:com.microsoft.azurelinux:tst:35883000"/>
+      </criteria>
+    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:35882" version="1">
       <metadata>
         <title>CVE-2024-28180 affecting package keda for versions less than 2.14.0-1</title>
@@ -18505,23 +18522,6 @@
         <criterion comment="Package grub2 is earlier than 2.06-18, affected by CVE-2023-4693" test_ref="oval:com.microsoft.azurelinux:tst:34794000"/>
       </criteria>
     </definition>
-    <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34793" version="2">
-      <metadata>
-        <title>CVE-2023-4001 affecting package grub2 for versions less than 2.12-1</title>
-        <affected family="unix">
-          <platform>Azure Linux</platform>
-        </affected>
-        <reference ref_id="CVE-2023-4001" ref_url="https://nvd.nist.gov/vuln/detail/CVE-2023-4001" source="CVE"/>
-        <patchable>true</patchable>
-        <advisory_date>2024-07-02T23:30:04Z</advisory_date>
-        <advisory_id>34793-2</advisory_id>
-        <severity>Medium</severity>
-        <description>CVE-2023-4001 affecting package grub2 for versions less than 2.12-1. A patched version of the package is available.</description>
-      </metadata>
-      <criteria operator="AND">
-        <criterion comment="Package grub2 is earlier than 2.12-1, affected by CVE-2023-4001" test_ref="oval:com.microsoft.azurelinux:tst:34793000"/>
-      </criteria>
-    </definition>
     <definition class="vulnerability" id="oval:com.microsoft.azurelinux:def:34792" version="1">
       <metadata>
         <title>CVE-2022-3775 affecting package grub2 for versions less than 2.06-14</title>
@@ -19279,7 +19279,7 @@
         <patchable>true</patchable>
         <advisory_date>2024-03-19T17:21:46Z</advisory_date>
         <advisory_id>34694-1</advisory_id>
-        <severity>High</severity>
+        <severity>Medium</severity>
         <description>CVE-2018-10906 affecting package fuse for versions less than 2.9.7-10. A patched version of the package is available.</description>
       </metadata>
       <criteria operator="AND">
@@ -23675,6 +23675,10 @@
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35886001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35886002"/>
     </linux-def:rpminfo_test>
+    <linux-def:rpminfo_test check="at least one" comment="Package kubernetes is earlier than 1.30.1-1, affected by CVE-2024-28180" id="oval:com.microsoft.azurelinux:tst:35883000" version="0">
+      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35883001"/>
+      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35883002"/>
+    </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package keda is earlier than 2.14.0-1, affected by CVE-2024-28180" id="oval:com.microsoft.azurelinux:tst:35882000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:35882001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:35882002"/>
@@ -25054,10 +25058,6 @@
     <linux-def:rpminfo_test check="at least one" comment="Package grub2 is earlier than 2.06-18, affected by CVE-2023-4693" id="oval:com.microsoft.azurelinux:tst:34794000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34794001"/>
       <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34794002"/>
-    </linux-def:rpminfo_test>
-    <linux-def:rpminfo_test check="at least one" comment="Package grub2 is earlier than 2.12-1, affected by CVE-2023-4001" id="oval:com.microsoft.azurelinux:tst:34793000" version="2">
-      <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34793001"/>
-      <linux-def:state state_ref="oval:com.microsoft.azurelinux:ste:34793002"/>
     </linux-def:rpminfo_test>
     <linux-def:rpminfo_test check="at least one" comment="Package grub2 is earlier than 2.06-14, affected by CVE-2022-3775" id="oval:com.microsoft.azurelinux:tst:34792000" version="1">
       <linux-def:object object_ref="oval:com.microsoft.azurelinux:obj:34792001"/>
@@ -27815,6 +27815,9 @@
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35886001" version="1">
       <linux-def:name>libuv</linux-def:name>
     </linux-def:rpminfo_object>
+    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35883001" version="0">
+      <linux-def:name>kubernetes</linux-def:name>
+    </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:35882001" version="1">
       <linux-def:name>keda</linux-def:name>
     </linux-def:rpminfo_object>
@@ -28848,9 +28851,6 @@
       <linux-def:name>grub2</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34794001" version="1">
-      <linux-def:name>grub2</linux-def:name>
-    </linux-def:rpminfo_object>
-    <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34793001" version="2">
       <linux-def:name>grub2</linux-def:name>
     </linux-def:rpminfo_object>
     <linux-def:rpminfo_object id="oval:com.microsoft.azurelinux:obj:34792001" version="1">
@@ -31480,6 +31480,9 @@
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35886002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:1.48.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
+    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35883002" version="0">
+      <linux-def:evr datatype="evr_string" operation="less than">0:1.30.1-1.azl3</linux-def:evr>
+    </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:35882002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.14.0-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
@@ -32514,9 +32517,6 @@
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34794002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.06-18.azl3</linux-def:evr>
-    </linux-def:rpminfo_state>
-    <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34793002" version="2">
-      <linux-def:evr datatype="evr_string" operation="less than">0:2.12-1.azl3</linux-def:evr>
     </linux-def:rpminfo_state>
     <linux-def:rpminfo_state id="oval:com.microsoft.azurelinux:ste:34792002" version="1">
       <linux-def:evr datatype="evr_string" operation="less than">0:2.06-14.azl3</linux-def:evr>
